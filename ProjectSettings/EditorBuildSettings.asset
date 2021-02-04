@@ -111,6 +111,9 @@ EditorBuildSettings:
     path: Assets/Scenes/glTF-Sample-Models/Box/glTF-Embedded/Box.gltf-3D08E861.unity
     guid: 015c172f6cf2e4316b130eacfc240c93
   - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/Box With Spaces/glTF/Box With Spaces.gltf-1B2BC8DC.unity
+    guid: ea0de4786f73640f090641264fd38083
+  - enabled: 1
     path: Assets/Scenes/glTF-Sample-Models/BoxAnimated/glTF/BoxAnimated.gltf-BF235574.unity
     guid: 5ee92f711660846beb42430bb1792d60
   - enabled: 1
@@ -306,6 +309,12 @@ EditorBuildSettings:
     path: Assets/Scenes/glTF-Sample-Models/Lantern/glTF-pbrSpecularGlossiness/Lantern.gltf-15767612.unity
     guid: ae73da0b62bb942d5a19f3f8cc4d99b8
   - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/MaterialsVariantsShoe/glTF/MaterialsVariantsShoe.gltf-5D6CB0A6.unity
+    guid: c6c0fe873aa7c4aba8a31b29ec64a33a
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/MaterialsVariantsShoe/glTF-Binary/MaterialsVariantsShoe.glb-3556B2AE.unity
+    guid: f0c75462e9fe14488b12ae2633084917
+  - enabled: 1
     path: Assets/Scenes/glTF-Sample-Models/MetalRoughSpheres/glTF/MetalRoughSpheres.gltf-E0D25D0C.unity
     guid: f9ea5e5157183408e8a15afe90edc782
   - enabled: 1
@@ -404,6 +413,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/glTF-Sample-Models/SciFiHelmet/glTF/SciFiHelmet.gltf-2A96230E.unity
     guid: 4f8b2094d0d364b1cb0c19bb57cda869
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/SheenChair/glTF/SheenChair.gltf-DFAAEE56.unity
+    guid: b9c3eeacc639146d2995d5c2803f903d
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/SheenChair/glTF-Binary/SheenChair.glb-2EE91FEC.unity
+    guid: 43afd04f05d9b447a887c9c23b973688
   - enabled: 1
     path: Assets/Scenes/glTF-Sample-Models/SheenCloth/glTF/SheenCloth.gltf-B7C2D496.unity
     guid: 6f53b1f13c1d84c65af278acf51e4957
