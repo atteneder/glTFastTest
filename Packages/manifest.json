@@ -6,7 +6,7 @@
     "com.unity.ide.rider": "2.0.7",
     "com.unity.nuget.newtonsoft-json": "2.0.0",
     "com.unity.render-pipelines.universal": "10.2.2",
-    "com.unity.test-framework": "1.1.19",
+    "com.unity.test-framework": "1.1.20",
     "com.unity.test-framework.build": "0.0.1-preview.12",
     "com.unity.test-framework.utp-reporter": "1.0.2-preview",
     "com.unity.testframework.graphics": "file:/Users/aa/u/com.unity.testframework.graphics",
@@ -41,7 +41,8 @@
     "com.unity.modules.video": "1.0.0",
     "com.unity.modules.vr": "1.0.0",
     "com.unity.modules.wind": "1.0.0",
-    "com.unity.modules.xr": "1.0.0"
+    "com.unity.modules.xr": "1.0.0",
+    "com.unity.test-framework.performance": "2.6.0-preview"
   },
   "testables": [
     "com.unity.testframework.graphics",
