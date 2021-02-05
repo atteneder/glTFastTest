@@ -461,15 +461,15 @@ MonoBehaviour:
     item:
       name: MorphPrimitivesTest.gltf
       path: MorphPrimitivesTest/glTF-Draco/MorphPrimitivesTest.gltf
-  - active: 1
+  - active: 0
     item:
       name: MultiUVTest.gltf
       path: MultiUVTest/glTF/MultiUVTest.gltf
-  - active: 1
+  - active: 0
     item:
       name: MultiUVTest.glb
       path: MultiUVTest/glTF-Binary/MultiUVTest.glb
-  - active: 1
+  - active: 0
     item:
       name: MultiUVTest.gltf
       path: MultiUVTest/glTF-Embedded/MultiUVTest.gltf
@@ -561,11 +561,11 @@ MonoBehaviour:
     item:
       name: SciFiHelmet.gltf
       path: SciFiHelmet/glTF/SciFiHelmet.gltf
-  - active: 1
+  - active: 0
     item:
       name: SheenChair.gltf
       path: SheenChair/glTF/SheenChair.gltf
-  - active: 1
+  - active: 0
     item:
       name: SheenChair.glb
       path: SheenChair/glTF-Binary/SheenChair.glb
@@ -645,11 +645,11 @@ MonoBehaviour:
     item:
       name: TextureSettingsTest.gltf
       path: TextureSettingsTest/glTF-Embedded/TextureSettingsTest.gltf
-  - active: 1
+  - active: 0
     item:
       name: TextureTransformMultiTest.gltf
       path: TextureTransformMultiTest/glTF/TextureTransformMultiTest.gltf
-  - active: 1
+  - active: 0
     item:
       name: TextureTransformMultiTest.glb
       path: TextureTransformMultiTest/glTF-Binary/TextureTransformMultiTest.glb

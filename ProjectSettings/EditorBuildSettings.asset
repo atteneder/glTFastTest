@@ -339,15 +339,6 @@ EditorBuildSettings:
     path: Assets/Scenes/glTF-Sample-Models/MorphPrimitivesTest/glTF-Draco/MorphPrimitivesTest.gltf-AD9273B6.unity
     guid: 42afe3aa120a74a32ad13ece93fe2e84
   - enabled: 1
-    path: Assets/Scenes/glTF-Sample-Models/MultiUVTest/glTF/MultiUVTest.gltf-5DE7E9EC.unity
-    guid: 1b33e88b780d94c6a861458e5201b7e7
-  - enabled: 1
-    path: Assets/Scenes/glTF-Sample-Models/MultiUVTest/glTF-Binary/MultiUVTest.glb-93A9B2EE.unity
-    guid: 74036c66b485744708f63b8e205cc590
-  - enabled: 1
-    path: Assets/Scenes/glTF-Sample-Models/MultiUVTest/glTF-Embedded/MultiUVTest.gltf-367D5441.unity
-    guid: f16124fd4260c40bc9bdec9742c444c8
-  - enabled: 1
     path: Assets/Scenes/glTF-Sample-Models/NormalTangentMirrorTest/glTF/NormalTangentMirrorTest.gltf-4B103E9E.unity
     guid: 6ae666d3b038a4febb64151dfb691e57
   - enabled: 1
@@ -414,12 +405,6 @@ EditorBuildSettings:
     path: Assets/Scenes/glTF-Sample-Models/SciFiHelmet/glTF/SciFiHelmet.gltf-2A96230E.unity
     guid: 4f8b2094d0d364b1cb0c19bb57cda869
   - enabled: 1
-    path: Assets/Scenes/glTF-Sample-Models/SheenChair/glTF/SheenChair.gltf-DFAAEE56.unity
-    guid: b9c3eeacc639146d2995d5c2803f903d
-  - enabled: 1
-    path: Assets/Scenes/glTF-Sample-Models/SheenChair/glTF-Binary/SheenChair.glb-2EE91FEC.unity
-    guid: 43afd04f05d9b447a887c9c23b973688
-  - enabled: 1
     path: Assets/Scenes/glTF-Sample-Models/SheenCloth/glTF/SheenCloth.gltf-B7C2D496.unity
     guid: 6f53b1f13c1d84c65af278acf51e4957
   - enabled: 1
@@ -476,12 +461,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/glTF-Sample-Models/TextureSettingsTest/glTF-Embedded/TextureSettingsTest.gltf-3661F001.unity
     guid: 4de328782130d4bf49d09fe8ebe22d28
-  - enabled: 1
-    path: Assets/Scenes/glTF-Sample-Models/TextureTransformMultiTest/glTF/TextureTransformMultiTest.gltf-8158BFEC.unity
-    guid: 4bbaa0da81f5b4d28b931e1059773565
-  - enabled: 1
-    path: Assets/Scenes/glTF-Sample-Models/TextureTransformMultiTest/glTF-Binary/TextureTransformMultiTest.glb-26FD3F4E.unity
-    guid: f273eaade9a2d4831ab87c51ce1ff1ad
   - enabled: 1
     path: Assets/Scenes/glTF-Sample-Models/TextureTransformTest/glTF/TextureTransformTest.gltf-88466496.unity
     guid: f874bb8f1959c43ebb32662b65695f46
