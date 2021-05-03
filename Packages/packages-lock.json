@@ -20,12 +20,14 @@
       "url": "https://package.openupm.com"
     },
     "com.unity.addressables": {
-      "version": "1.16.15",
+      "version": "1.17.15",
       "depth": 1,
       "source": "registry",
       "dependencies": {
-        "com.unity.scriptablebuildpipeline": "1.15.1",
+        "com.unity.scriptablebuildpipeline": "1.17.0",
         "com.unity.modules.assetbundle": "1.0.0",
+        "com.unity.modules.imageconversion": "1.0.0",
+        "com.unity.modules.jsonserialize": "1.0.0",
         "com.unity.modules.unitywebrequest": "1.0.0",
         "com.unity.modules.unitywebrequestassetbundle": "1.0.0"
       },
@@ -78,7 +80,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.render-pipelines.core": {
-      "version": "10.3.2",
+      "version": "10.4.0",
       "depth": 1,
       "source": "registry",
       "dependencies": {
@@ -87,18 +89,18 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.render-pipelines.universal": {
-      "version": "10.3.2",
+      "version": "10.4.0",
       "depth": 0,
       "source": "registry",
       "dependencies": {
         "com.unity.mathematics": "1.1.0",
-        "com.unity.render-pipelines.core": "10.3.2",
-        "com.unity.shadergraph": "10.3.2"
+        "com.unity.render-pipelines.core": "10.4.0",
+        "com.unity.shadergraph": "10.4.0"
       },
       "url": "https://packages.unity.com"
     },
     "com.unity.scriptablebuildpipeline": {
-      "version": "1.15.1",
+      "version": "1.17.0",
       "depth": 2,
       "source": "registry",
       "dependencies": {},
@@ -112,11 +114,11 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.shadergraph": {
-      "version": "10.3.2",
+      "version": "10.4.0",
       "depth": 1,
       "source": "registry",
       "dependencies": {
-        "com.unity.render-pipelines.core": "10.3.2",
+        "com.unity.render-pipelines.core": "10.4.0",
         "com.unity.searcher": "4.3.1"
       },
       "url": "https://packages.unity.com"
@@ -140,7 +142,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.test-framework.build": {
-      "version": "0.0.1-preview.12",
+      "version": "0.0.1-preview.14",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -169,7 +171,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.testframework.graphics": {
-      "version": "7.8.7-preview",
+      "version": "7.8.10-preview",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -180,7 +182,7 @@
         "com.unity.xr.legacyinputhelpers": "2.1.6",
         "com.unity.modules.xr": "1.0.0",
         "com.unity.modules.vr": "1.0.0",
-        "com.unity.addressables": "1.16.15",
+        "com.unity.addressables": "1.17.15",
         "com.unity.modules.imageconversion": "1.0.0"
       },
       "url": "https://packages.unity.com"
