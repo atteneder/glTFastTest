@@ -81,3 +81,5 @@ crashlytics-build.properties
 .idea/**/dynamic.xml
 .idea/**/uiDesigner.xml
 .idea/**/dbnavigator.xml
+
+Assets/ActualImages
