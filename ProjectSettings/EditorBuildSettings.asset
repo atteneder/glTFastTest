@@ -57,6 +57,12 @@ EditorBuildSettings:
     path: Assets/Scenes/glTF-Sample-Models/AntiqueCamera/glTF-Binary/AntiqueCamera.glb-2422ADCE.unity
     guid: e33ad0d3fcd6b49698fe130a8d06e0c3
   - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/AttenuationTest/glTF/AttenuationTest.gltf-FDE3FA2C.unity
+    guid: d009b255895da4f068f6fe187bd12ead
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/AttenuationTest/glTF-Binary/AttenuationTest.glb-F3B0D7AE.unity
+    guid: 0e523f5450c184d1e9653ceac183ec25
+  - enabled: 1
     path: Assets/Scenes/glTF-Sample-Models/Avocado/glTF/Avocado.gltf-AFB22DF6.unity
     guid: 82def364a24cc47fd8f9e6c5316cc83a
   - enabled: 1
@@ -243,6 +249,12 @@ EditorBuildSettings:
     path: Assets/Scenes/glTF-Sample-Models/DamagedHelmet/glTF-Embedded/DamagedHelmet.gltf-72D06EC1.unity
     guid: 6fe2691c0bcf7480887f4b3606eb5d4c
   - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/DragonAttenuation/glTF/DragonAttenuation.gltf-D89ADECE.unity
+    guid: e2a42467be3e346f1b42dc63fca60982
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/DragonAttenuation/glTF-Binary/DragonAttenuation.glb-6DBBA02E.unity
+    guid: 4e4fca8b505cb4ccf8e55a2308954940
+  - enabled: 1
     path: Assets/Scenes/glTF-Sample-Models/Duck/glTF/Duck.gltf-AB4694D6.unity
     guid: 3b96f6a9e31ef43c395f1ed42112b110
   - enabled: 1
@@ -287,6 +299,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/glTF-Sample-Models/GearboxAssy/glTF-Embedded/GearboxAssy.gltf-BCFE7FC1.unity
     guid: 29824cda59a91463996726c6d8eac9c9
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/GlamVelvetSofa/glTF/GlamVelvetSofa.gltf-B7EE77D6.unity
+    guid: b095470415188470d84d6db24f9eb64a
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/GlamVelvetSofa/glTF-Binary/GlamVelvetSofa.glb-7A3A844C.unity
+    guid: d61c2a6016917464f963cd1ec9fe642f
   - enabled: 1
     path: Assets/Scenes/glTF-Sample-Models/InterpolationTest/glTF/InterpolationTest.gltf-1F9BAECC.unity
     guid: 1bcba931f09894e0881d2a26a57875b7
