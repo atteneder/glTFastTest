@@ -1,7 +1,7 @@
 {
   "dependencies": {
     "com.atteneder.draco": {
-      "version": "3.0.2",
+      "version": "3.0.3",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -17,7 +17,7 @@
       "hash": "1b3a877f44010de6b7a2de1879b1a2eaaec69f6f"
     },
     "com.atteneder.gltfast": {
-      "version": "4.0.0",
+      "version": "4.0.1",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -151,7 +151,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.test-framework": {
-      "version": "1.1.26",
+      "version": "1.1.27",
       "depth": 0,
       "source": "registry",
       "dependencies": {
