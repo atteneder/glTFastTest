@@ -10,28 +10,26 @@
       "url": "https://package.openupm.com"
     },
     "com.atteneder.gltf-test-framework": {
-      "version": "https://github.com/atteneder/gltf-test-framework.git",
+      "version": "file:../../../packages/gltf-test-framework",
       "depth": 0,
-      "source": "git",
+      "source": "local",
       "dependencies": {
         "com.unity.test-framework": "1.1.30",
         "com.unity.test-framework.performance": "2.8.0-preview",
         "com.unity.testtools.codecoverage": "1.1.0"
-      },
-      "hash": "a9bd0f004fdfa0d9c62dcd5f26044e6c257a38ff"
+      }
     },
     "com.atteneder.gltfast": {
-      "version": "4.4.5",
+      "version": "file:../../../packages/glTFast",
       "depth": 0,
-      "source": "registry",
+      "source": "local",
       "dependencies": {
         "com.unity.modules.jsonserialize": "1.0.0",
         "com.unity.modules.unitywebrequest": "1.0.0",
         "com.unity.modules.unitywebrequesttexture": "1.0.0",
         "com.unity.mathematics": "1.2.1",
         "com.unity.burst": "1.4.11"
-      },
-      "url": "https://package.openupm.com"
+      }
     },
     "com.unity.addressables": {
       "version": "1.17.15",
@@ -106,22 +104,24 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.render-pipelines.core": {
-      "version": "10.6.0",
+      "version": "10.7.0",
       "depth": 1,
       "source": "registry",
       "dependencies": {
-        "com.unity.ugui": "1.0.0"
+        "com.unity.ugui": "1.0.0",
+        "com.unity.modules.physics": "1.0.0",
+        "com.unity.modules.jsonserialize": "1.0.0"
       },
       "url": "https://packages.unity.com"
     },
     "com.unity.render-pipelines.universal": {
-      "version": "10.6.0",
+      "version": "10.7.0",
       "depth": 0,
       "source": "registry",
       "dependencies": {
         "com.unity.mathematics": "1.1.0",
-        "com.unity.render-pipelines.core": "10.6.0",
-        "com.unity.shadergraph": "10.6.0"
+        "com.unity.render-pipelines.core": "10.7.0",
+        "com.unity.shadergraph": "10.7.0"
       },
       "url": "https://packages.unity.com"
     },
@@ -156,11 +156,11 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.shadergraph": {
-      "version": "10.6.0",
+      "version": "10.7.0",
       "depth": 1,
       "source": "registry",
       "dependencies": {
-        "com.unity.render-pipelines.core": "10.6.0",
+        "com.unity.render-pipelines.core": "10.7.0",
         "com.unity.searcher": "4.3.2"
       },
       "url": "https://packages.unity.com"
