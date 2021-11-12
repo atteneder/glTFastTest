@@ -9,6 +9,14 @@
       },
       "url": "https://package.openupm.com"
     },
+    "com.atteneder.gltf-graphics-tests": {
+      "version": "file:../../../packages/gltf-graphics-tests",
+      "depth": 0,
+      "source": "local",
+      "dependencies": {
+        "com.unity.testframework.graphics": "7.8.16-preview"
+      }
+    },
     "com.atteneder.gltf-test-framework": {
       "version": "file:../../../packages/gltf-test-framework",
       "depth": 0,

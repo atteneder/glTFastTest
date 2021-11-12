@@ -1,0 +1,16 @@
+{
+  "name": "com.atteneder.gltf-graphics-tests",
+  "version": "0.1.0",
+  "displayName": "glTF Graphics Tests",
+  "description": "Tools for performing glTF render/graphic tests",
+  "unity": "2019.4",
+  "author": {
+    "name": "Andreas Atteneder",
+    "email": "andreas.atteneder@gmail.com",
+    "url": "https://pixel.engineer"
+  },
+  "dependencies": {
+    "com.unity.testframework.graphics": "7.8.16-preview"
+  },
+  "type": "library"
+}
