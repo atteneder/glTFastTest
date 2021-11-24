@@ -83,3 +83,4 @@ crashlytics-build.properties
 .idea/**/dbnavigator.xml
 
 /projects/*/Assets/ActualImages
+/test-results/*.xml
