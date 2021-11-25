@@ -96,8 +96,6 @@ Assets/Scenes/glTF-Sample-Models/GlamVelvetSofa/glTF/GlamVelvetSofa.gltf-B7EE77D
 Assets/Scenes/glTF-Sample-Models/GlamVelvetSofa/glTF-Binary/GlamVelvetSofa.glb-7A3A844C.unity
 Assets/Scenes/glTF-Sample-Models/InterpolationTest/glTF/InterpolationTest.gltf-1F9BAECC.unity
 Assets/Scenes/glTF-Sample-Models/InterpolationTest/glTF-Binary/InterpolationTest.glb-F726074E.unity
-Assets/Scenes/glTF-Sample-Models/IridescentDishWithOlives/glTF/IridescentDishWithOlives.gltf-36ADF076.unity
-Assets/Scenes/glTF-Sample-Models/IridescentDishWithOlives/glTF-Binary/IridescentDishWithOlives.glb-3B646808.unity
 Assets/Scenes/glTF-Sample-Models/Lantern/glTF/Lantern.gltf-C41AF044.unity
 Assets/Scenes/glTF-Sample-Models/Lantern/glTF-Binary/Lantern.glb-95DC8E2E.unity
 Assets/Scenes/glTF-Sample-Models/Lantern/glTF-Draco/Lantern.gltf-8637C9A2.unity

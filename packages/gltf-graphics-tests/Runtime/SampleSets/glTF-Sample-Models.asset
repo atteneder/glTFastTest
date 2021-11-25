@@ -663,6 +663,18 @@ MonoBehaviour:
       path: Sponza/glTF/Sponza.gltf
   - active: 1
     item:
+      name: StainedGlassLamp.gltf
+      path: StainedGlassLamp/glTF/StainedGlassLamp.gltf
+  - active: 1
+    item:
+      name: StainedGlassLamp.gltf
+      path: StainedGlassLamp/glTF-JPG-PNG/StainedGlassLamp.gltf
+  - active: 1
+    item:
+      name: StainedGlassLamp.gltf
+      path: StainedGlassLamp/glTF-KTX-BasisU/StainedGlassLamp.gltf
+  - active: 1
+    item:
       name: Suzanne.gltf
       path: Suzanne/glTF/Suzanne.gltf
   - active: 1
