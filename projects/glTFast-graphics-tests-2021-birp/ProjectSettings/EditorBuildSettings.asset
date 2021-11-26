@@ -1,0 +1,608 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/2CylinderEngine/glTF/2CylinderEngine.gltf-44AFE544.unity
+    guid: 9c56e3c6ee2b240619ffb3fba7e4b17e
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/2CylinderEngine/glTF-Binary/2CylinderEngine.glb-E2A20AAE.unity
+    guid: 1aaf733395bcf486a9346839287a648d
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/2CylinderEngine/glTF-Draco/2CylinderEngine.gltf-39F81042.unity
+    guid: 902b8f7ac04174351af75db711f60150
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/2CylinderEngine/glTF-Embedded/2CylinderEngine.gltf-B5A34881.unity
+    guid: 04aef3d57f27a4338987be71c56ff1ca
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/AlphaBlendModeTest/glTF/AlphaBlendModeTest.gltf-EFE67A56.unity
+    guid: 0903e93fa00b7432ca03aeb575b5a093
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/AlphaBlendModeTest/glTF-Binary/AlphaBlendModeTest.glb-B1E5EFC.unity
+    guid: 88f710ccf157f4b6188756a12eae8909
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/AlphaBlendModeTest/glTF-Embedded/AlphaBlendModeTest.gltf-35ADC1CD.unity
+    guid: 12d39c23d9e5045d5b0640a66f87a435
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/AnimatedCube/glTF/AnimatedCube.gltf-F4CE13B6.unity
+    guid: de072eaa184434c6884deb038639ae07
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/AnimatedMorphCube/glTF/AnimatedMorphCube.gltf-51008784.unity
+    guid: 19a85139f3bbe49e2aa54fc48092bd55
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/AnimatedMorphCube/glTF-Binary/AnimatedMorphCube.glb-555FF7CE.unity
+    guid: 686d17e5e6ffa4c57a9b2897fc608762
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/AnimatedMorphCube/glTF-Quantized/AnimatedMorphCube.gltf-8ED1F60C.unity
+    guid: cb7f118cb2392489b87f7be41f929f42
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/AnimatedMorphSphere/glTF/AnimatedMorphSphere.gltf-F31BBE84.unity
+    guid: 57be5a424ddf74356bcb8cdcb0eec77a
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/AnimatedMorphSphere/glTF-Binary/AnimatedMorphSphere.glb-BB2D316E.unity
+    guid: 05c003f0e49b146ef8b212147b6253d9
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/AnimatedTriangle/glTF/AnimatedTriangle.gltf-1D780E56.unity
+    guid: 69b1b959a0d6c441f9c0d16dac7acffb
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/AnimatedTriangle/glTF-Embedded/AnimatedTriangle.gltf-9004E469.unity
+    guid: ca280d1f021274866946914919ce6187
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/AntiqueCamera/glTF/AntiqueCamera.gltf-D9D42B34.unity
+    guid: dade7ab74c1894efeb061e31bf62b430
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/AntiqueCamera/glTF-Binary/AntiqueCamera.glb-2422ADCE.unity
+    guid: f1d015fbbc53f4d91af5434ada96f6d4
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/AttenuationTest/glTF/AttenuationTest.gltf-FDE3FA2C.unity
+    guid: 1e832db1ff59c4a92b010a71dae330fa
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/AttenuationTest/glTF-Binary/AttenuationTest.glb-F3B0D7AE.unity
+    guid: 710c6747026284877ba246dba3869390
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/Avocado/glTF/Avocado.gltf-AFB22DF6.unity
+    guid: 6c4a379302825424da646f1d8fe565c2
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/Avocado/glTF-Binary/Avocado.glb-788AF3EE.unity
+    guid: 0ee7120fcbd8c4ce08300d3c84229613
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/Avocado/glTF-Draco/Avocado.gltf-220C2078.unity
+    guid: db8e404a6f070497fa428e2a99ca662c
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/Avocado/glTF-Quantized/Avocado.gltf-8665664E.unity
+    guid: e428a1cdec42e48c4b175592c4bcb20a
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/BarramundiFish/glTF/BarramundiFish.gltf-7D6E14D6.unity
+    guid: f2a169fabfe034aeebfeda92c1464772
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/BarramundiFish/glTF-Binary/BarramundiFish.glb-BAC12A12.unity
+    guid: b23e4d06334f04554b3985635726e7ce
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/BarramundiFish/glTF-Draco/BarramundiFish.gltf-7F916A7C.unity
+    guid: 2484fcb480f87463c97120d8321100b0
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/BoomBox/glTF/BoomBox.gltf-71574BD4.unity
+    guid: d7f4e2522c79f4a419803a897c6afe50
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/BoomBox/glTF-Binary/BoomBox.glb-4889EAE.unity
+    guid: dce174ad31a14401bb99242f6d886495
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/BoomBox/glTF-Draco/BoomBox.gltf-8B5BC04A.unity
+    guid: ed06418db769f4d9d886838d715649ff
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/BoomBoxWithAxes/glTF/BoomBoxWithAxes.gltf-80E1961E.unity
+    guid: ef86b83b5b0694ba5ba445c18dd7d2bc
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/Box/glTF/Box.gltf-995ED686.unity
+    guid: 8371f6e2da3af4c98bb8dd88e38a01fd
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/Box/glTF-Binary/Box.glb-C8B24F6E.unity
+    guid: cbb29dec8b820488d84b8111fefe2c6f
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/Box/glTF-Draco/Box.gltf-33179C90.unity
+    guid: e5f73ecf7bfd44be1a5cd2084fb0d25a
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/Box/glTF-Embedded/Box.gltf-3D08E861.unity
+    guid: b0bf1eb03347448008ad5f18a342b106
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/Box With Spaces/glTF/Box With Spaces.gltf-1B2BC8DC.unity
+    guid: d6b1c068c2e664c329bc684ad6be2582
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/BoxAnimated/glTF/BoxAnimated.gltf-BF235574.unity
+    guid: 4df3fa4caf54c489b96d7681e1f37f29
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/BoxAnimated/glTF-Binary/BoxAnimated.glb-CB986A2E.unity
+    guid: b4bc7403f845043118f2fd5de63f3d74
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/BoxAnimated/glTF-Embedded/BoxAnimated.gltf-95368BC1.unity
+    guid: 33c7127e126ef42ae8170562861dad21
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/BoxInterleaved/glTF/BoxInterleaved.gltf-3F4D6BD6.unity
+    guid: 0f95e023821cc41f9ac72dff2bd576a8
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/BoxInterleaved/glTF-Binary/BoxInterleaved.glb-47F56058.unity
+    guid: 75df0d096fa96499585cb9eecdb14743
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/BoxInterleaved/glTF-Embedded/BoxInterleaved.gltf-ABED2B1.unity
+    guid: fe6f0575d52d04dd8ba64f057a67696f
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/BoxTextured/glTF/BoxTextured.gltf-3F598E04.unity
+    guid: c6a6e35e9c46a477d840051a0ee2cb8c
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/BoxTextured/glTF-Binary/BoxTextured.glb-A06CC02E.unity
+    guid: 41274c4d6dc2b4843977b1dd7a1dc617
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/BoxTextured/glTF-Embedded/BoxTextured.gltf-B5656001.unity
+    guid: 14a22e0ebc4c84680a68837bd391d21f
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/BoxTexturedNonPowerOfTwo/glTF/BoxTexturedNonPowerOfTwo.gltf-14646456.unity
+    guid: f7677d6e83646445d866b2b2fdda806f
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/BoxTexturedNonPowerOfTwo/glTF-Binary/BoxTexturedNonPowerOfTwo.glb-A9FD032E.unity
+    guid: 78658e28865454805a49cafe78f94749
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/BoxTexturedNonPowerOfTwo/glTF-Embedded/BoxTexturedNonPowerOfTwo.gltf-607E69DD.unity
+    guid: 556b8c23922684a428c2fbff9e59d273
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/BoxVertexColors/glTF/BoxVertexColors.gltf-4607912E.unity
+    guid: 2a332713230964b8ca7e861698c2e2f9
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/BoxVertexColors/glTF-Binary/BoxVertexColors.glb-9FDA902E.unity
+    guid: f1d0894e6a1b541f08ec2a4ffa699f65
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/BoxVertexColors/glTF-Embedded/BoxVertexColors.gltf-C233EAA1.unity
+    guid: fd02c1230da9845ec821c6793833977e
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/BrainStem/glTF/BrainStem.gltf-24938D16.unity
+    guid: d4f376694acc34a669d9106a8ad88783
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/BrainStem/glTF-Binary/BrainStem.glb-D1AEB7AE.unity
+    guid: a287d282221b347bf98a5f6687c1b952
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/BrainStem/glTF-Draco/BrainStem.gltf-9E333F58.unity
+    guid: 924d3d04ff18347ebb5b07122b4da20a
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/BrainStem/glTF-Embedded/BrainStem.gltf-1803FD41.unity
+    guid: 3948acf656e7d4822b04208988b87ade
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/Buggy/glTF/Buggy.gltf-243B1C84.unity
+    guid: 3a15dd10aa72644d29f27bf325de85ea
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/Buggy/glTF-Binary/Buggy.glb-8B01D2CE.unity
+    guid: 604c2bfa084044b0db3ad2e46c0d2a91
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/Buggy/glTF-Draco/Buggy.gltf-59C8D2E2.unity
+    guid: 9bf9d3ad13f914478ad6778d61e45396
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/Buggy/glTF-Embedded/Buggy.gltf-10B8F741.unity
+    guid: 8cb8ff30937364c42953e7d9a5db1c65
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/Cameras/glTF/Cameras.gltf-FA25A7F4.unity
+    guid: da8414e3a02544d318522b624c1759cf
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/Cameras/glTF-Embedded/Cameras.gltf-D3EE0581.unity
+    guid: 48d597f417f814b2bb822e8679d65c39
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/CesiumMan/glTF/CesiumMan.gltf-62954FA4.unity
+    guid: 6b0ca72aa9092435caa9b3a3b8b26d97
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/CesiumMan/glTF-Binary/CesiumMan.glb-A855148E.unity
+    guid: fa28bef391e19456d970b10d039039b5
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/CesiumMan/glTF-Draco/CesiumMan.gltf-264D0382.unity
+    guid: fec8fafe04c7c4afdb69861f8a4c79e0
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/CesiumMan/glTF-Embedded/CesiumMan.gltf-C61C8D81.unity
+    guid: f3c958cca932b4b59a174b8cccd5ae19
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/CesiumMilkTruck/glTF/CesiumMilkTruck.gltf-403CE24C.unity
+    guid: 27e3033e0121a4afb8f8eee56d62b58a
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/CesiumMilkTruck/glTF-Binary/CesiumMilkTruck.glb-92B82B2E.unity
+    guid: b141816e9c92244ea878790526d56ebc
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/CesiumMilkTruck/glTF-Draco/CesiumMilkTruck.gltf-54C929B6.unity
+    guid: 10c1a4c2e74ac42f9a73631b5d7f6e1d
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/CesiumMilkTruck/glTF-Embedded/CesiumMilkTruck.gltf-2D6572C1.unity
+    guid: 91d12815ff08c487784228b6941df745
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/ClearCoatTest/glTF/ClearCoatTest.gltf-2F1D3B44.unity
+    guid: 6ac9b9e96f9ed40deb552f9667909481
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/ClearCoatTest/glTF-Binary/ClearCoatTest.glb-17620CCE.unity
+    guid: b792aafe0411c4996949d070936ff6bc
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/Corset/glTF/Corset.gltf-BA312096.unity
+    guid: 29a58bfbaa81745268a9155f9650c2f3
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/Corset/glTF-Binary/Corset.glb-5EACC02C.unity
+    guid: 512c7d21ad90d4170bef52e364c47eaa
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/Corset/glTF-Draco/Corset.gltf-3D626B1C.unity
+    guid: 68695df35afe1436cb0f28cd6532058f
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/Cube/glTF/Cube.gltf-C6C0F8D6.unity
+    guid: 5d3f48e8ddaec44748ec2dd057e0b02e
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/DamagedHelmet/glTF/DamagedHelmet.gltf-52DAA674.unity
+    guid: 33dca4bc795b546ac9010f679bd13c2a
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/DamagedHelmet/glTF-Binary/DamagedHelmet.glb-5D77D0CE.unity
+    guid: 9000250a2780f4cf9b0fff03c78c1eca
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/DamagedHelmet/glTF-Embedded/DamagedHelmet.gltf-72D06EC1.unity
+    guid: 7d11125027dfe4d519e71b42aed1fd13
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/DragonAttenuation/glTF/DragonAttenuation.gltf-D89ADECE.unity
+    guid: f6158f2bd0d4144188bba38cf88ee848
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/DragonAttenuation/glTF-Binary/DragonAttenuation.glb-6DBBA02E.unity
+    guid: eecfc126f50904d20b83e0f85962458c
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/Duck/glTF/Duck.gltf-AB4694D6.unity
+    guid: 0de9ca70eb69b4b03a68c8903b680b92
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/Duck/glTF-Binary/Duck.glb-4026D1C2.unity
+    guid: 7f6057462daa74ada8472880e90065a0
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/Duck/glTF-Draco/Duck.gltf-122E91FC.unity
+    guid: 970c3d2279d3149a2a4b4dfa7db6f281
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/Duck/glTF-Embedded/Duck.gltf-7014C549.unity
+    guid: 0bbe2c6094beb47cc8edfef81e1df527
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/Duck/glTF-Quantized/Duck.gltf-EB17C4AE.unity
+    guid: f3c4bb9d4b1a94c8b9ac1ae2d9b17524
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/EnvironmentTest/glTF/EnvironmentTest.gltf-11C4696E.unity
+    guid: 4a4eecdb42d244897bc14e04651acdea
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/EnvironmentTest/glTF-IBL/EnvironmentTest.gltf-6F0880DA.unity
+    guid: 16293b00759784f9683a4dec4990c2d0
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/FlightHelmet/glTF/FlightHelmet.gltf-46B2F956.unity
+    guid: 595da009b40e146bf8a5a816ea6ee2ee
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/Fox/glTF/Fox.gltf-4A8D6576.unity
+    guid: fc1e1d26d422a44e1bf84a65b462f524
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/Fox/glTF-Binary/Fox.glb-E362506E.unity
+    guid: e99dd5729739046478a025a524eb5e5d
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/Fox/glTF-Embedded/Fox.gltf-A1A9F7E1.unity
+    guid: 36491c4d2af2f40ddbd30c7f8ff8e771
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/GearboxAssy/glTF/GearboxAssy.gltf-2086304C.unity
+    guid: b4f560e46adc0402bbcc14b3ebb3ff7e
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/GearboxAssy/glTF-Binary/GearboxAssy.glb-482606AE.unity
+    guid: f2c5f6a8bb10748a5b3d6bb45f47de62
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/GearboxAssy/glTF-Draco/GearboxAssy.gltf-E52F0BB6.unity
+    guid: cc5af28e996d746779b37faacaa13e63
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/GearboxAssy/glTF-Embedded/GearboxAssy.gltf-BCFE7FC1.unity
+    guid: 2421f7514011645e2953fa71e8865514
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/GlamVelvetSofa/glTF/GlamVelvetSofa.gltf-B7EE77D6.unity
+    guid: 7690b63ff17074b7993de254647ebe20
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/GlamVelvetSofa/glTF-Binary/GlamVelvetSofa.glb-7A3A844C.unity
+    guid: 6d24cef71190e402b87fe95e8219a075
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/InterpolationTest/glTF/InterpolationTest.gltf-1F9BAECC.unity
+    guid: b6b5447014e5e4227900942c12e5f881
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/InterpolationTest/glTF-Binary/InterpolationTest.glb-F726074E.unity
+    guid: 70866a255975648e9b9e37b0aa932b02
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/IridescentDishWithOlives/glTF/IridescentDishWithOlives.gltf-36ADF076.unity
+    guid: 711f35dd4210949f0b9d5d700ca0dfec
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/IridescentDishWithOlives/glTF-Binary/IridescentDishWithOlives.glb-3B646808.unity
+    guid: 5fce4bdd0e0754f948da9d918187ff9c
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/Lantern/glTF/Lantern.gltf-C41AF044.unity
+    guid: 6bc95514575e94f498a33aaf61c60e3f
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/Lantern/glTF-Binary/Lantern.glb-95DC8E2E.unity
+    guid: 4675630727ca14988a9f54285fcf4995
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/Lantern/glTF-Draco/Lantern.gltf-8637C9A2.unity
+    guid: b6361df22913548d082264861debae10
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/Lantern/glTF-Quantized/Lantern.gltf-EA63634C.unity
+    guid: bab5e39aaa5f0461d84419c5db67948c
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/MaterialsVariantsShoe/glTF/MaterialsVariantsShoe.gltf-5D6CB0A6.unity
+    guid: cea98674db2a94b3f99533077af65ff6
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/MaterialsVariantsShoe/glTF-Binary/MaterialsVariantsShoe.glb-3556B2AE.unity
+    guid: 623a552e9f5014f5a9ee601de1070b33
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/MetalRoughSpheres/glTF/MetalRoughSpheres.gltf-E0D25D0C.unity
+    guid: 047e3e3b8ac69430e8da130ed4f7f5a7
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/MetalRoughSpheres/glTF-Binary/MetalRoughSpheres.glb-BFBAFCE.unity
+    guid: 92e6ba565485048118cc0d8711ea9b6c
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/MetalRoughSpheres/glTF-Embedded/MetalRoughSpheres.gltf-4695CF01.unity
+    guid: 69db60a13c04c44c6bf88a5e8e80b8eb
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/MetalRoughSpheresNoTextures/glTF/MetalRoughSpheresNoTextures.gltf-CD381A36.unity
+    guid: 5d79ea0cd08f64fea8ffe8464d3cada8
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/MetalRoughSpheresNoTextures/glTF-Binary/MetalRoughSpheresNoTextures.glb-5A448FEE.unity
+    guid: 52d8d040d09a04094ab6c7038edd5046
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/MorphPrimitivesTest/glTF/MorphPrimitivesTest.gltf-73BA33EC.unity
+    guid: 0fd384e25489e42c6b5345bcff478281
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/MorphPrimitivesTest/glTF-Binary/MorphPrimitivesTest.glb-13CCFBAE.unity
+    guid: e597c128660774e9b89769afd7980337
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/MorphPrimitivesTest/glTF-Draco/MorphPrimitivesTest.gltf-AD9273B6.unity
+    guid: 64f37100dbe2140608c9267e026ee665
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/MorphStressTest/glTF/MorphStressTest.gltf-F2C378A4.unity
+    guid: 10f8dff5305444991afe750f79976e94
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/MorphStressTest/glTF-Binary/MorphStressTest.glb-23D716AE.unity
+    guid: 4e675a773290d47dcbbf031c675107c7
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/MosquitoInAmber/glTF/MosquitoInAmber.gltf-829771F6.unity
+    guid: 6df89385219c14f12849aeefcd64a71e
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/MosquitoInAmber/glTF-Binary/MosquitoInAmber.glb-7805FC2E.unity
+    guid: 4544eeed92e3c4c75832396817127a5c
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/MultiUVTest/glTF/MultiUVTest.gltf-5DE7E9EC.unity
+    guid: 793d4173ae197483fb76ac4769521f0b
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/MultiUVTest/glTF-Binary/MultiUVTest.glb-93A9B2EE.unity
+    guid: 096c11e26dad847c98d8777b6c1be8b0
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/MultiUVTest/glTF-Embedded/MultiUVTest.gltf-367D5441.unity
+    guid: 5e631dc473bd244a187dc4e7ea6da8ff
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/NormalTangentMirrorTest/glTF/NormalTangentMirrorTest.gltf-4B103E9E.unity
+    guid: 50bc118bf3cbb4e2cb03057c822a80a3
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/NormalTangentMirrorTest/glTF-Binary/NormalTangentMirrorTest.glb-8694F86E.unity
+    guid: 6ccf4537e759048fe88a7b48b7c6d689
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/NormalTangentMirrorTest/glTF-Embedded/NormalTangentMirrorTest.gltf-3FEBF861.unity
+    guid: 126e2d3d1bb974a1ab0e4444c44efb4a
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/NormalTangentTest/glTF/NormalTangentTest.gltf-3530E5C4.unity
+    guid: 27ed4fc378fe240019c31042080bb011
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/NormalTangentTest/glTF-Binary/NormalTangentTest.glb-ED85FF8E.unity
+    guid: cc621914f9894486486eebe5e975978e
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/NormalTangentTest/glTF-Embedded/NormalTangentTest.gltf-BC262A81.unity
+    guid: 10d3c49b6d71440d088f4defedbdbbcd
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/OrientationTest/glTF/OrientationTest.gltf-AC3BEDDC.unity
+    guid: 0b47d044e2bef4e41a88b03494ce1e69
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/OrientationTest/glTF-Binary/OrientationTest.glb-AB62692E.unity
+    guid: 39e9465cb92ea4964b622474ded92121
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/OrientationTest/glTF-Embedded/OrientationTest.gltf-6162FF41.unity
+    guid: 9829fa2a41f704f838ad85f0f09beb62
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/ReciprocatingSaw/glTF/ReciprocatingSaw.gltf-5C807A96.unity
+    guid: b47aca3eb694648fb9913351cded4c4b
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/ReciprocatingSaw/glTF-Binary/ReciprocatingSaw.glb-AAD68FCE.unity
+    guid: a4369394ac06a492ba0fa07af5d0b08a
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/ReciprocatingSaw/glTF-Draco/ReciprocatingSaw.gltf-1410783C.unity
+    guid: 73d2c9a0e85c14147a197948f702414b
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/ReciprocatingSaw/glTF-Embedded/ReciprocatingSaw.gltf-D65DAC5D.unity
+    guid: e81eff97dfb7d4c06833e5ff5da92633
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/RecursiveSkeletons/glTF/RecursiveSkeletons.gltf-67F45056.unity
+    guid: f552f856755464b49a298853fe303d99
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/RecursiveSkeletons/glTF-Binary/RecursiveSkeletons.glb-D0C6AB9C.unity
+    guid: d2de200ba3daf4b9a84dd22b9c03dbc2
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/RiggedFigure/glTF/RiggedFigure.gltf-BA679B6.unity
+    guid: cbc3a40c5190f48bdb0cca165ab2d78c
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/RiggedFigure/glTF-Binary/RiggedFigure.glb-4DE58CBC.unity
+    guid: b1d30b0328fb3442bb7cc14ac268b2ca
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/RiggedFigure/glTF-Draco/RiggedFigure.gltf-D43C353C.unity
+    guid: 0ce6e5cb770134e98994c0bb3e036401
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/RiggedFigure/glTF-Embedded/RiggedFigure.gltf-C247910D.unity
+    guid: 868ab10de3d574943809ed062f512fc8
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/RiggedSimple/glTF/RiggedSimple.gltf-873A5AF6.unity
+    guid: f4f2ab699812f4a6f9b4b7fcefbb4eca
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/RiggedSimple/glTF-Binary/RiggedSimple.glb-1936286C.unity
+    guid: a1e6494c7d2f84b2f96a72d4faeadcd8
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/RiggedSimple/glTF-Draco/RiggedSimple.gltf-D5C4E77C.unity
+    guid: 1a472ce9835c64f7285aea3ee8a308ab
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/RiggedSimple/glTF-Embedded/RiggedSimple.gltf-FBCA3D5D.unity
+    guid: 05feeb804376c4a9ea80046675f535c1
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/SciFiHelmet/glTF/SciFiHelmet.gltf-2A96230E.unity
+    guid: fcfe721892ce946a8bc430129b1e7110
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/SheenChair/glTF/SheenChair.gltf-DFAAEE56.unity
+    guid: 9e2a62ed1c9ff4698a5322e7499fc806
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/SheenChair/glTF-Binary/SheenChair.glb-2EE91FEC.unity
+    guid: 10b6ed38b7b3d45a1880e92464ee3673
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/SheenCloth/glTF/SheenCloth.gltf-B7C2D496.unity
+    guid: d4147c98f9db443ffa50496c4c8e9738
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/SimpleMeshes/glTF/SimpleMeshes.gltf-9F52F56.unity
+    guid: 8220237df153d4a71b658bcde7196140
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/SimpleMeshes/glTF-Embedded/SimpleMeshes.gltf-1FD781D.unity
+    guid: a2b1830d68a1545629236c97578e50f4
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/SimpleMorph/glTF/SimpleMorph.gltf-49CDEFA4.unity
+    guid: 48959ce8f67b44f22b2d2d39e50c2df4
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/SimpleMorph/glTF-Embedded/SimpleMorph.gltf-BC622D81.unity
+    guid: d0e8c72c3fdba45678985a7ef17242c9
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/SimpleSkin/glTF/SimpleSkin.gltf-F0E401D6.unity
+    guid: e890fd1057828418daddef46693e87a5
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/SimpleSkin/glTF-Embedded/SimpleSkin.gltf-C29490A9.unity
+    guid: 44f5325c13a6f4e2aa67133e29966672
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/SimpleSparseAccessor/glTF/SimpleSparseAccessor.gltf-3BE56296.unity
+    guid: 1cb3925aaced14b2eaa2395bf3187fc8
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/SimpleSparseAccessor/glTF-Embedded/SimpleSparseAccessor.gltf-B3D60169.unity
+    guid: b763a953c485645b8ab019498a88b9cb
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/SpecGlossVsMetalRough/glTF/SpecGlossVsMetalRough.gltf-99A0F894.unity
+    guid: 9dc67b03212c2465c915a123a4a4d297
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/SpecGlossVsMetalRough/glTF-Binary/SpecGlossVsMetalRough.glb-E2C31C4E.unity
+    guid: c474e5921ea024c2883a81e26b86b32b
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/SpecularTest/glTF/SpecularTest.gltf-D5D4B6D6.unity
+    guid: 8a3bb5b4c0c7c40c49cfdd3c78af3cee
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/SpecularTest/glTF-Binary/SpecularTest.glb-8FD42F82.unity
+    guid: 3b0af96925d0d47ebb74b9000cb73670
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/Sponza/glTF/Sponza.gltf-942E2A96.unity
+    guid: aca58438fe2a64987bcf3f3ab67fb893
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/StainedGlassLamp/glTF/StainedGlassLamp.gltf-FDF01276.unity
+    guid: ce843d3d7be314b279419f4c6121d0b0
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/StainedGlassLamp/glTF-JPG-PNG/StainedGlassLamp.gltf-BB156C2.unity
+    guid: 5cce51bc3be9245bfbe934a2ddfbb0cd
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/Suzanne/glTF/Suzanne.gltf-1F302AFC.unity
+    guid: 1572c31c0f053411db81105f30551c64
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/TextureCoordinateTest/glTF/TextureCoordinateTest.gltf-41EA428E.unity
+    guid: e1429d29cd0984e43a9fb200a2fd27b1
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/TextureCoordinateTest/glTF-Binary/TextureCoordinateTest.glb-E9FFBE6E.unity
+    guid: dda45678e1233455b89f97d5d1c3ce7a
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/TextureCoordinateTest/glTF-Embedded/TextureCoordinateTest.gltf-DA470901.unity
+    guid: 7a9cd87f90a2f4569a459a290022e535
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/TextureEncodingTest/glTF/TextureEncodingTest.gltf-A33EC394.unity
+    guid: bb45d34edb1aa45bb95ce7eeea15ca52
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/TextureEncodingTest/glTF-Binary/TextureEncodingTest.glb-73C9E5EE.unity
+    guid: 4499180d541824f42949ef77dff47e1a
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/TextureLinearInterpolationTest/glTF/TextureLinearInterpolationTest.gltf-3F863196.unity
+    guid: 079e8bab34c174dff92ca130ac412e7b
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/TextureLinearInterpolationTest/glTF-Binary/TextureLinearInterpolationTest.glb-15418758.unity
+    guid: 74f04957a80c44d21a5300e3fd0bda60
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/TextureSettingsTest/glTF/TextureSettingsTest.gltf-A3AA2B0C.unity
+    guid: 573c8a1cba7124ab39e1177756cc3028
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/TextureSettingsTest/glTF-Binary/TextureSettingsTest.glb-8C7C2E.unity
+    guid: 4a3cef05d27d84bba825441b9ed4f216
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/TextureSettingsTest/glTF-Embedded/TextureSettingsTest.gltf-3661F001.unity
+    guid: 0cd4726d3f37544a4a0a322425cab863
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/TextureTransformMultiTest/glTF/TextureTransformMultiTest.gltf-8158BFEC.unity
+    guid: eebaf94ebeaf5450c9643fd59dbe5d1f
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/TextureTransformMultiTest/glTF-Binary/TextureTransformMultiTest.glb-26FD3F4E.unity
+    guid: c1442a8b7e2024f3aa680193ca2ddd26
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/TextureTransformTest/glTF/TextureTransformTest.gltf-88466496.unity
+    guid: 7eaa0aa22e1f7449282ec088b2dbac32
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/ToyCar/glTF/ToyCar.gltf-2B14A856.unity
+    guid: bd2968b80d7f94709bc35e6d17b8251a
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/ToyCar/glTF-Binary/ToyCar.glb-52ED48.unity
+    guid: 9c171642ff8e6426f9e128b9d3ac501b
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/TransmissionRoughnessTest/glTF/TransmissionRoughnessTest.gltf-E71FA4EC.unity
+    guid: 1d8d58226fd24466d853e4cc356cb05f
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/TransmissionRoughnessTest/glTF-Binary/TransmissionRoughnessTest.glb-CB4AD0CE.unity
+    guid: 52aa5d8f6e8ab428681e9df6c23d33dd
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/TransmissionTest/glTF/TransmissionTest.gltf-4E2D8F36.unity
+    guid: ccdc9e76431604f46a346349db717029
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/TransmissionTest/glTF-Binary/TransmissionTest.glb-82A1FA9C.unity
+    guid: fb639f010e8a240f6a43084bc7705e03
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/Triangle/glTF/Triangle.gltf-E1C50976.unity
+    guid: 93c75810a43bd4e308d38c10a9ad388c
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/Triangle/glTF-Embedded/Triangle.gltf-DD99ADF1.unity
+    guid: 9ae16ccd7b1304290ab54c9b7664dc54
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/TriangleWithoutIndices/glTF/TriangleWithoutIndices.gltf-37C302D6.unity
+    guid: 1f64adcacf8244ced9acb5a1f70ee435
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/TriangleWithoutIndices/glTF-Embedded/TriangleWithoutIndices.gltf-59B44499.unity
+    guid: 51c57750285cd4ac990ca34f304c4d02
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/TwoSidedPlane/glTF/TwoSidedPlane.gltf-1541D886.unity
+    guid: 284de266017274d5881412d409da0f81
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/UnlitTest/glTF/UnlitTest.gltf-AB14546C.unity
+    guid: 6e7814d688a3a4a4eb7c34631aed3f8e
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/UnlitTest/glTF-Binary/UnlitTest.glb-4AAB13CE.unity
+    guid: 13c400f19cc7b4e8386bc049ca3fe33f
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/VC/glTF/VC.gltf-644F0A96.unity
+    guid: 0d8268bfaa1164077a1723aad8e31fa5
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/VC/glTF-Binary/VC.glb-647E8852.unity
+    guid: 185e8a83f4a4d4a2787e5e4a294233db
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/VC/glTF-Draco/VC.gltf-9A7E8E7C.unity
+    guid: bf710a8cc9f30462a8a5f179eb6a6e54
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/VC/glTF-Embedded/VC.gltf-1247B859.unity
+    guid: ab0a960ba78ab4f748264daab815f2b5
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/VertexColorTest/glTF/VertexColorTest.gltf-6045412E.unity
+    guid: a495e2559ef354369930baa5b6b77df0
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/VertexColorTest/glTF-Binary/VertexColorTest.glb-414396EE.unity
+    guid: cb5b061ad9a0249d1922019999581fb3
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/VertexColorTest/glTF-Embedded/VertexColorTest.gltf-B164B21.unity
+    guid: 7b8210321f0f740378465ca9e52f35fe
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/WaterBottle/glTF/WaterBottle.gltf-D5CB8816.unity
+    guid: 2d7d061f0fad749a1af7187223669ab2
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/WaterBottle/glTF-Binary/WaterBottle.glb-8D05E6E.unity
+    guid: ae8946b3d77bb41d58fae1eec33adaa5
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models/WaterBottle/glTF-Draco/WaterBottle.gltf-E4432058.unity
+    guid: 77ca667f820be4137803ae85cf0ef2f4
+  m_configObjects: {}
