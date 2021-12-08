@@ -417,19 +417,19 @@ MonoBehaviour:
     item:
       name: IridescentDishWithOlives.glb
       path: IridescentDishWithOlives/glTF-Binary/IridescentDishWithOlives.glb
-  - active: 0
+  - active: 1
     item:
       name: Lantern.gltf
       path: Lantern/glTF/Lantern.gltf
-  - active: 0
+  - active: 1
     item:
       name: Lantern.glb
       path: Lantern/glTF-Binary/Lantern.glb
-  - active: 0
+  - active: 1
     item:
       name: Lantern.gltf
       path: Lantern/glTF-Draco/Lantern.gltf
-  - active: 0
+  - active: 1
     item:
       name: Lantern.gltf
       path: Lantern/glTF-Quantized/Lantern.gltf
@@ -489,15 +489,15 @@ MonoBehaviour:
     item:
       name: MosquitoInAmber.glb
       path: MosquitoInAmber/glTF-Binary/MosquitoInAmber.glb
-  - active: 0
+  - active: 1
     item:
       name: MultiUVTest.gltf
       path: MultiUVTest/glTF/MultiUVTest.gltf
-  - active: 0
+  - active: 1
     item:
       name: MultiUVTest.glb
       path: MultiUVTest/glTF-Binary/MultiUVTest.glb
-  - active: 0
+  - active: 1
     item:
       name: MultiUVTest.gltf
       path: MultiUVTest/glTF-Embedded/MultiUVTest.gltf

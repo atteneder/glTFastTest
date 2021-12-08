@@ -288,6 +288,18 @@ EditorBuildSettings:
     path: Assets/Scenes/glTF-Sample-Models-HDRP/InterpolationTest/glTF-Binary/InterpolationTest.glb-F726074E.unity
     guid: 81b7e710491c444a4aa4f983086744d5
   - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models-HDRP/Lantern/glTF/Lantern.gltf-C41AF044.unity
+    guid: 7a3955e3da2ba40948bee2d09b739429
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models-HDRP/Lantern/glTF-Binary/Lantern.glb-95DC8E2E.unity
+    guid: 73cb5b790e07a4e008b7a6b89ae86e58
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models-HDRP/Lantern/glTF-Draco/Lantern.gltf-8637C9A2.unity
+    guid: 04b5642c5a49b431abfbf739ed888147
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models-HDRP/Lantern/glTF-Quantized/Lantern.gltf-EA63634C.unity
+    guid: d3e54a346a85b4e599b059b25d3c4bea
+  - enabled: 1
     path: Assets/Scenes/glTF-Sample-Models-HDRP/MaterialsVariantsShoe/glTF/MaterialsVariantsShoe.gltf-5D6CB0A6.unity
     guid: 4ce5ea14c344c4794b3794e518eb1e1d
   - enabled: 1
@@ -323,6 +335,15 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/glTF-Sample-Models-HDRP/MorphStressTest/glTF-Binary/MorphStressTest.glb-23D716AE.unity
     guid: fa1fa180837d44502aa33eb37f4109f9
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models-HDRP/MultiUVTest/glTF/MultiUVTest.gltf-5DE7E9EC.unity
+    guid: 3ca0733b720e34a68933acc32c64ecd2
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models-HDRP/MultiUVTest/glTF-Binary/MultiUVTest.glb-93A9B2EE.unity
+    guid: e1e8954f4e8ad407e9efa73bfa3cd942
+  - enabled: 1
+    path: Assets/Scenes/glTF-Sample-Models-HDRP/MultiUVTest/glTF-Embedded/MultiUVTest.gltf-367D5441.unity
+    guid: 54bcdedb1777741e691ea62c17e8e305
   - enabled: 1
     path: Assets/Scenes/glTF-Sample-Models-HDRP/NormalTangentMirrorTest/glTF/NormalTangentMirrorTest.gltf-4B103E9E.unity
     guid: c2055a6ea9cda4129b79794e7afc711d

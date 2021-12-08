@@ -8,23 +8,97 @@ MonoBehaviour:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12004, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_PixelRect:
+    serializedVersion: 2
+    x: -1506
+    y: 170
+    width: 800
+    height: 821
+  m_ShowMode: 0
+  m_Title: UnityEngine.Experimental.Rendering.TestResultWindow
+  m_RootView: {fileID: 4}
+  m_MinSize: {x: 800, y: 821}
+  m_MaxSize: {x: 4000, y: 4021}
+  m_Maximized: 0
+--- !u!114 &2
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12004, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
   m_PixelRect:
     serializedVersion: 2
-    x: 0
+    x: -1920
     y: 53
-    width: 1792
-    height: 1067
+    width: 1920
+    height: 1027
   m_ShowMode: 4
-  m_Title: Console
-  m_RootView: {fileID: 6}
+  m_Title: Hierarchy
+  m_RootView: {fileID: 9}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
---- !u!114 &2
+--- !u!114 &3
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: TestResultWindow
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 800
+    height: 821
+  m_MinSize: {x: 800, y: 800}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 15}
+  m_Panes:
+  - {fileID: 15}
+  m_Selected: 0
+  m_LastSelected: 0
+--- !u!114 &4
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 3}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 800
+    height: 821
+  m_MinSize: {x: 800, y: 821}
+  m_MaxSize: {x: 4000, y: 4021}
+  vertical: 0
+  controlID: 295
+--- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -37,19 +111,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
-  - {fileID: 9}
-  - {fileID: 3}
+  - {fileID: 12}
+  - {fileID: 6}
   m_Position:
     serializedVersion: 2
     x: 0
     y: 30
-    width: 1792
-    height: 1017
+    width: 1920
+    height: 977
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 15
---- !u!114 &3
+  controlID: 17
+--- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -59,25 +133,25 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: InspectorWindow
+  m_Name: TestRunnerWindow
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1276
+    x: 1367
     y: 0
-    width: 516
-    height: 1017
-  m_MinSize: {x: 276, y: 71}
+    width: 553
+    height: 977
+  m_MinSize: {x: 101, y: 121}
   m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 17}
+  m_ActualView: {fileID: 18}
   m_Panes:
+  - {fileID: 21}
+  - {fileID: 18}
   - {fileID: 17}
-  - {fileID: 14}
-  - {fileID: 13}
-  m_Selected: 0
-  m_LastSelected: 2
---- !u!114 &4
+  m_Selected: 1
+  m_LastSelected: 0
+--- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -94,16 +168,16 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 314
-    height: 615
+    width: 336
+    height: 591
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 18}
+  m_ActualView: {fileID: 22}
   m_Panes:
-  - {fileID: 18}
+  - {fileID: 22}
   m_Selected: 0
   m_LastSelected: 0
---- !u!114 &5
+--- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -113,24 +187,24 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: ConsoleWindow
+  m_Name: ProjectBrowser
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 615
-    width: 1276
-    height: 402
-  m_MinSize: {x: 101, y: 121}
-  m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 21}
+    y: 591
+    width: 1367
+    height: 386
+  m_MinSize: {x: 231, y: 271}
+  m_MaxSize: {x: 10001, y: 10021}
+  m_ActualView: {fileID: 20}
   m_Panes:
-  - {fileID: 16}
-  - {fileID: 21}
-  m_Selected: 1
-  m_LastSelected: 0
---- !u!114 &6
+  - {fileID: 20}
+  - {fileID: 25}
+  m_Selected: 0
+  m_LastSelected: 1
+--- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -143,22 +217,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
-  - {fileID: 7}
-  - {fileID: 2}
-  - {fileID: 8}
+  - {fileID: 10}
+  - {fileID: 5}
+  - {fileID: 11}
   m_Position:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1792
-    height: 1067
+    width: 1920
+    height: 1027
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
   m_TopViewHeight: 30
   m_UseBottomView: 1
   m_BottomViewHeight: 20
---- !u!114 &7
+--- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -175,12 +249,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1792
+    width: 1920
     height: 30
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
   m_LastLoadedLayoutName: 
---- !u!114 &8
+--- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -196,12 +270,12 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 1047
-    width: 1792
+    y: 1007
+    width: 1920
     height: 20
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
---- !u!114 &9
+--- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -214,19 +288,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
-  - {fileID: 10}
-  - {fileID: 5}
+  - {fileID: 13}
+  - {fileID: 8}
   m_Position:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1276
-    height: 1017
+    width: 1367
+    height: 977
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 16
---- !u!114 &10
+  controlID: 18
+--- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -239,19 +313,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
-  - {fileID: 4}
-  - {fileID: 11}
+  - {fileID: 7}
+  - {fileID: 14}
   m_Position:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1276
-    height: 615
+    width: 1367
+    height: 591
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 104
---- !u!114 &11
+  controlID: 19
+--- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -266,21 +340,49 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 314
+    x: 336
     y: 0
-    width: 962
-    height: 615
+    width: 1031
+    height: 591
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 19}
+  m_ActualView: {fileID: 23}
   m_Panes:
+  - {fileID: 23}
+  - {fileID: 24}
   - {fileID: 19}
-  - {fileID: 20}
-  - {fileID: 15}
-  - {fileID: 12}
+  - {fileID: 16}
   m_Selected: 0
   m_LastSelected: 1
---- !u!114 &12
+--- !u!114 &15
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f17019693e144f0459b36bdc4c8be85a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 800, y: 800}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: UnityEngine.Experimental.Rendering.TestResultWindow
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: -1506
+    y: 170
+    width: 800
+    height: 800
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+--- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2113,7 +2215,7 @@ MonoBehaviour:
     \"y\": 1.0\n    }\n}\n\n"
   m_AssetMaybeChangedOnDisk: 1
   m_AssetMaybeDeleted: 0
---- !u!114 &13
+--- !u!114 &17
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2129,7 +2231,7 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Lighting
-    m_Image: {fileID: -1347227620855488341, guid: 0000000000000000d000000000000000, type: 0}
+    m_Image: {fileID: -1477008817101679558, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
@@ -2141,7 +2243,7 @@ MonoBehaviour:
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
     m_SaveData: []
---- !u!114 &14
+--- !u!114 &18
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2161,21 +2263,21 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1276
+    x: -553
     y: 83
-    width: 515
-    height: 996
+    width: 552
+    height: 956
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
     m_SaveData: []
   m_Spl:
-    ID: 114
+    ID: 207
     splitterInitialOffset: 0
     currentActiveSplitter: -1
     realSizes:
-    - 694.5
-    - 231.5
+    - 664.5
+    - 221.5
     relativeSizes:
     - 0.75
     - 0.25
@@ -2185,7 +2287,7 @@ MonoBehaviour:
     maxSizes:
     - 0
     - 0
-    lastTotalSize: 926
+    lastTotalSize: 886
     splitSize: 6
     xOffset: 0
     m_Version: 1
@@ -2195,14 +2297,14 @@ MonoBehaviour:
     oldSplitSize: 0
   m_TestTypeToolbarIndex: 0
   m_PlayModeTestListGUI:
-    m_Window: {fileID: 14}
+    m_Window: {fileID: 18}
     m_NewResultList:
     - id: 1031
       uniqueId: '[glTFastTest][suite]'
       name: glTFastTest
       fullName: glTFastTest
       resultStatus: 1
-      duration: 146.73607
+      duration: 17.057188
       messages: 
       output: 
       stacktrace: 
@@ -2218,7 +2320,7 @@ MonoBehaviour:
       name: glTF-test-framework.Tests.dll
       fullName: /Users/aa/u/glTFastTest/projects/glTFast-graphics-tests-2021-hdrp/Library/ScriptAssemblies/glTF-test-framework.Tests.dll
       resultStatus: 1
-      duration: 146.44598
+      duration: 16.75823
       messages: 
       output: 
       stacktrace: 
@@ -2234,7 +2336,7 @@ MonoBehaviour:
       name: GLTFTest
       fullName: GLTFTest
       resultStatus: 1
-      duration: 146.30603
+      duration: 16.746569
       messages: 
       output: 
       stacktrace: 
@@ -4460,7 +4562,7 @@ MonoBehaviour:
       - Performance
       parentId: 1253
       parentUniqueId: glTF-test-framework.Tests.dll/GLTFTest/Performance/Jobs/[glTF-test-framework.Tests][GLTFTest.Performance.Jobs.Vector4Jobs][suite]
-    - id: 1196
+    - id: 1569
       uniqueId: glTF-test-framework.Tests.dll/GLTFTest/Performance/[glTF-test-framework.Tests][GLTFTest.Performance.SampleModelsPerformanceTest][suite]
       name: SampleModelsPerformanceTest
       fullName: GLTFTest.Performance.SampleModelsPerformanceTest
@@ -4512,14 +4614,14 @@ MonoBehaviour:
       description: 
       isSuite: 1
       categories: []
-      parentId: 1317
+      parentId: 1690
       parentUniqueId: glTF-test-framework.Tests.dll/GLTFTest/[Performance][suite]
     - id: 1042
       uniqueId: glTF-test-framework.Tests.dll/GLTFTest/[glTF-test-framework.Tests][GLTFTest.RenderTests][suite]
       name: RenderTests
       fullName: GLTFTest.RenderTests
       resultStatus: 1
-      duration: 146.30043
+      duration: 16.742622
       messages: 
       output: 
       stacktrace: 
@@ -4535,7 +4637,7 @@ MonoBehaviour:
       name: Run
       fullName: GLTFTest.RenderTests.Run
       resultStatus: 1
-      duration: 146.29462
+      duration: 16.737822
       messages: 
       output: 
       stacktrace: 
@@ -4552,7 +4654,7 @@ MonoBehaviour:
       name: 2CylinderEngine.gltf-44AFE544
       fullName: GLTFTest.RenderTests.2CylinderEngine.gltf-44AFE544
       resultStatus: 1
-      duration: 2.2444372
+      duration: 1.3489984
       messages: 
       output: 
       stacktrace: 
@@ -4569,7 +4671,7 @@ MonoBehaviour:
       name: 2CylinderEngine.glb-E2A20AAE
       fullName: GLTFTest.RenderTests.2CylinderEngine.glb-E2A20AAE
       resultStatus: 1
-      duration: 6.013324
+      duration: 8.991404
       messages: 
       output: 
       stacktrace: 
@@ -4586,7 +4688,7 @@ MonoBehaviour:
       name: 2CylinderEngine.gltf-39F81042
       fullName: GLTFTest.RenderTests.2CylinderEngine.gltf-39F81042
       resultStatus: 1
-      duration: 2.079711
+      duration: 5.988365
       messages: 
       output: 
       stacktrace: 
@@ -4603,7 +4705,7 @@ MonoBehaviour:
       name: 2CylinderEngine.gltf-B5A34881
       fullName: GLTFTest.RenderTests.2CylinderEngine.gltf-B5A34881
       resultStatus: 1
-      duration: 4.1233225
+      duration: 12.247947
       messages: 
       output: 
       stacktrace: 
@@ -4620,7 +4722,7 @@ MonoBehaviour:
       name: AlphaBlendModeTest.gltf-EFE67A56
       fullName: GLTFTest.RenderTests.AlphaBlendModeTest.gltf-EFE67A56
       resultStatus: 1
-      duration: 2.0494242
+      duration: 3.6672018
       messages: 
       output: 
       stacktrace: 
@@ -4637,7 +4739,7 @@ MonoBehaviour:
       name: AlphaBlendModeTest.glb-B1E5EFC
       fullName: GLTFTest.RenderTests.AlphaBlendModeTest.glb-B1E5EFC
       resultStatus: 1
-      duration: 10.521394
+      duration: 4.68329
       messages: 
       output: 
       stacktrace: 
@@ -4654,7 +4756,7 @@ MonoBehaviour:
       name: AlphaBlendModeTest.gltf-35ADC1CD
       fullName: GLTFTest.RenderTests.AlphaBlendModeTest.gltf-35ADC1CD
       resultStatus: 1
-      duration: 1.921646
+      duration: 3.1749902
       messages: 
       output: 
       stacktrace: 
@@ -4671,7 +4773,7 @@ MonoBehaviour:
       name: AnimatedCube.gltf-F4CE13B6
       fullName: GLTFTest.RenderTests.AnimatedCube.gltf-F4CE13B6
       resultStatus: 1
-      duration: 0.53486
+      duration: 1.0744407
       messages: 
       output: 
       stacktrace: 
@@ -4688,7 +4790,7 @@ MonoBehaviour:
       name: AnimatedMorphCube.gltf-51008784
       fullName: GLTFTest.RenderTests.AnimatedMorphCube.gltf-51008784
       resultStatus: 1
-      duration: 0.5957986
+      duration: 1.3735518
       messages: 
       output: 
       stacktrace: 
@@ -4705,7 +4807,7 @@ MonoBehaviour:
       name: AnimatedMorphCube.glb-555FF7CE
       fullName: GLTFTest.RenderTests.AnimatedMorphCube.glb-555FF7CE
       resultStatus: 1
-      duration: 0.5781309
+      duration: 1.166954
       messages: 
       output: 
       stacktrace: 
@@ -4722,7 +4824,7 @@ MonoBehaviour:
       name: AnimatedMorphCube.gltf-8ED1F60C
       fullName: GLTFTest.RenderTests.AnimatedMorphCube.gltf-8ED1F60C
       resultStatus: 1
-      duration: 0.4699836
+      duration: 1.1790143
       messages: 
       output: 
       stacktrace: 
@@ -4739,7 +4841,7 @@ MonoBehaviour:
       name: AnimatedMorphSphere.gltf-F31BBE84
       fullName: GLTFTest.RenderTests.AnimatedMorphSphere.gltf-F31BBE84
       resultStatus: 1
-      duration: 0.5094775
+      duration: 1.3133912
       messages: 
       output: 
       stacktrace: 
@@ -4756,7 +4858,7 @@ MonoBehaviour:
       name: AnimatedMorphSphere.glb-BB2D316E
       fullName: GLTFTest.RenderTests.AnimatedMorphSphere.glb-BB2D316E
       resultStatus: 1
-      duration: 0.4929814
+      duration: 1.2513052
       messages: 
       output: 
       stacktrace: 
@@ -4773,7 +4875,7 @@ MonoBehaviour:
       name: AnimatedTriangle.gltf-1D780E56
       fullName: GLTFTest.RenderTests.AnimatedTriangle.gltf-1D780E56
       resultStatus: 1
-      duration: 0.4354939
+      duration: 2.253238
       messages: 
       output: 
       stacktrace: 
@@ -4790,7 +4892,7 @@ MonoBehaviour:
       name: AnimatedTriangle.gltf-9004E469
       fullName: GLTFTest.RenderTests.AnimatedTriangle.gltf-9004E469
       resultStatus: 1
-      duration: 0.3781025
+      duration: 2.7927725
       messages: 
       output: 
       stacktrace: 
@@ -4807,7 +4909,7 @@ MonoBehaviour:
       name: AntiqueCamera.gltf-D9D42B34
       fullName: GLTFTest.RenderTests.AntiqueCamera.gltf-D9D42B34
       resultStatus: 1
-      duration: 1.1137778
+      duration: 2.4794762
       messages: 
       output: 
       stacktrace: 
@@ -4824,7 +4926,7 @@ MonoBehaviour:
       name: AntiqueCamera.glb-2422ADCE
       fullName: GLTFTest.RenderTests.AntiqueCamera.glb-2422ADCE
       resultStatus: 1
-      duration: 1.068094
+      duration: 1.939105
       messages: 
       output: 
       stacktrace: 
@@ -4841,7 +4943,7 @@ MonoBehaviour:
       name: Avocado.gltf-AFB22DF6
       fullName: GLTFTest.RenderTests.Avocado.gltf-AFB22DF6
       resultStatus: 1
-      duration: 0.823265
+      duration: 1.4385991
       messages: 
       output: 
       stacktrace: 
@@ -4858,7 +4960,7 @@ MonoBehaviour:
       name: Avocado.glb-788AF3EE
       fullName: GLTFTest.RenderTests.Avocado.glb-788AF3EE
       resultStatus: 1
-      duration: 0.7024166
+      duration: 1.2512699
       messages: 
       output: 
       stacktrace: 
@@ -4875,7 +4977,7 @@ MonoBehaviour:
       name: Avocado.gltf-220C2078
       fullName: GLTFTest.RenderTests.Avocado.gltf-220C2078
       resultStatus: 1
-      duration: 0.7194529
+      duration: 1.5011458
       messages: 
       output: 
       stacktrace: 
@@ -4892,7 +4994,7 @@ MonoBehaviour:
       name: Avocado.gltf-8665664E
       fullName: GLTFTest.RenderTests.Avocado.gltf-8665664E
       resultStatus: 1
-      duration: 0.7768785
+      duration: 2.0301468
       messages: 
       output: 
       stacktrace: 
@@ -4909,7 +5011,7 @@ MonoBehaviour:
       name: BarramundiFish.gltf-7D6E14D6
       fullName: GLTFTest.RenderTests.BarramundiFish.gltf-7D6E14D6
       resultStatus: 1
-      duration: 0.8721381
+      duration: 1.9526418
       messages: 
       output: 
       stacktrace: 
@@ -4926,7 +5028,7 @@ MonoBehaviour:
       name: BarramundiFish.glb-BAC12A12
       fullName: GLTFTest.RenderTests.BarramundiFish.glb-BAC12A12
       resultStatus: 1
-      duration: 0.7577372
+      duration: 1.4540431
       messages: 
       output: 
       stacktrace: 
@@ -4943,7 +5045,7 @@ MonoBehaviour:
       name: BarramundiFish.gltf-7F916A7C
       fullName: GLTFTest.RenderTests.BarramundiFish.gltf-7F916A7C
       resultStatus: 1
-      duration: 0.7930576
+      duration: 1.2692825
       messages: 
       output: 
       stacktrace: 
@@ -4960,7 +5062,7 @@ MonoBehaviour:
       name: BoomBox.gltf-71574BD4
       fullName: GLTFTest.RenderTests.BoomBox.gltf-71574BD4
       resultStatus: 1
-      duration: 0.8535749
+      duration: 1.4995897
       messages: 
       output: 
       stacktrace: 
@@ -4977,7 +5079,7 @@ MonoBehaviour:
       name: BoomBox.glb-4889EAE
       fullName: GLTFTest.RenderTests.BoomBox.glb-4889EAE
       resultStatus: 1
-      duration: 0.8953548
+      duration: 1.9391652
       messages: 
       output: 
       stacktrace: 
@@ -4994,7 +5096,7 @@ MonoBehaviour:
       name: BoomBox.gltf-8B5BC04A
       fullName: GLTFTest.RenderTests.BoomBox.gltf-8B5BC04A
       resultStatus: 1
-      duration: 0.810328
+      duration: 1.4434288
       messages: 
       output: 
       stacktrace: 
@@ -5011,7 +5113,7 @@ MonoBehaviour:
       name: BoomBoxWithAxes.gltf-80E1961E
       fullName: GLTFTest.RenderTests.BoomBoxWithAxes.gltf-80E1961E
       resultStatus: 1
-      duration: 1.2613076
+      duration: 2.0928075
       messages: 
       output: 
       stacktrace: 
@@ -5028,7 +5130,7 @@ MonoBehaviour:
       name: Box.gltf-995ED686
       fullName: GLTFTest.RenderTests.Box.gltf-995ED686
       resultStatus: 1
-      duration: 0.4445042
+      duration: 1.1200829
       messages: 
       output: 
       stacktrace: 
@@ -5045,7 +5147,7 @@ MonoBehaviour:
       name: Box.glb-C8B24F6E
       fullName: GLTFTest.RenderTests.Box.glb-C8B24F6E
       resultStatus: 1
-      duration: 0.4170246
+      duration: 2.1916249
       messages: 
       output: 
       stacktrace: 
@@ -5062,7 +5164,7 @@ MonoBehaviour:
       name: Box.gltf-33179C90
       fullName: GLTFTest.RenderTests.Box.gltf-33179C90
       resultStatus: 1
-      duration: 0.3654727
+      duration: 2.2827764
       messages: 
       output: 
       stacktrace: 
@@ -5079,7 +5181,7 @@ MonoBehaviour:
       name: Box.gltf-3D08E861
       fullName: GLTFTest.RenderTests.Box.gltf-3D08E861
       resultStatus: 1
-      duration: 0.466609
+      duration: 4.4393406
       messages: 
       output: 
       stacktrace: 
@@ -5097,7 +5199,7 @@ MonoBehaviour:
       name: Box With Spaces.gltf-1B2BC8DC
       fullName: GLTFTest.RenderTests.Box With Spaces.gltf-1B2BC8DC
       resultStatus: 1
-      duration: 0.519863
+      duration: 1.339346
       messages: 
       output: 
       stacktrace: 
@@ -5114,7 +5216,7 @@ MonoBehaviour:
       name: BoxAnimated.gltf-BF235574
       fullName: GLTFTest.RenderTests.BoxAnimated.gltf-BF235574
       resultStatus: 1
-      duration: 0.6273949
+      duration: 4.5165973
       messages: 
       output: 
       stacktrace: 
@@ -5131,7 +5233,7 @@ MonoBehaviour:
       name: BoxAnimated.glb-CB986A2E
       fullName: GLTFTest.RenderTests.BoxAnimated.glb-CB986A2E
       resultStatus: 1
-      duration: 0.5206587
+      duration: 1.4812429
       messages: 
       output: 
       stacktrace: 
@@ -5148,7 +5250,7 @@ MonoBehaviour:
       name: BoxAnimated.gltf-95368BC1
       fullName: GLTFTest.RenderTests.BoxAnimated.gltf-95368BC1
       resultStatus: 1
-      duration: 0.6361076
+      duration: 1.8297201
       messages: 
       output: 
       stacktrace: 
@@ -5165,7 +5267,7 @@ MonoBehaviour:
       name: BoxInterleaved.gltf-3F4D6BD6
       fullName: GLTFTest.RenderTests.BoxInterleaved.gltf-3F4D6BD6
       resultStatus: 1
-      duration: 0.501878
+      duration: 1.3290832
       messages: 
       output: 
       stacktrace: 
@@ -5182,7 +5284,7 @@ MonoBehaviour:
       name: BoxInterleaved.glb-47F56058
       fullName: GLTFTest.RenderTests.BoxInterleaved.glb-47F56058
       resultStatus: 1
-      duration: 0.4443342
+      duration: 1.0815462
       messages: 
       output: 
       stacktrace: 
@@ -5199,7 +5301,7 @@ MonoBehaviour:
       name: BoxInterleaved.gltf-ABED2B1
       fullName: GLTFTest.RenderTests.BoxInterleaved.gltf-ABED2B1
       resultStatus: 1
-      duration: 0.4750369
+      duration: 1.4540913
       messages: 
       output: 
       stacktrace: 
@@ -5216,7 +5318,7 @@ MonoBehaviour:
       name: BoxTextured.gltf-3F598E04
       fullName: GLTFTest.RenderTests.BoxTextured.gltf-3F598E04
       resultStatus: 1
-      duration: 0.4891805
+      duration: 1.3986855
       messages: 
       output: 
       stacktrace: 
@@ -5233,7 +5335,7 @@ MonoBehaviour:
       name: BoxTextured.glb-A06CC02E
       fullName: GLTFTest.RenderTests.BoxTextured.glb-A06CC02E
       resultStatus: 1
-      duration: 0.4103188
+      duration: 1.2431496
       messages: 
       output: 
       stacktrace: 
@@ -5250,7 +5352,7 @@ MonoBehaviour:
       name: BoxTextured.gltf-B5656001
       fullName: GLTFTest.RenderTests.BoxTextured.gltf-B5656001
       resultStatus: 1
-      duration: 0.5194495
+      duration: 1.2851355
       messages: 
       output: 
       stacktrace: 
@@ -5267,7 +5369,7 @@ MonoBehaviour:
       name: BoxTexturedNonPowerOfTwo.gltf-14646456
       fullName: GLTFTest.RenderTests.BoxTexturedNonPowerOfTwo.gltf-14646456
       resultStatus: 1
-      duration: 0.3918494
+      duration: 1.3102483
       messages: 
       output: 
       stacktrace: 
@@ -5284,7 +5386,7 @@ MonoBehaviour:
       name: BoxTexturedNonPowerOfTwo.glb-A9FD032E
       fullName: GLTFTest.RenderTests.BoxTexturedNonPowerOfTwo.glb-A9FD032E
       resultStatus: 1
-      duration: 0.4509208
+      duration: 1.2628905
       messages: 
       output: 
       stacktrace: 
@@ -5301,7 +5403,7 @@ MonoBehaviour:
       name: BoxTexturedNonPowerOfTwo.gltf-607E69DD
       fullName: GLTFTest.RenderTests.BoxTexturedNonPowerOfTwo.gltf-607E69DD
       resultStatus: 1
-      duration: 0.4640074
+      duration: 1.2867105
       messages: 
       output: 
       stacktrace: 
@@ -5318,7 +5420,7 @@ MonoBehaviour:
       name: BoxVertexColors.gltf-4607912E
       fullName: GLTFTest.RenderTests.BoxVertexColors.gltf-4607912E
       resultStatus: 1
-      duration: 0.4674326
+      duration: 2.3612113
       messages: 
       output: 
       stacktrace: 
@@ -5335,7 +5437,7 @@ MonoBehaviour:
       name: BoxVertexColors.glb-9FDA902E
       fullName: GLTFTest.RenderTests.BoxVertexColors.glb-9FDA902E
       resultStatus: 1
-      duration: 0.5053112
+      duration: 2.6311772
       messages: 
       output: 
       stacktrace: 
@@ -5352,7 +5454,7 @@ MonoBehaviour:
       name: BoxVertexColors.gltf-C233EAA1
       fullName: GLTFTest.RenderTests.BoxVertexColors.gltf-C233EAA1
       resultStatus: 1
-      duration: 0.4339737
+      duration: 1.2188982
       messages: 
       output: 
       stacktrace: 
@@ -5369,7 +5471,7 @@ MonoBehaviour:
       name: BrainStem.gltf-24938D16
       fullName: GLTFTest.RenderTests.BrainStem.gltf-24938D16
       resultStatus: 1
-      duration: 10.1173725
+      duration: 10.211385
       messages: 
       output: 
       stacktrace: 
@@ -5386,7 +5488,7 @@ MonoBehaviour:
       name: BrainStem.glb-D1AEB7AE
       fullName: GLTFTest.RenderTests.BrainStem.glb-D1AEB7AE
       resultStatus: 1
-      duration: 10.301394
+      duration: 9.267803
       messages: 
       output: 
       stacktrace: 
@@ -5403,7 +5505,7 @@ MonoBehaviour:
       name: BrainStem.gltf-9E333F58
       fullName: GLTFTest.RenderTests.BrainStem.gltf-9E333F58
       resultStatus: 1
-      duration: 4.7535477
+      duration: 4.389676
       messages: 
       output: 
       stacktrace: 
@@ -5420,7 +5522,7 @@ MonoBehaviour:
       name: BrainStem.gltf-1803FD41
       fullName: GLTFTest.RenderTests.BrainStem.gltf-1803FD41
       resultStatus: 1
-      duration: 10.569676
+      duration: 8.976346
       messages: 
       output: 
       stacktrace: 
@@ -5437,7 +5539,7 @@ MonoBehaviour:
       name: Buggy.gltf-243B1C84
       fullName: GLTFTest.RenderTests.Buggy.gltf-243B1C84
       resultStatus: 1
-      duration: 1.1034429
+      duration: 14.292798
       messages: 
       output: 
       stacktrace: 
@@ -5454,7 +5556,7 @@ MonoBehaviour:
       name: Buggy.glb-8B01D2CE
       fullName: GLTFTest.RenderTests.Buggy.glb-8B01D2CE
       resultStatus: 1
-      duration: 11.549502
+      duration: 21.529287
       messages: 
       output: 
       stacktrace: 
@@ -5471,7 +5573,7 @@ MonoBehaviour:
       name: Buggy.gltf-59C8D2E2
       fullName: GLTFTest.RenderTests.Buggy.gltf-59C8D2E2
       resultStatus: 1
-      duration: 5.4823074
+      duration: 9.551836
       messages: 
       output: 
       stacktrace: 
@@ -5488,7 +5590,7 @@ MonoBehaviour:
       name: Buggy.gltf-10B8F741
       fullName: GLTFTest.RenderTests.Buggy.gltf-10B8F741
       resultStatus: 1
-      duration: 12.646482
+      duration: 25.028694
       messages: 
       output: 
       stacktrace: 
@@ -5505,7 +5607,7 @@ MonoBehaviour:
       name: Cameras.gltf-FA25A7F4
       fullName: GLTFTest.RenderTests.Cameras.gltf-FA25A7F4
       resultStatus: 1
-      duration: 0.36125
+      duration: 1.593036
       messages: 
       output: 
       stacktrace: 
@@ -5522,7 +5624,7 @@ MonoBehaviour:
       name: Cameras.gltf-D3EE0581
       fullName: GLTFTest.RenderTests.Cameras.gltf-D3EE0581
       resultStatus: 1
-      duration: 0.3982729
+      duration: 0.9076276
       messages: 
       output: 
       stacktrace: 
@@ -5539,7 +5641,7 @@ MonoBehaviour:
       name: CesiumMan.gltf-62954FA4
       fullName: GLTFTest.RenderTests.CesiumMan.gltf-62954FA4
       resultStatus: 1
-      duration: 1.1474843
+      duration: 3.415638
       messages: 
       output: 
       stacktrace: 
@@ -5556,7 +5658,7 @@ MonoBehaviour:
       name: CesiumMan.glb-A855148E
       fullName: GLTFTest.RenderTests.CesiumMan.glb-A855148E
       resultStatus: 1
-      duration: 1.1056547
+      duration: 3.672977
       messages: 
       output: 
       stacktrace: 
@@ -5573,7 +5675,7 @@ MonoBehaviour:
       name: CesiumMan.gltf-264D0382
       fullName: GLTFTest.RenderTests.CesiumMan.gltf-264D0382
       resultStatus: 1
-      duration: 1.0936418
+      duration: 2.4353337
       messages: 
       output: 
       stacktrace: 
@@ -5590,7 +5692,7 @@ MonoBehaviour:
       name: CesiumMan.gltf-C61C8D81
       fullName: GLTFTest.RenderTests.CesiumMan.gltf-C61C8D81
       resultStatus: 1
-      duration: 1.1913283
+      duration: 3.2677383
       messages: 
       output: 
       stacktrace: 
@@ -5607,7 +5709,7 @@ MonoBehaviour:
       name: CesiumMilkTruck.gltf-403CE24C
       fullName: GLTFTest.RenderTests.CesiumMilkTruck.gltf-403CE24C
       resultStatus: 1
-      duration: 0.7184035
+      duration: 1.5808345
       messages: 
       output: 
       stacktrace: 
@@ -5624,7 +5726,7 @@ MonoBehaviour:
       name: CesiumMilkTruck.glb-92B82B2E
       fullName: GLTFTest.RenderTests.CesiumMilkTruck.glb-92B82B2E
       resultStatus: 1
-      duration: 0.6938786
+      duration: 1.7441218
       messages: 
       output: 
       stacktrace: 
@@ -5641,7 +5743,7 @@ MonoBehaviour:
       name: CesiumMilkTruck.gltf-54C929B6
       fullName: GLTFTest.RenderTests.CesiumMilkTruck.gltf-54C929B6
       resultStatus: 1
-      duration: 0.5330815
+      duration: 0.9928935
       messages: 
       output: 
       stacktrace: 
@@ -5658,7 +5760,7 @@ MonoBehaviour:
       name: CesiumMilkTruck.gltf-2D6572C1
       fullName: GLTFTest.RenderTests.CesiumMilkTruck.gltf-2D6572C1
       resultStatus: 1
-      duration: 0.7442203
+      duration: 1.7735868
       messages: 
       output: 
       stacktrace: 
@@ -5675,7 +5777,7 @@ MonoBehaviour:
       name: ClearCoatTest.gltf-2F1D3B44
       fullName: GLTFTest.RenderTests.ClearCoatTest.gltf-2F1D3B44
       resultStatus: 1
-      duration: 1.5348706
+      duration: 3.084456
       messages: 
       output: 
       stacktrace: 
@@ -5692,7 +5794,7 @@ MonoBehaviour:
       name: ClearCoatTest.glb-17620CCE
       fullName: GLTFTest.RenderTests.ClearCoatTest.glb-17620CCE
       resultStatus: 1
-      duration: 11.451781
+      duration: 7.3022966
       messages: 
       output: 
       stacktrace: 
@@ -5709,7 +5811,7 @@ MonoBehaviour:
       name: Corset.gltf-BA312096
       fullName: GLTFTest.RenderTests.Corset.gltf-BA312096
       resultStatus: 1
-      duration: 0.6855104
+      duration: 1.0328915
       messages: 
       output: 
       stacktrace: 
@@ -5726,7 +5828,7 @@ MonoBehaviour:
       name: Corset.glb-5EACC02C
       fullName: GLTFTest.RenderTests.Corset.glb-5EACC02C
       resultStatus: 1
-      duration: 0.6069459
+      duration: 1.2866977
       messages: 
       output: 
       stacktrace: 
@@ -5743,7 +5845,7 @@ MonoBehaviour:
       name: Corset.gltf-3D626B1C
       fullName: GLTFTest.RenderTests.Corset.gltf-3D626B1C
       resultStatus: 1
-      duration: 0.5597894
+      duration: 1.3875087
       messages: 
       output: 
       stacktrace: 
@@ -5760,7 +5862,7 @@ MonoBehaviour:
       name: Cube.gltf-C6C0F8D6
       fullName: GLTFTest.RenderTests.Cube.gltf-C6C0F8D6
       resultStatus: 1
-      duration: 0.3620432
+      duration: 1.0360123
       messages: 
       output: 
       stacktrace: 
@@ -5777,7 +5879,7 @@ MonoBehaviour:
       name: DamagedHelmet.gltf-52DAA674
       fullName: GLTFTest.RenderTests.DamagedHelmet.gltf-52DAA674
       resultStatus: 1
-      duration: 0.6882734
+      duration: 1.4431189
       messages: 
       output: 
       stacktrace: 
@@ -5794,7 +5896,7 @@ MonoBehaviour:
       name: DamagedHelmet.glb-5D77D0CE
       fullName: GLTFTest.RenderTests.DamagedHelmet.glb-5D77D0CE
       resultStatus: 1
-      duration: 0.5562635
+      duration: 0.6760614
       messages: 
       output: 
       stacktrace: 
@@ -5811,7 +5913,7 @@ MonoBehaviour:
       name: DamagedHelmet.gltf-72D06EC1
       fullName: GLTFTest.RenderTests.DamagedHelmet.gltf-72D06EC1
       resultStatus: 1
-      duration: 0.6539085
+      duration: 0.7645312
       messages: 
       output: 
       stacktrace: 
@@ -5828,7 +5930,7 @@ MonoBehaviour:
       name: Duck.gltf-AB4694D6
       fullName: GLTFTest.RenderTests.Duck.gltf-AB4694D6
       resultStatus: 1
-      duration: 0.9182229
+      duration: 1.2727947
       messages: 
       output: 
       stacktrace: 
@@ -5845,7 +5947,7 @@ MonoBehaviour:
       name: Duck.glb-4026D1C2
       fullName: GLTFTest.RenderTests.Duck.glb-4026D1C2
       resultStatus: 1
-      duration: 0.8819206
+      duration: 2.210881
       messages: 
       output: 
       stacktrace: 
@@ -5862,7 +5964,7 @@ MonoBehaviour:
       name: Duck.gltf-122E91FC
       fullName: GLTFTest.RenderTests.Duck.gltf-122E91FC
       resultStatus: 1
-      duration: 1.219303
+      duration: 0.4749531
       messages: 
       output: 
       stacktrace: 
@@ -5879,7 +5981,7 @@ MonoBehaviour:
       name: Duck.gltf-7014C549
       fullName: GLTFTest.RenderTests.Duck.gltf-7014C549
       resultStatus: 1
-      duration: 0.5918762
+      duration: 2.310141
       messages: 
       output: 
       stacktrace: 
@@ -5896,7 +5998,7 @@ MonoBehaviour:
       name: Duck.gltf-EB17C4AE
       fullName: GLTFTest.RenderTests.Duck.gltf-EB17C4AE
       resultStatus: 1
-      duration: 0.5114917
+      duration: 1.0687411
       messages: 
       output: 
       stacktrace: 
@@ -5913,7 +6015,7 @@ MonoBehaviour:
       name: EnvironmentTest.gltf-11C4696E
       fullName: GLTFTest.RenderTests.EnvironmentTest.gltf-11C4696E
       resultStatus: 1
-      duration: 0.453699
+      duration: 1.3587708
       messages: 
       output: 
       stacktrace: 
@@ -5930,7 +6032,7 @@ MonoBehaviour:
       name: EnvironmentTest.gltf-6F0880DA
       fullName: GLTFTest.RenderTests.EnvironmentTest.gltf-6F0880DA
       resultStatus: 1
-      duration: 0.6311055
+      duration: 1.7913467
       messages: 
       output: 
       stacktrace: 
@@ -5947,7 +6049,7 @@ MonoBehaviour:
       name: FlightHelmet.gltf-46B2F956
       fullName: GLTFTest.RenderTests.FlightHelmet.gltf-46B2F956
       resultStatus: 1
-      duration: 1.9952267
+      duration: 4.450514
       messages: 
       output: 
       stacktrace: 
@@ -5964,7 +6066,7 @@ MonoBehaviour:
       name: Fox.gltf-4A8D6576
       fullName: GLTFTest.RenderTests.Fox.gltf-4A8D6576
       resultStatus: 1
-      duration: 1.7928603
+      duration: 2.483539
       messages: 
       output: 
       stacktrace: 
@@ -5981,7 +6083,7 @@ MonoBehaviour:
       name: Fox.glb-E362506E
       fullName: GLTFTest.RenderTests.Fox.glb-E362506E
       resultStatus: 1
-      duration: 1.6737498
+      duration: 1.7966129
       messages: 
       output: 
       stacktrace: 
@@ -5998,7 +6100,7 @@ MonoBehaviour:
       name: Fox.gltf-A1A9F7E1
       fullName: GLTFTest.RenderTests.Fox.gltf-A1A9F7E1
       resultStatus: 1
-      duration: 1.7964411
+      duration: 2.2157938
       messages: 
       output: 
       stacktrace: 
@@ -6015,7 +6117,7 @@ MonoBehaviour:
       name: GearboxAssy.gltf-2086304C
       fullName: GLTFTest.RenderTests.GearboxAssy.gltf-2086304C
       resultStatus: 1
-      duration: 6.5331464
+      duration: 6.2813954
       messages: 
       output: 
       stacktrace: 
@@ -6032,7 +6134,7 @@ MonoBehaviour:
       name: GearboxAssy.glb-482606AE
       fullName: GLTFTest.RenderTests.GearboxAssy.glb-482606AE
       resultStatus: 1
-      duration: 3.1869218
+      duration: 5.9460135
       messages: 
       output: 
       stacktrace: 
@@ -6049,7 +6151,7 @@ MonoBehaviour:
       name: GearboxAssy.gltf-E52F0BB6
       fullName: GLTFTest.RenderTests.GearboxAssy.gltf-E52F0BB6
       resultStatus: 1
-      duration: 1.4200944
+      duration: 3.780672
       messages: 
       output: 
       stacktrace: 
@@ -6066,7 +6168,7 @@ MonoBehaviour:
       name: GearboxAssy.gltf-BCFE7FC1
       fullName: GLTFTest.RenderTests.GearboxAssy.gltf-BCFE7FC1
       resultStatus: 1
-      duration: 3.6586845
+      duration: 6.836669
       messages: 
       output: 
       stacktrace: 
@@ -6083,7 +6185,7 @@ MonoBehaviour:
       name: GlamVelvetSofa.gltf-B7EE77D6
       fullName: GLTFTest.RenderTests.GlamVelvetSofa.gltf-B7EE77D6
       resultStatus: 1
-      duration: 0.7302684
+      duration: 1.2239829
       messages: 
       output: 
       stacktrace: 
@@ -6100,7 +6202,7 @@ MonoBehaviour:
       name: GlamVelvetSofa.glb-7A3A844C
       fullName: GLTFTest.RenderTests.GlamVelvetSofa.glb-7A3A844C
       resultStatus: 1
-      duration: 0.8326449
+      duration: 1.7920381
       messages: 
       output: 
       stacktrace: 
@@ -6117,7 +6219,7 @@ MonoBehaviour:
       name: InterpolationTest.gltf-1F9BAECC
       fullName: GLTFTest.RenderTests.InterpolationTest.gltf-1F9BAECC
       resultStatus: 1
-      duration: 1.1474627
+      duration: 2.147322
       messages: 
       output: 
       stacktrace: 
@@ -6134,7 +6236,7 @@ MonoBehaviour:
       name: InterpolationTest.glb-F726074E
       fullName: GLTFTest.RenderTests.InterpolationTest.glb-F726074E
       resultStatus: 1
-      duration: 1.1599655
+      duration: 2.0105577
       messages: 
       output: 
       stacktrace: 
@@ -6146,12 +6248,80 @@ MonoBehaviour:
       - Graphics
       parentId: 1222
       parentUniqueId: glTF-test-framework.Tests.dll/GLTFTest/RenderTests/[glTF-test-framework.Tests][GLTFTest.RenderTests.Run][suite]
+    - id: 1106
+      uniqueId: glTF-test-framework.Tests.dll/GLTFTest/RenderTests/Run/[glTF-test-framework.Tests][GLTFTest.RenderTests.Lantern.gltf-C41AF044]
+      name: Lantern.gltf-C41AF044
+      fullName: GLTFTest.RenderTests.Lantern.gltf-C41AF044
+      resultStatus: 1
+      duration: 2.171255
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Graphics
+      parentId: 1198
+      parentUniqueId: glTF-test-framework.Tests.dll/GLTFTest/RenderTests/[glTF-test-framework.Tests][GLTFTest.RenderTests.Run][suite]
+    - id: 1107
+      uniqueId: glTF-test-framework.Tests.dll/GLTFTest/RenderTests/Run/[glTF-test-framework.Tests][GLTFTest.RenderTests.Lantern.glb-95DC8E2E]
+      name: Lantern.glb-95DC8E2E
+      fullName: GLTFTest.RenderTests.Lantern.glb-95DC8E2E
+      resultStatus: 1
+      duration: 1.8544968
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Graphics
+      parentId: 1198
+      parentUniqueId: glTF-test-framework.Tests.dll/GLTFTest/RenderTests/[glTF-test-framework.Tests][GLTFTest.RenderTests.Run][suite]
+    - id: 1108
+      uniqueId: glTF-test-framework.Tests.dll/GLTFTest/RenderTests/Run/[glTF-test-framework.Tests][GLTFTest.RenderTests.Lantern.gltf-8637C9A2]
+      name: Lantern.gltf-8637C9A2
+      fullName: GLTFTest.RenderTests.Lantern.gltf-8637C9A2
+      resultStatus: 1
+      duration: 1.2742172
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Graphics
+      parentId: 1198
+      parentUniqueId: glTF-test-framework.Tests.dll/GLTFTest/RenderTests/[glTF-test-framework.Tests][GLTFTest.RenderTests.Run][suite]
+    - id: 1109
+      uniqueId: glTF-test-framework.Tests.dll/GLTFTest/RenderTests/Run/[glTF-test-framework.Tests][GLTFTest.RenderTests.Lantern.gltf-EA63634C]
+      name: Lantern.gltf-EA63634C
+      fullName: GLTFTest.RenderTests.Lantern.gltf-EA63634C
+      resultStatus: 1
+      duration: 1.2842522
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Graphics
+      parentId: 1198
+      parentUniqueId: glTF-test-framework.Tests.dll/GLTFTest/RenderTests/[glTF-test-framework.Tests][GLTFTest.RenderTests.Run][suite]
     - id: 1137
       uniqueId: glTF-test-framework.Tests.dll/GLTFTest/RenderTests/Run/[glTF-test-framework.Tests][GLTFTest.RenderTests.MaterialsVariantsShoe.gltf-5D6CB0A6]
       name: MaterialsVariantsShoe.gltf-5D6CB0A6
       fullName: GLTFTest.RenderTests.MaterialsVariantsShoe.gltf-5D6CB0A6
       resultStatus: 1
-      duration: 0.7655837
+      duration: 1.458749
       messages: 
       output: 
       stacktrace: 
@@ -6168,7 +6338,7 @@ MonoBehaviour:
       name: MaterialsVariantsShoe.glb-3556B2AE
       fullName: GLTFTest.RenderTests.MaterialsVariantsShoe.glb-3556B2AE
       resultStatus: 1
-      duration: 0.7309491
+      duration: 1.727372
       messages: 
       output: 
       stacktrace: 
@@ -6185,7 +6355,7 @@ MonoBehaviour:
       name: MetalRoughSpheres.gltf-E0D25D0C
       fullName: GLTFTest.RenderTests.MetalRoughSpheres.gltf-E0D25D0C
       resultStatus: 1
-      duration: 0.7025033
+      duration: 2.7810173
       messages: 
       output: 
       stacktrace: 
@@ -6202,7 +6372,7 @@ MonoBehaviour:
       name: MetalRoughSpheres.glb-BFBAFCE
       fullName: GLTFTest.RenderTests.MetalRoughSpheres.glb-BFBAFCE
       resultStatus: 1
-      duration: 0.7185772
+      duration: 2.5924263
       messages: 
       output: 
       stacktrace: 
@@ -6219,7 +6389,7 @@ MonoBehaviour:
       name: MetalRoughSpheres.gltf-4695CF01
       fullName: GLTFTest.RenderTests.MetalRoughSpheres.gltf-4695CF01
       resultStatus: 1
-      duration: 1.2399482
+      duration: 2.142424
       messages: 
       output: 
       stacktrace: 
@@ -6236,7 +6406,7 @@ MonoBehaviour:
       name: MetalRoughSpheresNoTextures.gltf-CD381A36
       fullName: GLTFTest.RenderTests.MetalRoughSpheresNoTextures.gltf-CD381A36
       resultStatus: 1
-      duration: 4.48207
+      duration: 12.14703
       messages: 
       output: 
       stacktrace: 
@@ -6253,7 +6423,7 @@ MonoBehaviour:
       name: MetalRoughSpheresNoTextures.glb-5A448FEE
       fullName: GLTFTest.RenderTests.MetalRoughSpheresNoTextures.glb-5A448FEE
       resultStatus: 1
-      duration: 5.078123
+      duration: 8.175184
       messages: 
       output: 
       stacktrace: 
@@ -6270,7 +6440,7 @@ MonoBehaviour:
       name: MorphPrimitivesTest.gltf-73BA33EC
       fullName: GLTFTest.RenderTests.MorphPrimitivesTest.gltf-73BA33EC
       resultStatus: 1
-      duration: 0.4754404
+      duration: 0.9622036
       messages: 
       output: 
       stacktrace: 
@@ -6287,7 +6457,7 @@ MonoBehaviour:
       name: MorphPrimitivesTest.glb-13CCFBAE
       fullName: GLTFTest.RenderTests.MorphPrimitivesTest.glb-13CCFBAE
       resultStatus: 1
-      duration: 0.4893209
+      duration: 1.1181833
       messages: 
       output: 
       stacktrace: 
@@ -6304,7 +6474,7 @@ MonoBehaviour:
       name: MorphPrimitivesTest.gltf-AD9273B6
       fullName: GLTFTest.RenderTests.MorphPrimitivesTest.gltf-AD9273B6
       resultStatus: 1
-      duration: 0.3988877
+      duration: 0.6352008
       messages: 
       output: 
       stacktrace: 
@@ -6321,7 +6491,7 @@ MonoBehaviour:
       name: MorphStressTest.gltf-F2C378A4
       fullName: GLTFTest.RenderTests.MorphStressTest.gltf-F2C378A4
       resultStatus: 1
-      duration: 1.0230168
+      duration: 1.7426023
       messages: 
       output: 
       stacktrace: 
@@ -6338,7 +6508,7 @@ MonoBehaviour:
       name: MorphStressTest.glb-23D716AE
       fullName: GLTFTest.RenderTests.MorphStressTest.glb-23D716AE
       resultStatus: 1
-      duration: 0.8916549
+      duration: 2.13648
       messages: 
       output: 
       stacktrace: 
@@ -6350,12 +6520,63 @@ MonoBehaviour:
       - Graphics
       parentId: 1222
       parentUniqueId: glTF-test-framework.Tests.dll/GLTFTest/RenderTests/[glTF-test-framework.Tests][GLTFTest.RenderTests.Run][suite]
+    - id: 1122
+      uniqueId: glTF-test-framework.Tests.dll/GLTFTest/RenderTests/Run/[glTF-test-framework.Tests][GLTFTest.RenderTests.MultiUVTest.gltf-5DE7E9EC]
+      name: MultiUVTest.gltf-5DE7E9EC
+      fullName: GLTFTest.RenderTests.MultiUVTest.gltf-5DE7E9EC
+      resultStatus: 1
+      duration: 1.3754456
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Graphics
+      parentId: 1198
+      parentUniqueId: glTF-test-framework.Tests.dll/GLTFTest/RenderTests/[glTF-test-framework.Tests][GLTFTest.RenderTests.Run][suite]
+    - id: 1123
+      uniqueId: glTF-test-framework.Tests.dll/GLTFTest/RenderTests/Run/[glTF-test-framework.Tests][GLTFTest.RenderTests.MultiUVTest.glb-93A9B2EE]
+      name: MultiUVTest.glb-93A9B2EE
+      fullName: GLTFTest.RenderTests.MultiUVTest.glb-93A9B2EE
+      resultStatus: 1
+      duration: 1.15668
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Graphics
+      parentId: 1198
+      parentUniqueId: glTF-test-framework.Tests.dll/GLTFTest/RenderTests/[glTF-test-framework.Tests][GLTFTest.RenderTests.Run][suite]
+    - id: 1124
+      uniqueId: glTF-test-framework.Tests.dll/GLTFTest/RenderTests/Run/[glTF-test-framework.Tests][GLTFTest.RenderTests.MultiUVTest.gltf-367D5441]
+      name: MultiUVTest.gltf-367D5441
+      fullName: GLTFTest.RenderTests.MultiUVTest.gltf-367D5441
+      resultStatus: 1
+      duration: 1.2946533
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Graphics
+      parentId: 1198
+      parentUniqueId: glTF-test-framework.Tests.dll/GLTFTest/RenderTests/[glTF-test-framework.Tests][GLTFTest.RenderTests.Run][suite]
     - id: 1149
       uniqueId: glTF-test-framework.Tests.dll/GLTFTest/RenderTests/Run/[glTF-test-framework.Tests][GLTFTest.RenderTests.NormalTangentMirrorTest.gltf-4B103E9E]
       name: NormalTangentMirrorTest.gltf-4B103E9E
       fullName: GLTFTest.RenderTests.NormalTangentMirrorTest.gltf-4B103E9E
       resultStatus: 1
-      duration: 0.6471025
+      duration: 1.4504049
       messages: 
       output: 
       stacktrace: 
@@ -6372,7 +6593,7 @@ MonoBehaviour:
       name: NormalTangentMirrorTest.glb-8694F86E
       fullName: GLTFTest.RenderTests.NormalTangentMirrorTest.glb-8694F86E
       resultStatus: 1
-      duration: 0.6246252
+      duration: 1.2004755
       messages: 
       output: 
       stacktrace: 
@@ -6389,7 +6610,7 @@ MonoBehaviour:
       name: NormalTangentMirrorTest.gltf-3FEBF861
       fullName: GLTFTest.RenderTests.NormalTangentMirrorTest.gltf-3FEBF861
       resultStatus: 1
-      duration: 0.7485782
+      duration: 1.2170774
       messages: 
       output: 
       stacktrace: 
@@ -6406,7 +6627,7 @@ MonoBehaviour:
       name: NormalTangentTest.gltf-3530E5C4
       fullName: GLTFTest.RenderTests.NormalTangentTest.gltf-3530E5C4
       resultStatus: 1
-      duration: 0.6418309
+      duration: 1.2181559
       messages: 
       output: 
       stacktrace: 
@@ -6423,7 +6644,7 @@ MonoBehaviour:
       name: NormalTangentTest.glb-ED85FF8E
       fullName: GLTFTest.RenderTests.NormalTangentTest.glb-ED85FF8E
       resultStatus: 1
-      duration: 0.6272651
+      duration: 1.1358751
       messages: 
       output: 
       stacktrace: 
@@ -6440,7 +6661,7 @@ MonoBehaviour:
       name: NormalTangentTest.gltf-BC262A81
       fullName: GLTFTest.RenderTests.NormalTangentTest.gltf-BC262A81
       resultStatus: 1
-      duration: 0.7487558
+      duration: 1.3823665
       messages: 
       output: 
       stacktrace: 
@@ -6457,7 +6678,7 @@ MonoBehaviour:
       name: OrientationTest.gltf-AC3BEDDC
       fullName: GLTFTest.RenderTests.OrientationTest.gltf-AC3BEDDC
       resultStatus: 1
-      duration: 1.1077576
+      duration: 2.6667292
       messages: 
       output: 
       stacktrace: 
@@ -6474,7 +6695,7 @@ MonoBehaviour:
       name: OrientationTest.glb-AB62692E
       fullName: GLTFTest.RenderTests.OrientationTest.glb-AB62692E
       resultStatus: 1
-      duration: 1.09707
+      duration: 3.2828329
       messages: 
       output: 
       stacktrace: 
@@ -6491,7 +6712,7 @@ MonoBehaviour:
       name: OrientationTest.gltf-6162FF41
       fullName: GLTFTest.RenderTests.OrientationTest.gltf-6162FF41
       resultStatus: 1
-      duration: 1.1063261
+      duration: 2.0628922
       messages: 
       output: 
       stacktrace: 
@@ -6508,7 +6729,7 @@ MonoBehaviour:
       name: ReciprocatingSaw.gltf-5C807A96
       fullName: GLTFTest.RenderTests.ReciprocatingSaw.gltf-5C807A96
       resultStatus: 1
-      duration: 6.227125
+      duration: 6.333743
       messages: 
       output: 
       stacktrace: 
@@ -6525,7 +6746,7 @@ MonoBehaviour:
       name: ReciprocatingSaw.glb-AAD68FCE
       fullName: GLTFTest.RenderTests.ReciprocatingSaw.glb-AAD68FCE
       resultStatus: 1
-      duration: 7.068387
+      duration: 5.9065523
       messages: 
       output: 
       stacktrace: 
@@ -6542,7 +6763,7 @@ MonoBehaviour:
       name: ReciprocatingSaw.gltf-1410783C
       fullName: GLTFTest.RenderTests.ReciprocatingSaw.gltf-1410783C
       resultStatus: 1
-      duration: 6.0341125
+      duration: 3.6461318
       messages: 
       output: 
       stacktrace: 
@@ -6559,7 +6780,7 @@ MonoBehaviour:
       name: ReciprocatingSaw.gltf-D65DAC5D
       fullName: GLTFTest.RenderTests.ReciprocatingSaw.gltf-D65DAC5D
       resultStatus: 1
-      duration: 6.590191
+      duration: 9.430701
       messages: 
       output: 
       stacktrace: 
@@ -6576,7 +6797,7 @@ MonoBehaviour:
       name: RecursiveSkeletons.gltf-67F45056
       fullName: GLTFTest.RenderTests.RecursiveSkeletons.gltf-67F45056
       resultStatus: 1
-      duration: 18.734665
+      duration: 37.055122
       messages: 
       output: 
       stacktrace: 
@@ -6593,7 +6814,7 @@ MonoBehaviour:
       name: RecursiveSkeletons.glb-D0C6AB9C
       fullName: GLTFTest.RenderTests.RecursiveSkeletons.glb-D0C6AB9C
       resultStatus: 1
-      duration: 18.742231
+      duration: 42.80555
       messages: 
       output: 
       stacktrace: 
@@ -6610,7 +6831,7 @@ MonoBehaviour:
       name: RiggedFigure.gltf-BA679B6
       fullName: GLTFTest.RenderTests.RiggedFigure.gltf-BA679B6
       resultStatus: 1
-      duration: 1.1352798
+      duration: 1.747181
       messages: 
       output: 
       stacktrace: 
@@ -6627,7 +6848,7 @@ MonoBehaviour:
       name: RiggedFigure.glb-4DE58CBC
       fullName: GLTFTest.RenderTests.RiggedFigure.glb-4DE58CBC
       resultStatus: 1
-      duration: 1.1104703
+      duration: 2.2557368
       messages: 
       output: 
       stacktrace: 
@@ -6644,7 +6865,7 @@ MonoBehaviour:
       name: RiggedFigure.gltf-D43C353C
       fullName: GLTFTest.RenderTests.RiggedFigure.gltf-D43C353C
       resultStatus: 1
-      duration: 1.0830964
+      duration: 2.0610437
       messages: 
       output: 
       stacktrace: 
@@ -6661,7 +6882,7 @@ MonoBehaviour:
       name: RiggedFigure.gltf-C247910D
       fullName: GLTFTest.RenderTests.RiggedFigure.gltf-C247910D
       resultStatus: 1
-      duration: 1.1059719
+      duration: 2.7131765
       messages: 
       output: 
       stacktrace: 
@@ -6678,7 +6899,7 @@ MonoBehaviour:
       name: RiggedSimple.gltf-873A5AF6
       fullName: GLTFTest.RenderTests.RiggedSimple.gltf-873A5AF6
       resultStatus: 1
-      duration: 0.4325391
+      duration: 1.0662811
       messages: 
       output: 
       stacktrace: 
@@ -6695,7 +6916,7 @@ MonoBehaviour:
       name: RiggedSimple.glb-1936286C
       fullName: GLTFTest.RenderTests.RiggedSimple.glb-1936286C
       resultStatus: 1
-      duration: 0.4066917
+      duration: 0.9081621
       messages: 
       output: 
       stacktrace: 
@@ -6712,7 +6933,7 @@ MonoBehaviour:
       name: RiggedSimple.gltf-D5C4E77C
       fullName: GLTFTest.RenderTests.RiggedSimple.gltf-D5C4E77C
       resultStatus: 1
-      duration: 0.3653442
+      duration: 1.1983759
       messages: 
       output: 
       stacktrace: 
@@ -6729,7 +6950,7 @@ MonoBehaviour:
       name: RiggedSimple.gltf-FBCA3D5D
       fullName: GLTFTest.RenderTests.RiggedSimple.gltf-FBCA3D5D
       resultStatus: 1
-      duration: 0.4280638
+      duration: 1.314758
       messages: 
       output: 
       stacktrace: 
@@ -6746,7 +6967,7 @@ MonoBehaviour:
       name: SciFiHelmet.gltf-2A96230E
       fullName: GLTFTest.RenderTests.SciFiHelmet.gltf-2A96230E
       resultStatus: 1
-      duration: 1.0989178
+      duration: 1.9658175
       messages: 
       output: 
       stacktrace: 
@@ -6763,7 +6984,7 @@ MonoBehaviour:
       name: SheenChair.gltf-DFAAEE56
       fullName: GLTFTest.RenderTests.SheenChair.gltf-DFAAEE56
       resultStatus: 1
-      duration: 0.7907173
+      duration: 1.7331306
       messages: 
       output: 
       stacktrace: 
@@ -6780,7 +7001,7 @@ MonoBehaviour:
       name: SheenChair.glb-2EE91FEC
       fullName: GLTFTest.RenderTests.SheenChair.glb-2EE91FEC
       resultStatus: 1
-      duration: 0.7367899
+      duration: 1.659658
       messages: 
       output: 
       stacktrace: 
@@ -6797,7 +7018,7 @@ MonoBehaviour:
       name: SheenCloth.gltf-B7C2D496
       fullName: GLTFTest.RenderTests.SheenCloth.gltf-B7C2D496
       resultStatus: 1
-      duration: 0.4248404
+      duration: 1.1932297
       messages: 
       output: 
       stacktrace: 
@@ -6814,7 +7035,7 @@ MonoBehaviour:
       name: SimpleMeshes.gltf-9F52F56
       fullName: GLTFTest.RenderTests.SimpleMeshes.gltf-9F52F56
       resultStatus: 1
-      duration: 0.3351839
+      duration: 1.1123157
       messages: 
       output: 
       stacktrace: 
@@ -6831,7 +7052,7 @@ MonoBehaviour:
       name: SimpleMeshes.gltf-1FD781D
       fullName: GLTFTest.RenderTests.SimpleMeshes.gltf-1FD781D
       resultStatus: 1
-      duration: 0.3342462
+      duration: 1.1652211
       messages: 
       output: 
       stacktrace: 
@@ -6848,7 +7069,7 @@ MonoBehaviour:
       name: SimpleMorph.gltf-49CDEFA4
       fullName: GLTFTest.RenderTests.SimpleMorph.gltf-49CDEFA4
       resultStatus: 1
-      duration: 0.3775363
+      duration: 1.2885811
       messages: 
       output: 
       stacktrace: 
@@ -6865,7 +7086,7 @@ MonoBehaviour:
       name: SimpleMorph.gltf-BC622D81
       fullName: GLTFTest.RenderTests.SimpleMorph.gltf-BC622D81
       resultStatus: 1
-      duration: 0.3655092
+      duration: 1.4920169
       messages: 
       output: 
       stacktrace: 
@@ -6882,7 +7103,7 @@ MonoBehaviour:
       name: SimpleSkin.gltf-F0E401D6
       fullName: GLTFTest.RenderTests.SimpleSkin.gltf-F0E401D6
       resultStatus: 1
-      duration: 0.3816315
+      duration: 1.6973476
       messages: 
       output: 
       stacktrace: 
@@ -6899,7 +7120,7 @@ MonoBehaviour:
       name: SimpleSkin.gltf-C29490A9
       fullName: GLTFTest.RenderTests.SimpleSkin.gltf-C29490A9
       resultStatus: 1
-      duration: 0.3854211
+      duration: 1.49056
       messages: 
       output: 
       stacktrace: 
@@ -6916,7 +7137,7 @@ MonoBehaviour:
       name: SimpleSparseAccessor.gltf-3BE56296
       fullName: GLTFTest.RenderTests.SimpleSparseAccessor.gltf-3BE56296
       resultStatus: 1
-      duration: 0.3123651
+      duration: 1.1195903
       messages: 
       output: 
       stacktrace: 
@@ -6933,7 +7154,7 @@ MonoBehaviour:
       name: SimpleSparseAccessor.gltf-B3D60169
       fullName: GLTFTest.RenderTests.SimpleSparseAccessor.gltf-B3D60169
       resultStatus: 1
-      duration: 0.3382829
+      duration: 1.2275939
       messages: 
       output: 
       stacktrace: 
@@ -6950,7 +7171,7 @@ MonoBehaviour:
       name: SpecGlossVsMetalRough.gltf-99A0F894
       fullName: GLTFTest.RenderTests.SpecGlossVsMetalRough.gltf-99A0F894
       resultStatus: 1
-      duration: 1.1871799
+      duration: 1.8325627
       messages: 
       output: 
       stacktrace: 
@@ -6967,7 +7188,7 @@ MonoBehaviour:
       name: SpecGlossVsMetalRough.glb-E2C31C4E
       fullName: GLTFTest.RenderTests.SpecGlossVsMetalRough.glb-E2C31C4E
       resultStatus: 1
-      duration: 1.2796361
+      duration: 2.1813865
       messages: 
       output: 
       stacktrace: 
@@ -6984,7 +7205,7 @@ MonoBehaviour:
       name: SpecularTest.gltf-D5D4B6D6
       fullName: GLTFTest.RenderTests.SpecularTest.gltf-D5D4B6D6
       resultStatus: 1
-      duration: 1.0699033
+      duration: 2.6846135
       messages: 
       output: 
       stacktrace: 
@@ -7001,7 +7222,7 @@ MonoBehaviour:
       name: SpecularTest.glb-8FD42F82
       fullName: GLTFTest.RenderTests.SpecularTest.glb-8FD42F82
       resultStatus: 1
-      duration: 1.00374
+      duration: 2.164861
       messages: 
       output: 
       stacktrace: 
@@ -7018,7 +7239,7 @@ MonoBehaviour:
       name: Sponza.gltf-942E2A96
       fullName: GLTFTest.RenderTests.Sponza.gltf-942E2A96
       resultStatus: 1
-      duration: 8.912262
+      duration: 13.928289
       messages: 
       output: 
       stacktrace: 
@@ -7035,7 +7256,7 @@ MonoBehaviour:
       name: StainedGlassLamp.gltf-FDF01276
       fullName: GLTFTest.RenderTests.StainedGlassLamp.gltf-FDF01276
       resultStatus: 1
-      duration: 3.9761229
+      duration: 28.332642
       messages: 
       output: 
       stacktrace: 
@@ -7052,7 +7273,7 @@ MonoBehaviour:
       name: StainedGlassLamp.gltf-BB156C2
       fullName: GLTFTest.RenderTests.StainedGlassLamp.gltf-BB156C2
       resultStatus: 1
-      duration: 14.031825
+      duration: 3.5941172
       messages: 
       output: 
       stacktrace: 
@@ -7069,7 +7290,7 @@ MonoBehaviour:
       name: Suzanne.gltf-1F302AFC
       fullName: GLTFTest.RenderTests.Suzanne.gltf-1F302AFC
       resultStatus: 1
-      duration: 1.229725
+      duration: 1.031497
       messages: 
       output: 
       stacktrace: 
@@ -7086,7 +7307,7 @@ MonoBehaviour:
       name: TextureCoordinateTest.gltf-41EA428E
       fullName: GLTFTest.RenderTests.TextureCoordinateTest.gltf-41EA428E
       resultStatus: 1
-      duration: 0.5771604
+      duration: 1.4594817
       messages: 
       output: 
       stacktrace: 
@@ -7103,7 +7324,7 @@ MonoBehaviour:
       name: TextureCoordinateTest.glb-E9FFBE6E
       fullName: GLTFTest.RenderTests.TextureCoordinateTest.glb-E9FFBE6E
       resultStatus: 1
-      duration: 0.506007
+      duration: 1.2783185
       messages: 
       output: 
       stacktrace: 
@@ -7120,7 +7341,7 @@ MonoBehaviour:
       name: TextureCoordinateTest.gltf-DA470901
       fullName: GLTFTest.RenderTests.TextureCoordinateTest.gltf-DA470901
       resultStatus: 1
-      duration: 0.5633157
+      duration: 1.5330714
       messages: 
       output: 
       stacktrace: 
@@ -7137,7 +7358,7 @@ MonoBehaviour:
       name: TextureEncodingTest.gltf-A33EC394
       fullName: GLTFTest.RenderTests.TextureEncodingTest.gltf-A33EC394
       resultStatus: 1
-      duration: 0.862501
+      duration: 13.659175
       messages: 
       output: 
       stacktrace: 
@@ -7154,7 +7375,7 @@ MonoBehaviour:
       name: TextureEncodingTest.glb-73C9E5EE
       fullName: GLTFTest.RenderTests.TextureEncodingTest.glb-73C9E5EE
       resultStatus: 1
-      duration: 10.82461
+      duration: 3.0047035
       messages: 
       output: 
       stacktrace: 
@@ -7171,7 +7392,7 @@ MonoBehaviour:
       name: TextureLinearInterpolationTest.gltf-3F863196
       fullName: GLTFTest.RenderTests.TextureLinearInterpolationTest.gltf-3F863196
       resultStatus: 1
-      duration: 0.388883
+      duration: 0.8908612
       messages: 
       output: 
       stacktrace: 
@@ -7188,7 +7409,7 @@ MonoBehaviour:
       name: TextureLinearInterpolationTest.glb-15418758
       fullName: GLTFTest.RenderTests.TextureLinearInterpolationTest.glb-15418758
       resultStatus: 1
-      duration: 0.3886913
+      duration: 1.3184258
       messages: 
       output: 
       stacktrace: 
@@ -7205,7 +7426,7 @@ MonoBehaviour:
       name: TextureSettingsTest.gltf-A3AA2B0C
       fullName: GLTFTest.RenderTests.TextureSettingsTest.gltf-A3AA2B0C
       resultStatus: 1
-      duration: 0.8527629
+      duration: 2.6820686
       messages: 
       output: 
       stacktrace: 
@@ -7222,7 +7443,7 @@ MonoBehaviour:
       name: TextureSettingsTest.glb-8C7C2E
       fullName: GLTFTest.RenderTests.TextureSettingsTest.glb-8C7C2E
       resultStatus: 1
-      duration: 2.6936078
+      duration: 1.775077
       messages: 
       output: 
       stacktrace: 
@@ -7239,7 +7460,7 @@ MonoBehaviour:
       name: TextureSettingsTest.gltf-3661F001
       fullName: GLTFTest.RenderTests.TextureSettingsTest.gltf-3661F001
       resultStatus: 1
-      duration: 0.887419
+      duration: 2.788233
       messages: 
       output: 
       stacktrace: 
@@ -7256,7 +7477,7 @@ MonoBehaviour:
       name: TextureTransformMultiTest.gltf-8158BFEC
       fullName: GLTFTest.RenderTests.TextureTransformMultiTest.gltf-8158BFEC
       resultStatus: 1
-      duration: 2.4890027
+      duration: 3.30523
       messages: 
       output: 
       stacktrace: 
@@ -7273,7 +7494,7 @@ MonoBehaviour:
       name: TextureTransformMultiTest.glb-26FD3F4E
       fullName: GLTFTest.RenderTests.TextureTransformMultiTest.glb-26FD3F4E
       resultStatus: 1
-      duration: 2.680313
+      duration: 4.805036
       messages: 
       output: 
       stacktrace: 
@@ -7290,7 +7511,7 @@ MonoBehaviour:
       name: TextureTransformTest.gltf-88466496
       fullName: GLTFTest.RenderTests.TextureTransformTest.gltf-88466496
       resultStatus: 1
-      duration: 0.6072103
+      duration: 1.2896559
       messages: 
       output: 
       stacktrace: 
@@ -7307,7 +7528,7 @@ MonoBehaviour:
       name: Triangle.gltf-E1C50976
       fullName: GLTFTest.RenderTests.Triangle.gltf-E1C50976
       resultStatus: 1
-      duration: 0.3481542
+      duration: 1.0968113
       messages: 
       output: 
       stacktrace: 
@@ -7324,7 +7545,7 @@ MonoBehaviour:
       name: Triangle.gltf-DD99ADF1
       fullName: GLTFTest.RenderTests.Triangle.gltf-DD99ADF1
       resultStatus: 1
-      duration: 0.3114659
+      duration: 1.3041075
       messages: 
       output: 
       stacktrace: 
@@ -7341,7 +7562,7 @@ MonoBehaviour:
       name: TriangleWithoutIndices.gltf-37C302D6
       fullName: GLTFTest.RenderTests.TriangleWithoutIndices.gltf-37C302D6
       resultStatus: 1
-      duration: 0.2969112
+      duration: 1.2591441
       messages: 
       output: 
       stacktrace: 
@@ -7358,7 +7579,7 @@ MonoBehaviour:
       name: TriangleWithoutIndices.gltf-59B44499
       fullName: GLTFTest.RenderTests.TriangleWithoutIndices.gltf-59B44499
       resultStatus: 1
-      duration: 0.2995277
+      duration: 1.2426715
       messages: 
       output: 
       stacktrace: 
@@ -7375,7 +7596,7 @@ MonoBehaviour:
       name: TwoSidedPlane.gltf-1541D886
       fullName: GLTFTest.RenderTests.TwoSidedPlane.gltf-1541D886
       resultStatus: 1
-      duration: 0.3606937
+      duration: 1.3224618
       messages: 
       output: 
       stacktrace: 
@@ -7392,7 +7613,7 @@ MonoBehaviour:
       name: UnlitTest.gltf-AB14546C
       fullName: GLTFTest.RenderTests.UnlitTest.gltf-AB14546C
       resultStatus: 1
-      duration: 0.400723
+      duration: 1.238365
       messages: 
       output: 
       stacktrace: 
@@ -7409,7 +7630,7 @@ MonoBehaviour:
       name: UnlitTest.glb-4AAB13CE
       fullName: GLTFTest.RenderTests.UnlitTest.glb-4AAB13CE
       resultStatus: 1
-      duration: 0.3727249
+      duration: 0.9002595
       messages: 
       output: 
       stacktrace: 
@@ -7426,7 +7647,7 @@ MonoBehaviour:
       name: VC.gltf-644F0A96
       fullName: GLTFTest.RenderTests.VC.gltf-644F0A96
       resultStatus: 1
-      duration: 23.024525
+      duration: 22.421778
       messages: 
       output: 
       stacktrace: 
@@ -7443,7 +7664,7 @@ MonoBehaviour:
       name: VC.glb-647E8852
       fullName: GLTFTest.RenderTests.VC.glb-647E8852
       resultStatus: 1
-      duration: 19.274525
+      duration: 31.978365
       messages: 
       output: 
       stacktrace: 
@@ -7460,7 +7681,7 @@ MonoBehaviour:
       name: VC.gltf-9A7E8E7C
       fullName: GLTFTest.RenderTests.VC.gltf-9A7E8E7C
       resultStatus: 1
-      duration: 10.336331
+      duration: 11.138959
       messages: 
       output: 
       stacktrace: 
@@ -7477,7 +7698,7 @@ MonoBehaviour:
       name: VC.gltf-1247B859
       fullName: GLTFTest.RenderTests.VC.gltf-1247B859
       resultStatus: 1
-      duration: 18.0041
+      duration: 15.97771
       messages: 
       output: 
       stacktrace: 
@@ -7494,7 +7715,7 @@ MonoBehaviour:
       name: VertexColorTest.gltf-6045412E
       fullName: GLTFTest.RenderTests.VertexColorTest.gltf-6045412E
       resultStatus: 1
-      duration: 0.5946232
+      duration: 0.9996258
       messages: 
       output: 
       stacktrace: 
@@ -7511,7 +7732,7 @@ MonoBehaviour:
       name: VertexColorTest.glb-414396EE
       fullName: GLTFTest.RenderTests.VertexColorTest.glb-414396EE
       resultStatus: 1
-      duration: 0.5200213
+      duration: 1.0765554
       messages: 
       output: 
       stacktrace: 
@@ -7528,7 +7749,7 @@ MonoBehaviour:
       name: VertexColorTest.gltf-B164B21
       fullName: GLTFTest.RenderTests.VertexColorTest.gltf-B164B21
       resultStatus: 1
-      duration: 0.5363757
+      duration: 0.7532347
       messages: 
       output: 
       stacktrace: 
@@ -7545,7 +7766,7 @@ MonoBehaviour:
       name: WaterBottle.gltf-D5CB8816
       fullName: GLTFTest.RenderTests.WaterBottle.gltf-D5CB8816
       resultStatus: 1
-      duration: 0.8585548
+      duration: 1.3505502
       messages: 
       output: 
       stacktrace: 
@@ -7562,7 +7783,7 @@ MonoBehaviour:
       name: WaterBottle.glb-8D05E6E
       fullName: GLTFTest.RenderTests.WaterBottle.glb-8D05E6E
       resultStatus: 1
-      duration: 0.7834569
+      duration: 1.332732
       messages: 
       output: 
       stacktrace: 
@@ -7579,7 +7800,7 @@ MonoBehaviour:
       name: WaterBottle.gltf-E4432058
       fullName: GLTFTest.RenderTests.WaterBottle.gltf-E4432058
       resultStatus: 1
-      duration: 0.7744974
+      duration: 0.7704959
       messages: 
       output: 
       stacktrace: 
@@ -7591,7 +7812,7 @@ MonoBehaviour:
       - Graphics
       parentId: 1222
       parentUniqueId: glTF-test-framework.Tests.dll/GLTFTest/RenderTests/[glTF-test-framework.Tests][GLTFTest.RenderTests.Run][suite]
-    - id: 1194
+    - id: 1567
       uniqueId: glTF-test-framework.Tests.dll/GLTFTest/[glTF-test-framework.Tests][GLTFTest.SampleModelsTest][suite]
       name: SampleModelsTest
       fullName: GLTFTest.SampleModelsTest
@@ -7643,7 +7864,7 @@ MonoBehaviour:
       description: 
       isSuite: 1
       categories: []
-      parentId: 1316
+      parentId: 1689
       parentUniqueId: glTF-test-framework.Tests.dll/[glTF-test-framework.Tests][GLTFTest][suite]
     - id: 1385
       uniqueId: '[UnityEngine.TestTools.Graphics.Tests.dll][suite]'
@@ -8232,10 +8453,10 @@ MonoBehaviour:
       - Uncategorized
       parentId: 1384
       parentUniqueId: UnityEngine.TestTools.Graphics.Tests.dll/UnityEngine/TestTools/Graphics/Tests/ImageAssertTests/[UnityEngine.TestTools.Graphics.Tests][UnityEngine.TestTools.Graphics.Tests.ImageAssertTests.PerPixelTest][suite]
-    m_ResultText: Run (146.295s)
+    m_ResultText: Run (16.738s)
     m_ResultStacktrace: 
     m_TestListState:
-      scrollPos: {x: 0, y: 0}
+      scrollPos: {x: 0, y: 1747.1069}
       m_SelectedIDs: ca8b9b6a
       m_LastClickedID: 1788578762
       m_ExpandedIDs: 53e54f80cd8c4688f62e9291af44959256698ea595da12ac8e2f7ead0bfc32bad8999cbbd5703ac894cd33d054bdb1d173ecdfd135e78de0791e59e3272f0de5c45e8fe5e7c3d4f1662672fff421ac0430b30e20b4e27d398ab5743ab5b03d4b90983c592fa4f762a712af634b1b9966557ad668ca8b9b6a06ddb56d90e5e072ffffff7f
@@ -8269,7 +8490,7 @@ MonoBehaviour:
       - Uncategorized
     m_SelectedOption: 0
   m_EditModeTestListGUI:
-    m_Window: {fileID: 14}
+    m_Window: {fileID: 18}
     m_NewResultList:
     - id: 1000
       uniqueId: '[glTFastTest][suite]'
@@ -8685,7 +8906,7 @@ MonoBehaviour:
       selectedCategoryMask: 0
       availableCategories:
       - Uncategorized
---- !u!114 &15
+--- !u!114 &19
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8701,7 +8922,7 @@ MonoBehaviour:
   m_MaxSize: {x: 2048, y: 2048}
   m_TitleContent:
     m_Text: Asset Store
-    m_Image: {fileID: -8693916549880196297, guid: 0000000000000000d000000000000000, type: 0}
+    m_Image: {fileID: -7444545952099596278, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
@@ -8713,7 +8934,7 @@ MonoBehaviour:
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
     m_SaveData: []
---- !u!114 &16
+--- !u!114 &20
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8729,14 +8950,14 @@ MonoBehaviour:
   m_MaxSize: {x: 10000, y: 10000}
   m_TitleContent:
     m_Text: Project
-    m_Image: {fileID: -5467254957812901981, guid: 0000000000000000d000000000000000, type: 0}
+    m_Image: {fileID: -5179483145760003458, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 0
-    y: 698
-    width: 1275
-    height: 381
+    x: -1920
+    y: 674
+    width: 1366
+    height: 365
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -8754,22 +8975,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/ActualImages/Linear/OSXEditor/Metal/None
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets
+  - Assets/ActualImages/Linear/OSXEditor/Metal/None
   m_LastFoldersGridSize: 16
   m_LastProjectPath: /Users/aa/u/glTFastTest/projects/glTFast-graphics-tests-2021-hdrp
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: c8770000
-    m_LastClickedID: 30664
-    m_ExpandedIDs: 00000000a8770000aa770000ac770000ae770000b0770000b2770000b4770000b6770000b8770000ba770000bc770000be770000c0770000c2770000c4770000c6770000c8770000ca770000cc770000ce770000d0770000d2770000d4770000d6770000d877000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 66.41388}
+    m_SelectedIDs: 3e640000
+    m_LastClickedID: 25662
+    m_ExpandedIDs: 000000008e62000090620000926200009462000096620000986200009a6200009c6200009e620000a0620000a2620000a4620000a6620000a8620000aa620000ac620000ae620000b0620000b2620000b4620000b6620000b8620000ba620000bc620000be62000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -8797,7 +9018,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000a8770000aa770000ac770000ae770000b0770000b2770000b4770000b6770000b8770000ba770000bc770000be770000c0770000c2770000c4770000c6770000c8770000ca770000cc770000ce770000d0770000d2770000d4770000d6770000d8770000
+    m_ExpandedIDs: 000000008e62000090620000926200009462000096620000986200009a6200009c6200009e620000a0620000a2620000a4620000a6620000a8620000aa620000ac620000ae620000b0620000b2620000b4620000b6620000b8620000ba620000bc620000be620000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -8822,8 +9043,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 66770000
-    m_LastClickedInstanceID: 30566
+    m_SelectedInstanceIDs: 
+    m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
@@ -8841,7 +9062,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 3}
+      m_ClientGUIView: {fileID: 8}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -8853,7 +9074,7 @@ MonoBehaviour:
     m_GridSize: 16
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 310
---- !u!114 &17
+--- !u!114 &21
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8873,10 +9094,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1276
+    x: -553
     y: 83
-    width: 515
-    height: 996
+    width: 552
+    height: 956
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -8884,7 +9105,7 @@ MonoBehaviour:
   m_ObjectsLockedBeforeSerialization: []
   m_InstanceIDsLockedBeforeSerialization: 
   m_PreviewResizer:
-    m_CachedPref: 421
+    m_CachedPref: 569
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
@@ -8894,7 +9115,7 @@ MonoBehaviour:
   m_LockTracker:
     m_IsLocked: 0
   m_PreviewWindow: {fileID: 0}
---- !u!114 &18
+--- !u!114 &22
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8910,14 +9131,14 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Hierarchy
-    m_Image: {fileID: 7966133145522015247, guid: 0000000000000000d000000000000000, type: 0}
+    m_Image: {fileID: -3734745235275155857, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 0
+    x: -1920
     y: 83
-    width: 313
-    height: 594
+    width: 335
+    height: 570
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -8925,9 +9146,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 66770000
+      m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 40f8ffff
+      m_ExpandedIDs: 1c35feff4036feff9846feffec52feff0e54feff80f7ffff18fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -8951,7 +9172,7 @@ MonoBehaviour:
       m_IsLocked: 0
     m_CurrentSortingName: TransformSorting
   m_WindowGUID: 1836cf81334cb4b149f8d4482d38adc4
---- !u!114 &19
+--- !u!114 &23
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8967,14 +9188,14 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Scene
-    m_Image: {fileID: 2593428753322112591, guid: 0000000000000000d000000000000000, type: 0}
+    m_Image: {fileID: 8634526014445323508, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 314
+    x: -1584
     y: 83
-    width: 960
-    height: 594
+    width: 1029
+    height: 570
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -9209,9 +9430,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0, y: 1.0997667, z: -0.100000024}
+    m_Target: {x: 0, y: 0, z: 0}
     speed: 2
-    m_Value: {x: 0, y: 1.0997667, z: -0.100000024}
+    m_Value: {x: 0, y: 0, z: 0}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -9258,13 +9479,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.24327897, y: -0.3250956, z: 0.08693807, w: -0.9097111}
+    m_Target: {x: 0.107811965, y: -0.86373883, z: 0.20891015, w: 0.44575042}
     speed: 2
-    m_Value: {x: -0.24327898, y: -0.32509562, z: 0.08693807, w: -0.9097112}
+    m_Value: {x: 0.1078117, y: -0.8637367, z: 0.20890963, w: 0.4457493}
   m_Size:
-    m_Target: 0.8660254
+    m_Target: 1.8771688
     speed: 2
-    m_Value: 0.8660254
+    m_Value: 1.8771688
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -9289,7 +9510,7 @@ MonoBehaviour:
   m_SceneVisActive: 1
   m_LastLockedObject: {fileID: 0}
   m_ViewIsLockedToObject: 0
---- !u!114 &20
+--- !u!114 &24
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -9305,14 +9526,14 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Game
-    m_Image: {fileID: -6423792434712278376, guid: 0000000000000000d000000000000000, type: 0}
+    m_Image: {fileID: 4621777727084837110, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 314
+    x: -1584
     y: 83
-    width: 960
-    height: 594
+    width: 1029
+    height: 570
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -9338,10 +9559,10 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -960
-    m_HBaseRangeMax: 960
-    m_VBaseRangeMin: -540
-    m_VBaseRangeMax: 540
+    m_HBaseRangeMin: -480
+    m_HBaseRangeMax: 480
+    m_VBaseRangeMin: -270
+    m_VBaseRangeMax: 270
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -9358,30 +9579,30 @@ MonoBehaviour:
     m_DrawArea:
       serializedVersion: 2
       x: 0
-      y: 0
-      width: 960
-      height: 594
-    m_Scale: {x: 0.5, y: 0.5}
-    m_Translation: {x: 480, y: 297}
+      y: 21
+      width: 1029
+      height: 549
+    m_Scale: {x: 1, y: 1}
+    m_Translation: {x: 514.5, y: 274.5}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -960
-      y: -594
-      width: 1920
-      height: 1188
+      x: -514.5
+      y: -274.5
+      width: 1029
+      height: 549
     m_MinimalGUI: 1
-  m_defaultScale: 0.5
-  m_LastWindowPixelSize: {x: 960, y: 594}
+  m_defaultScale: 1
+  m_LastWindowPixelSize: {x: 2058, y: 1140}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 00000000000000000000
   m_XRRenderMode: 0
   m_RenderTexture: {fileID: 0}
---- !u!114 &21
+--- !u!114 &25
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -9397,14 +9618,14 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Console
-    m_Image: {fileID: -4327648978806127646, guid: 0000000000000000d000000000000000, type: 0}
+    m_Image: {fileID: -4950941429401207979, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 0
-    y: 698
-    width: 1275
-    height: 381
+    x: -1920
+    y: 674
+    width: 1366
+    height: 365
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default

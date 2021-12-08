@@ -4,7 +4,7 @@
     "com.atteneder.gltf-graphics-tests": "file:../../../packages/gltf-graphics-tests",
     "com.atteneder.gltf-test-framework": "file:../../../packages/gltf-test-framework",
     "com.atteneder.gltfast": "file:../../../packages/glTFast",
-    "com.unity.collab-proxy": "1.15.1",
+    "com.unity.collab-proxy": "1.15.4",
     "com.unity.ide.rider": "2.0.7",
     "com.unity.nuget.newtonsoft-json": "2.0.2",
     "com.unity.render-pipelines.universal": "10.7.0",
