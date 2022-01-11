@@ -38,3 +38,6 @@ time $UNITY_2021_EXE -runTests -batchmode -projectPath ./projects/glTFast-graphi
 
 echo "2021 LTS BiRP Graphics"
 time $UNITY_2021_EXE -runTests -batchmode -projectPath ./projects/glTFast-graphics-tests-2021-birp -testResults "$PWD/test-results/glTFast-graphics-tests-2021-birp-editor.xml" -testPlatform PlayMode -testCategory "Graphics"
+
+echo "2021 LTS BiRP Shader Graph Graphics"
+time $UNITY_2021_EXE -runTests -batchmode -projectPath ./projects/glTFast-graphics-tests-2021-birp-sg -testResults "$PWD/test-results/glTFast-graphics-tests-2021-birp-sg-editor.xml" -testPlatform PlayMode -testCategory "Graphics"
