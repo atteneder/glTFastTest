@@ -4,8 +4,8 @@
 
 PWD=$(pwd)
 
-UNITY_2020_EXE=/Applications/Unity/Hub/Editor/2020.3.25f1/Unity.app/Contents/MacOS/Unity
-UNITY_2021_EXE=/Applications/Unity/Hub/Editor/2021.2.7f1/Unity.app/Contents/MacOS/Unity
+UNITY_2020_EXE=/Applications/Unity/Hub/Editor/2020.3.26f1/Unity.app/Contents/MacOS/Unity
+UNITY_2021_EXE=/Applications/Unity/Hub/Editor/2021.2.8f1/Unity.app/Contents/MacOS/Unity
 
 if [ ! -f "$UNITY_2020_EXE" ]; then
     echo "Unity not found at $UNITY_2020_EXE"
