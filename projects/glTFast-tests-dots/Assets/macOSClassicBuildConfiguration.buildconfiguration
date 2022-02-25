@@ -1,0 +1,44 @@
+{
+    "Dependencies": [],
+    "Components": [
+        {
+            "$type": "Unity.Build.Common.GeneralSettings, Unity.Build",
+            "ProductName": "glTFast Demo",
+            "CompanyName": "Andreas Atteneder",
+            "Version": "1.0.0"
+        },
+        {
+            "$type": "Unity.Build.Common.SceneList, Unity.Build",
+            "$version": 1,
+            "BuildCurrentScene": false,
+            "SceneInfos": [
+                {
+                    "Scene": "GlobalObjectId_V1-1-682b0f066f4e2404aaead0fa3f861131-102900000-0",
+                    "AutoLoad": false
+                },
+                {
+                    "Scene": "GlobalObjectId_V1-1-09fde5e67a60f4730a203df01316fa69-102900000-0",
+                    "AutoLoad": false
+                },
+                {
+                    "Scene": "GlobalObjectId_V1-1-38f1556cab39e4e0687e2dc1f0526a1c-102900000-0",
+                    "AutoLoad": false
+                },
+                {
+                    "Scene": "GlobalObjectId_V1-1-2de85f55fa9b94700b07a00aa4a0d5f6-102900000-0",
+                    "AutoLoad": false
+                },
+                {
+                    "Scene": "GlobalObjectId_V1-1-f258793d08df04fcda6f4200b0f14c1d-102900000-0",
+                    "AutoLoad": false
+                }
+            ]
+        },
+        {
+            "$type": "Unity.Build.Classic.ClassicBuildProfile, Unity.Build.Classic",
+            "$version": 1,
+            "Platform": "macos",
+            "Configuration": 2
+        }
+    ]
+}
