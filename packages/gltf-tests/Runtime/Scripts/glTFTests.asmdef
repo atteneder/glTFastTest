@@ -1,0 +1,31 @@
+{
+    "name": "glTFTests",
+    "references": [
+        "glTFast",
+        "glTFastSchema",
+        "glTFast.dots",
+        "glTFastEditor",
+        "glTF-test-framework",
+        "glTF-test-framework.Sample"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.unity.rendering.hybrid",
+            "expression": "0.10.0",
+            "define": "UNITY_DOTS_HYBRID"
+        },
+        {
+            "name": "com.atteneder.gltfast",
+            "expression": "4.0",
+            "define": "GLTFAST_4_OR_NEWER"
+        }
+    ],
+    "noEngineReferences": false
+}

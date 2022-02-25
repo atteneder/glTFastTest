@@ -1,0 +1,28 @@
+{
+  "name": "com.atteneder.gltf-tests",
+  "version": "0.1.0",
+  "displayName": "glTF Tests",
+  "description": "Project for testing of glTF run-time loading",
+  "unity": "2019.3",
+  "keywords": [
+    "mesh",
+    "gltf",
+    "asset",
+    "format",
+    "draco",
+    "ktx",
+    "basis",
+    "universal",
+    "basisu"
+  ],
+  "author": {
+    "name": "Andreas Atteneder",
+    "email": "andreas.atteneder@gmail.com",
+    "url": "https://pixel.engineer"
+  },
+  "type": "sample",
+  "dependencies": {
+    "com.atteneder.gltfast": "4.4.3",
+    "com.atteneder.gltf-test-framework": "0.1.0"
+  }
+}
