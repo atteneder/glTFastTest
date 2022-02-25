@@ -12,6 +12,7 @@
 /projects/*/[Bb]uilds/
 /projects/*/[Ll]ogs/
 /projects/*/[Mm]emoryCaptures/
+/projects/*/Assets/ActualImages*
 
 # Asset meta data should only be ignored when the corresponding asset is also ignored
 !/projects/*/[Aa]ssets/**/*.meta
@@ -87,3 +88,4 @@ crashlytics-build.properties
 
 /projects/*/Assets/ActualImages
 /test-results/*.xml
+/test-results/CodeCoverage
