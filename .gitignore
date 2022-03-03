@@ -86,7 +86,7 @@ crashlytics-build.properties
 **/.idea/**/uiDesigner.xml
 **/.idea/**/dbnavigator.xml
 
-/projects/*/Assets/ActualImages
+/projects/*/Assets/ActualImages*
 /projects/*/Assets/StreamingAssets/gltf*
 /test-results/*.xml
 /test-results/CodeCoverage
