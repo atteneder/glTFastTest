@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "com.atteneder.draco": "4.0.1",
+    "com.atteneder.draco": "4.0.2",
     "com.atteneder.gltf-graphics-tests": "file:../../../packages/gltf-graphics-tests",
     "com.atteneder.gltf-test-framework": "file:../../../packages/gltf-test-framework",
     "com.atteneder.gltfast": "file:../../../packages/glTFast",
