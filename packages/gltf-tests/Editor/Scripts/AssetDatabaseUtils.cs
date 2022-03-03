@@ -20,7 +20,7 @@ namespace GltfDemo.Editor {
 
     static class AssetDatabaseUtils
     {
-        [MenuItem("AssetDatabase/Force Reserialize Assets Example")]
+        [MenuItem("Tools/AssetDatabase Force Reserialize Assets")]
         static void UpdateGroundMaterials() {
             AssetDatabase.ForceReserializeAssets();
         }
