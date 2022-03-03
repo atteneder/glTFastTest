@@ -1,6 +1,8 @@
 {
     "name": "glTFTests.Editor",
-    "references": [],
+    "references": [
+        "GUID:7b62e07dfb0974cd9bfe044ee746bc12"
+    ],
     "includePlatforms": [
         "Editor"
     ],
