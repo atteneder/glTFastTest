@@ -5,7 +5,7 @@
     "com.atteneder.gltf-test-framework": "file:../../../packages/gltf-test-framework",
     "com.atteneder.gltfast": "file:../../../packages/glTFast",
     "com.unity.ide.rider": "3.0.12",
-    "com.unity.shadergraph": "12.1.4",
+    "com.unity.shadergraph": "12.1.5",
     "com.unity.testframework.graphics": "7.8.17-exp.1"
   },
   "testables": [
