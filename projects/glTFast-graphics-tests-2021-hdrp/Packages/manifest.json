@@ -6,7 +6,7 @@
     "com.atteneder.gltfast": "file:../../../packages/glTFast",
     "com.unity.ide.rider": "3.0.12",
     "com.unity.nuget.newtonsoft-json": "2.0.2",
-    "com.unity.render-pipelines.high-definition": "12.1.4",
+    "com.unity.render-pipelines.high-definition": "12.1.5",
     "com.unity.test-framework": "1.1.30",
     "com.unity.test-framework.build": "0.0.1-preview.14",
     "com.unity.test-framework.performance": "2.8.0-preview",
