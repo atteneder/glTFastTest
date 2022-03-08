@@ -181,7 +181,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.test-framework": {
-      "version": "1.1.30",
+      "version": "1.1.31",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -221,15 +221,15 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.testframework.graphics": {
-      "version": "7.8.16-preview",
+      "version": "7.8.19-exp.2",
       "depth": 0,
       "source": "registry",
       "dependencies": {
         "com.unity.xr.management": "4.0.5",
         "com.unity.external.test-protocol": "1.0.0-preview",
-        "com.unity.nuget.newtonsoft-json": "2.0.0-preview",
+        "com.unity.nuget.newtonsoft-json": "2.0.0",
         "com.unity.subsystemregistration": "1.0.6",
-        "com.unity.xr.legacyinputhelpers": "2.1.6",
+        "com.unity.xr.legacyinputhelpers": "2.1.8",
         "com.unity.modules.xr": "1.0.0",
         "com.unity.modules.vr": "1.0.0",
         "com.unity.addressables": "1.17.15",
