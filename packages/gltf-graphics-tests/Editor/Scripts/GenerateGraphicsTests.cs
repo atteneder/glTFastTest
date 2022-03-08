@@ -24,7 +24,10 @@ namespace GLTFTest.Graphics.Editor {
     public static class GenerateGraphicsTests
     {
         [MenuItem("Tools/glTF Test/Generate Graphics Tests")]
-        static void GenerateTests() {
+        static void GenerateTestsMenu() { }
+        
+        internal static void GenerateTests(bool createScenes = true) {
+
             var rp = RenderPipelineUtils.DetectRenderPipeline();
 
             var setName = "glTF-Sample-Models";
@@ -41,7 +44,10 @@ namespace GLTFTest.Graphics.Editor {
             var sampleSet = AssetDatabase.LoadAssetAtPath<SampleSet>( $"Packages/com.atteneder.gltf-graphics-tests/Runtime/SampleSets/{setName}.asset");
             
             sampleSet.CopyToStreamingAssets();
-            sampleSet.CreateRenderTestScenes();
+
+            if (createScenes) {
+                sampleSet.CreateRenderTestScenes();
+            }
         }
     }
 }
