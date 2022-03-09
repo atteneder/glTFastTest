@@ -24,7 +24,9 @@ namespace GLTFTest.Graphics.Editor {
     public static class GenerateGraphicsTests
     {
         [MenuItem("Tools/glTF Test/Generate Graphics Tests")]
-        static void GenerateTestsMenu() { }
+        static void GenerateTestsMenu() {
+            GenerateTests();
+        }
         
         internal static void GenerateTests(bool createScenes = true) {
 
