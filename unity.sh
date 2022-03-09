@@ -1,7 +1,5 @@
 #!/bin/sh
 
-set -e
-
 PWD=$(pwd)
 
 UNITY_2019=/Applications/Unity/Hub/Editor/2019.4.36f1
