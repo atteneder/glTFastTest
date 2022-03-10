@@ -47,13 +47,13 @@ public class TestAssetBundler : IPreprocessBuildWithReport {
             setPaths[i] = $"Packages/com.atteneder.gltf-tests/Runtime/SampleSets/{setName}.asset";
         }
 
-        Debug.Log($"Application.dataPath {Application.dataPath}");
+        Debug.LogWarning($"Application.dataPath {Application.dataPath}");
         var parent =  new DirectoryInfo(Application.dataPath); // Assets
-        Debug.Log($"Application.dataPath Assets {parent?.FullName}");
+        Debug.LogWarning($"Application.dataPath Assets {parent?.FullName}");
         parent = parent.Parent; // Project dir
-        Debug.Log($"Application.dataPath Project {parent?.FullName}");
+        Debug.LogWarning($"Application.dataPath Project {parent?.FullName}");
         parent = parent?.Parent; // "projects" dir
-        Debug.Log($"Application.dataPath projects {parent?.FullName}");
+        Debug.LogWarning($"Application.dataPath projects {parent?.FullName}");
         
         TestAssetBundlerUtil.SyncAssets(setPaths);
     }
