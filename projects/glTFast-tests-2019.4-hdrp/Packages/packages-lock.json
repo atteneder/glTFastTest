@@ -9,15 +9,6 @@
       },
       "url": "https://package.openupm.com"
     },
-    "com.atteneder.gltf-demo": {
-      "version": "file:../../../packages/glTF-demo",
-      "depth": 0,
-      "source": "local",
-      "dependencies": {
-        "com.atteneder.gltfast": "4.4.3",
-        "com.atteneder.gltf-test-framework": "0.1.0"
-      }
-    },
     "com.atteneder.gltf-test-framework": {
       "version": "file:../../../packages/gltf-test-framework",
       "depth": 0,
@@ -27,6 +18,15 @@
         "com.unity.test-framework.performance": "2.8.0-preview",
         "com.unity.testtools.codecoverage": "1.1.0",
         "com.unity.modules.animation": "1.0.0"
+      }
+    },
+    "com.atteneder.gltf-tests": {
+      "version": "file:../../../packages/gltf-tests",
+      "depth": 0,
+      "source": "local",
+      "dependencies": {
+        "com.atteneder.gltfast": "4.4.3",
+        "com.atteneder.gltf-test-framework": "0.1.0"
       }
     },
     "com.atteneder.gltfast": {
@@ -65,6 +65,14 @@
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"
+    },
+    "com.unity.formats.gltf.validator": {
+      "version": "file:../../../packages/unity-gltf-validator",
+      "depth": 0,
+      "source": "local",
+      "dependencies": {
+        "com.unity.modules.jsonserialize": "1.0.0"
+      }
     },
     "com.unity.ide.rider": {
       "version": "3.0.7",
