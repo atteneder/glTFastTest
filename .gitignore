@@ -92,3 +92,8 @@ crashlytics-build.properties
 /projects/glTFast-graphics-tests-*/Assets/StreamingAssets/referenceimages*
 /test-results/*.xml
 /test-results/CodeCoverage
+
+# Unity CI
+/.Editor
+/upm-ci~
+
