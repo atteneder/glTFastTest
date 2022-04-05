@@ -23,4 +23,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Packages/com.atteneder.gltf-test-framework/Runtime/Export/Scenes/ExportSceneBuiltIn.unity
     guid: 73f3aef2a2f804af18c408d874958bd1
+  - enabled: 1
+    path: Packages/com.atteneder.gltf-test-framework/Runtime/Export/Scenes/ExportSceneUniversal.unity
+    guid: 31d4d2e9e8f954bf3ae5ef1da09edb82
   m_configObjects: {}
