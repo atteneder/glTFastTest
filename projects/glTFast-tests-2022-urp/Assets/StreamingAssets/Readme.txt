@@ -1,0 +1,1 @@
+Build script `TestAssetBundler.cs` will copy glTF files required for tests into this dicrectory.
