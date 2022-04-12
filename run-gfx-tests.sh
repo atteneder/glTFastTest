@@ -11,13 +11,13 @@ source unity.sh
 TEST_PLATFORM=StandaloneOSX
 
 echo "2020 LTS URP Graphics"
-$UNITY_2020_EXE -runTests -batchmode -projectPath ./projects/glTFast-graphics-tests-urp -testResults "$PWD/test-results/glTFast-graphics-tests-urp.xml" -testPlatform "$TEST_PLATFORM" -testCategory "Graphics"
+$UNITY_2020_EXE -runTests -batchmode -projectPath ./projects/glTFast-graphics-tests-2020-urp -testResults "$PWD/test-results/glTFast-graphics-tests-2020-urp.xml" -testPlatform "$TEST_PLATFORM" -testCategory "Graphics"
 
 echo "2020 LTS HDRP Graphics"
-$UNITY_2020_EXE -runTests -batchmode -projectPath ./projects/glTFast-graphics-tests-hdrp -testResults "$PWD/test-results/glTFast-graphics-tests-hdrp.xml" -testPlatform "$TEST_PLATFORM" -testCategory "Graphics"
+$UNITY_2020_EXE -runTests -batchmode -projectPath ./projects/glTFast-graphics-tests-2020-hdrp -testResults "$PWD/test-results/glTFast-graphics-tests-2020-hdrp.xml" -testPlatform "$TEST_PLATFORM" -testCategory "Graphics"
 
 echo "2020 LTS BiRP Graphics"
-$UNITY_2020_EXE -runTests -batchmode -projectPath ./projects/glTFast-graphics-tests-birp -testResults "$PWD/test-results/glTFast-graphics-tests-birp.xml" -testPlatform "$TEST_PLATFORM" -testCategory "Graphics"
+$UNITY_2020_EXE -runTests -batchmode -projectPath ./projects/glTFast-graphics-tests-2020-birp -testResults "$PWD/test-results/glTFast-graphics-tests-2020-birp.xml" -testPlatform "$TEST_PLATFORM" -testCategory "Graphics"
 
 echo "2021 LTS URP Graphics"
 $UNITY_2021_EXE -runTests -batchmode -projectPath ./projects/glTFast-graphics-tests-2021-urp -testResults "$PWD/test-results/glTFast-graphics-tests-2021-urp.xml" -testPlatform "$TEST_PLATFORM" -testCategory "Graphics"
