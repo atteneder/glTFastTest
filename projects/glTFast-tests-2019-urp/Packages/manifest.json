@@ -13,7 +13,7 @@
     "com.unity.render-pipelines.core": "7.7.1",
     "com.unity.render-pipelines.universal": "7.7.1",
     "com.unity.shadergraph": "7.7.1",
-    "com.unity.test-framework": "1.1.30",
+    "com.unity.test-framework": "1.1.31",
     "com.unity.test-framework.performance": "2.8.0-preview",
     "com.unity.modules.animation": "1.0.0"
   },
