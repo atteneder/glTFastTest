@@ -13,10 +13,10 @@ export GLTF_TEST_ASSET_DIR=$(pwd)/assets
 
 # PROJECT="./projects/glTFast-tests-2019"
 echo "2019 LTS BiRP EditMode"
-$UNITY_2019_EXE -runTests -batchmode -projectPath ./projects/glTFast-tests-2019 -testResults "$PWD/test-results/glTFast-tests-2019-editor.xml" -testPlatform EditMode
+$UNITY_2019_EXE -runTests -batchmode -projectPath ./projects/glTFast-tests-2019 -testResults "$PWD/test-results/glTFast-tests-2019-birp-editor.xml" -testPlatform EditMode
 #UnifiedTestRunner --suite=editor  --testproject="$PROJECT" --editor-location="$UNITY_2019"
 echo "2019 LTS BiRP PlayMode $PLAYMODE_PLATFORM"
-$UNITY_2019_EXE -runTests -batchmode -projectPath ./projects/glTFast-tests-2019 -testResults "$PWD/test-results/glTFast-tests-2019-runtime.xml" -testPlatform "$PLAYMODE_PLATFORM" -testCategory "!Performance"
+$UNITY_2019_EXE -runTests -batchmode -projectPath ./projects/glTFast-tests-2019 -testResults "$PWD/test-results/glTFast-tests-2019-birp-runtime.xml" -testPlatform "$PLAYMODE_PLATFORM" -testCategory "!Performance"
 #UnifiedTestRunner --suite=playmode --testlist="testlist.txt" --testproject="$PROJECT" --editor-location="$UNITY_2019" --platform="$PLAYMODE_PLATFORM" --a="$PWD/test-results/glTFast-tests-2019-runtime"
 
 echo "2019 LTS URP EditMode"
@@ -25,9 +25,9 @@ echo "2019 LTS URP PlayMode $PLAYMODE_PLATFORM"
 $UNITY_2019_EXE -runTests -batchmode -projectPath ./projects/glTFast-tests-2019-urp -testResults "$PWD/test-results/glTFast-tests-2019-urp-runtime.xml" -testPlatform "$PLAYMODE_PLATFORM" -testCategory "!Performance"
 
 echo "2021 BiRP EditMode"
-$UNITY_2021_EXE -runTests -batchmode -projectPath ./projects/glTFast-tests-2021 -testResults "$PWD/test-results/glTFast-tests-2021-editor.xml" -testPlatform EditMode
+$UNITY_2021_EXE -runTests -batchmode -projectPath ./projects/glTFast-tests-2021 -testResults "$PWD/test-results/glTFast-tests-2021-birp-editor.xml" -testPlatform EditMode
 echo "2021 BiRP PlayMode $PLAYMODE_PLATFORM"
-$UNITY_2021_EXE -runTests -batchmode -projectPath ./projects/glTFast-tests-2021 -testResults "$PWD/test-results/glTFast-tests-2021-runtime.xml" -testPlatform "$PLAYMODE_PLATFORM" -testCategory "!Performance"
+$UNITY_2021_EXE -runTests -batchmode -projectPath ./projects/glTFast-tests-2021 -testResults "$PWD/test-results/glTFast-tests-2021-birp-runtime.xml" -testPlatform "$PLAYMODE_PLATFORM" -testCategory "!Performance"
 
 echo "2021 HDRP EditMode"
 $UNITY_2021_EXE -runTests -batchmode -projectPath ./projects/glTFast-tests-2021-hdrp -testResults "$PWD/test-results/glTFast-tests-2021-hdrp-editor.xml" -testPlatform EditMode
