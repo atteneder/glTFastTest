@@ -46,8 +46,8 @@ $UNITY_2022_EXE -runTests -batchmode -projectPath ./projects/glTFast-tests-2022 
 
 echo "2022 HDRP EditMode"
 $UNITY_2022_EXE -runTests -batchmode -projectPath ./projects/glTFast-tests-2022-hdrp -testResults "$PWD/test-results/glTFast-tests-2022-hdrp-editor.xml" -testPlatform EditMode
-echo "2022 HDRP PlayMode $PLAYMODE_PLATFORM"
-$UNITY_2022_EXE -runTests -batchmode -projectPath ./projects/glTFast-tests-2022-hdrp -testResults "$PWD/test-results/glTFast-tests-2022-hdrp-runtime.xml" -testPlatform "$PLAYMODE_PLATFORM" -testCategory "!Performance"
+# echo "2022 HDRP PlayMode $PLAYMODE_PLATFORM"
+# $UNITY_2022_EXE -runTests -batchmode -projectPath ./projects/glTFast-tests-2022-hdrp -testResults "$PWD/test-results/glTFast-tests-2022-hdrp-runtime.xml" -testPlatform "$PLAYMODE_PLATFORM" -testCategory "!Performance"
 
 echo "2022 URP EditMode"
 $UNITY_2022_EXE -runTests -batchmode -projectPath ./projects/glTFast-tests-2022-urp -testResults "$PWD/test-results/glTFast-tests-2022-urp-editor.xml" -testPlatform EditMode
