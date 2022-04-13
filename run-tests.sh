@@ -9,6 +9,7 @@ source unity.sh
 #
 
 PLAYMODE_PLATFORM=StandaloneOSX
+export GLTF_TEST_ASSET_DIR=$(pwd)/assets
 
 # PROJECT="./projects/glTFast-tests-2019"
 echo "2019 LTS BiRP EditMode"
