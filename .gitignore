@@ -58,6 +58,9 @@ sysinfo.txt
 # Unity user specific settings
 projects/*/UserSettings
 
+# https://youtrack.jetbrains.com/issue/RIDER-76195
+/projects/*/ProjectSettings/RiderScriptEditorPersistedState.asset
+
 # Builds
 *.apk
 *.unitypackage
