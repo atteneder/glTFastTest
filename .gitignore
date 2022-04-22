@@ -87,6 +87,7 @@ crashlytics-build.properties
 **/.idea/**/dbnavigator.xml
 
 /projects/*/Assets/ActualImages*
+/projects/*/Assets/StreamingAssets/gsm*
 /projects/*/Assets/StreamingAssets/gltf*
 /projects/glTFast-graphics-tests-*/Assets/StreamingAssets/referenceimages*
 /test-results/*.xml

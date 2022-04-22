@@ -29,7 +29,7 @@ public class TestAssetBundler : IPreprocessBuildWithReport {
     }
 
     [MenuItem("Tools/Sync glTF Test Assets")]
-    public static void SyncAssetsMenu() {
+    static void SyncAssetsMenu() {
         SyncAssets();
     }
 
@@ -46,14 +46,6 @@ public class TestAssetBundler : IPreprocessBuildWithReport {
             var setName = sampleSetNames[i];
             setPaths[i] = $"Packages/com.atteneder.gltf-tests/Runtime/SampleSets/{setName}.asset";
         }
-
-        Debug.LogWarning($"Application.dataPath {Application.dataPath}");
-        var parent =  new DirectoryInfo(Application.dataPath); // Assets
-        Debug.LogWarning($"Application.dataPath Assets {parent?.FullName}");
-        parent = parent.Parent; // Project dir
-        Debug.LogWarning($"Application.dataPath Project {parent?.FullName}");
-        parent = parent?.Parent; // "projects" dir
-        Debug.LogWarning($"Application.dataPath projects {parent?.FullName}");
         
         TestAssetBundlerUtil.SyncAssets(setPaths);
     }
