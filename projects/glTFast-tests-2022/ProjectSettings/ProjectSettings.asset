@@ -157,7 +157,7 @@ PlayerSettings:
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
     Android: com.AndreasAtteneder.glTF-tests-2022
-    Standalone: com.AndreasAtteneder.glTF-tests-2022
+    Standalone: com.Andreas-Atteneder.glTF-tests-2022
   buildNumber:
     Standalone: 0
     iPhone: 0
@@ -881,10 +881,10 @@ PlayerSettings:
       PointOfService: False
       RecordedCallsFolder: False
       Contacts: False
-      Proximity: False
       InternetClient: False
       CodeGeneration: False
       BackgroundMediaPlayback: False
+      Proximity: False
   metroTargetDeviceFamilies:
     Desktop: False
     Holographic: False
