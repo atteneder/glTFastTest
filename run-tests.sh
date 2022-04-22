@@ -10,46 +10,46 @@ source unity.sh
 
 PLAYMODE_PLATFORM=StandaloneOSX
 
-# PROJECT="./projects/glTFast-tests-2019.4"
+# PROJECT="./projects/glTFast-tests-2019"
 echo "2019 LTS BiRP EditMode"
-time $UNITY_2019_EXE -runTests -batchmode -projectPath ./projects/glTFast-tests-2019.4 -testResults "$PWD/test-results/glTFast-tests-2019.4-editor.xml" -testPlatform EditMode
+$UNITY_2019_EXE -runTests -batchmode -projectPath ./projects/glTFast-tests-2019 -testResults "$PWD/test-results/glTFast-tests-2019-editor.xml" -testPlatform EditMode
 #UnifiedTestRunner --suite=editor  --testproject="$PROJECT" --editor-location="$UNITY_2019"
 echo "2019 LTS BiRP PlayMode $PLAYMODE_PLATFORM"
-time $UNITY_2019_EXE -runTests -batchmode -projectPath ./projects/glTFast-tests-2019.4 -testResults "$PWD/test-results/glTFast-tests-2019.4-runtime.xml" -testPlatform "$PLAYMODE_PLATFORM" -testCategory "!Performance"
-#UnifiedTestRunner --suite=playmode --testlist="testlist.txt" --testproject="$PROJECT" --editor-location="$UNITY_2019" --platform="$PLAYMODE_PLATFORM" --a="$PWD/test-results/glTFast-tests-2019.4-runtime"
+$UNITY_2019_EXE -runTests -batchmode -projectPath ./projects/glTFast-tests-2019 -testResults "$PWD/test-results/glTFast-tests-2019-runtime.xml" -testPlatform "$PLAYMODE_PLATFORM" -testCategory "!Performance"
+#UnifiedTestRunner --suite=playmode --testlist="testlist.txt" --testproject="$PROJECT" --editor-location="$UNITY_2019" --platform="$PLAYMODE_PLATFORM" --a="$PWD/test-results/glTFast-tests-2019-runtime"
 
 echo "2019 LTS URP EditMode"
-time $UNITY_2019_EXE -runTests -batchmode -projectPath ./projects/glTFast-tests-2019.4-urp -testResults "$PWD/test-results/glTFast-tests-2019.4-urp-editor.xml" -testPlatform EditMode
+$UNITY_2019_EXE -runTests -batchmode -projectPath ./projects/glTFast-tests-2019-urp -testResults "$PWD/test-results/glTFast-tests-2019-urp-editor.xml" -testPlatform EditMode
 echo "2019 LTS URP PlayMode $PLAYMODE_PLATFORM"
-time $UNITY_2019_EXE -runTests -batchmode -projectPath ./projects/glTFast-tests-2019.4-urp -testResults "$PWD/test-results/glTFast-tests-2019.4-urp-runtime.xml" -testPlatform "$PLAYMODE_PLATFORM" -testCategory "!Performance"
+$UNITY_2019_EXE -runTests -batchmode -projectPath ./projects/glTFast-tests-2019-urp -testResults "$PWD/test-results/glTFast-tests-2019-urp-runtime.xml" -testPlatform "$PLAYMODE_PLATFORM" -testCategory "!Performance"
 
-echo "2021.2 BiRP EditMode"
-time $UNITY_2021_EXE -runTests -batchmode -projectPath ./projects/glTFast-tests-2021.2 -testResults "$PWD/test-results/glTFast-tests-2021.2-editor.xml" -testPlatform EditMode
-echo "2021.2 BiRP PlayMode $PLAYMODE_PLATFORM"
-time $UNITY_2021_EXE -runTests -batchmode -projectPath ./projects/glTFast-tests-2021.2 -testResults "$PWD/test-results/glTFast-tests-2021.2-runtime.xml" -testPlatform "$PLAYMODE_PLATFORM" -testCategory "!Performance"
+echo "2021 BiRP EditMode"
+$UNITY_2021_EXE -runTests -batchmode -projectPath ./projects/glTFast-tests-2021 -testResults "$PWD/test-results/glTFast-tests-2021-editor.xml" -testPlatform EditMode
+echo "2021 BiRP PlayMode $PLAYMODE_PLATFORM"
+$UNITY_2021_EXE -runTests -batchmode -projectPath ./projects/glTFast-tests-2021 -testResults "$PWD/test-results/glTFast-tests-2021-runtime.xml" -testPlatform "$PLAYMODE_PLATFORM" -testCategory "!Performance"
 
-echo "2021.2 HDRP EditMode"
-time $UNITY_2021_EXE -runTests -batchmode -projectPath ./projects/glTFast-tests-2021.2-hdrp -testResults "$PWD/test-results/glTFast-tests-2021.2-hdrp-editor.xml" -testPlatform EditMode
-echo "2021.2 HDRP PlayMode $PLAYMODE_PLATFORM"
-time $UNITY_2021_EXE -runTests -batchmode -projectPath ./projects/glTFast-tests-2021.2-hdrp -testResults "$PWD/test-results/glTFast-tests-2021.2-hdrp-runtime.xml" -testPlatform "$PLAYMODE_PLATFORM" -testCategory "!Performance"
+echo "2021 HDRP EditMode"
+$UNITY_2021_EXE -runTests -batchmode -projectPath ./projects/glTFast-tests-2021-hdrp -testResults "$PWD/test-results/glTFast-tests-2021-hdrp-editor.xml" -testPlatform EditMode
+echo "2021 HDRP PlayMode $PLAYMODE_PLATFORM"
+$UNITY_2021_EXE -runTests -batchmode -projectPath ./projects/glTFast-tests-2021-hdrp -testResults "$PWD/test-results/glTFast-tests-2021-hdrp-runtime.xml" -testPlatform "$PLAYMODE_PLATFORM" -testCategory "!Performance"
 
-echo "2021.2 URP EditMode"
-time $UNITY_2021_EXE -runTests -batchmode -projectPath ./projects/glTFast-tests-2021.2-urp -testResults "$PWD/test-results/glTFast-tests-2021.2-urp-editor.xml" -testPlatform EditMode
-echo "2021.2 URP PlayMode $PLAYMODE_PLATFORM"
-time $UNITY_2021_EXE -runTests -batchmode -projectPath ./projects/glTFast-tests-2021.2-urp -testResults "$PWD/test-results/glTFast-tests-2021.2-urp-runtime.xml" -testPlatform "$PLAYMODE_PLATFORM" -testCategory "!Performance"
+echo "2021 URP EditMode"
+$UNITY_2021_EXE -runTests -batchmode -projectPath ./projects/glTFast-tests-2021-urp -testResults "$PWD/test-results/glTFast-tests-2021-urp-editor.xml" -testPlatform EditMode
+echo "2021 URP PlayMode $PLAYMODE_PLATFORM"
+$UNITY_2021_EXE -runTests -batchmode -projectPath ./projects/glTFast-tests-2021-urp -testResults "$PWD/test-results/glTFast-tests-2021-urp-runtime.xml" -testPlatform "$PLAYMODE_PLATFORM" -testCategory "!Performance"
 
 echo "DOTS EditMode"
-time $UNITY_2020_EXE -runTests -batchmode -projectPath ./projects/glTFast-tests-dots -testResults "$PWD/test-results/glTFast-tests-dots-editor.xml" -testPlatform EditMode
+$UNITY_2020_EXE -runTests -batchmode -projectPath ./projects/glTFast-tests-dots -testResults "$PWD/test-results/glTFast-tests-dots-editor.xml" -testPlatform EditMode
 echo "DOTS PlayMode $PLAYMODE_PLATFORM"
-time $UNITY_2020_EXE -runTests -batchmode -projectPath ./projects/glTFast-tests-dots -testResults "$PWD/test-results/glTFast-tests-dots-runtime.xml" -testPlatform "$PLAYMODE_PLATFORM" -testCategory "!Performance;!Export"
+$UNITY_2020_EXE -runTests -batchmode -projectPath ./projects/glTFast-tests-dots -testResults "$PWD/test-results/glTFast-tests-dots-runtime.xml" -testPlatform "$PLAYMODE_PLATFORM" -testCategory "!Performance;!Export"
 
 #
 # Code Coverage
 #
 
 echo "Code Coverage EditMode"
-time $UNITY_2021_EXE \
--projectPath ./projects/glTFast-tests-2021.2 \
+$UNITY_2021_EXE \
+-projectPath ./projects/glTFast-tests-2021 \
 -batchmode \
 -debugCodeOptimization \
 -burst-disable-compilation \
@@ -63,8 +63,8 @@ time $UNITY_2021_EXE \
 -runTests
 
 echo "Code Coverage PlayMode"
-time $UNITY_2021_EXE \
--projectPath ./projects/glTFast-tests-2021.2 \
+$UNITY_2021_EXE \
+-projectPath ./projects/glTFast-tests-2021 \
 -batchmode \
 -debugCodeOptimization \
 -burst-disable-compilation \
@@ -79,7 +79,7 @@ time $UNITY_2021_EXE \
 
 echo "Code Coverage HTML Report"
 $UNITY_2021_EXE \
--projectPath ./projects/glTFast-tests-2021.2 \
+-projectPath ./projects/glTFast-tests-2021 \
 -batchmode \
 -debugCodeOptimization \
 -burst-disable-compilation \
@@ -99,4 +99,4 @@ cp "test-results/CodeCoverage/Report/badge_linecoverage.svg" "packages/glTFast/D
 #
 
 echo "glTFast-tests-min-feature macOS Build"
-time $UNITY_2019_EXE -batchmode -quit -projectPath ./projects/glTFast-tests-min-feature -buildOSXUniversalPlayer "$PWD/builds/macOS.app"
+$UNITY_2019_EXE -batchmode -quit -projectPath ./projects/glTFast-tests-min-feature -buildOSXUniversalPlayer "$PWD/builds/macOS.app"
