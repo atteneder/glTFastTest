@@ -28,6 +28,25 @@ namespace GLTFTest.Graphics.Editor {
             GenerateTests();
         }
         
+        // [MenuItem("Tools/glTF Test/Test")]
+        // static void TestMenu() {
+        //     var rp = RenderPipelineUtils.DetectRenderPipeline();
+        //
+        //     var setName = "glTF-Sample-Models";
+        //
+        //     switch (rp) {
+        //         case RenderPipeline.Universal:
+        //             setName = "glTF-Sample-Models-URP";
+        //             break;
+        //         case RenderPipeline.HighDefinition:
+        //             setName = "glTF-Sample-Models-HDRP";
+        //             break;
+        //     }
+        //     
+        //     var sampleSet = AssetDatabase.LoadAssetAtPath<SampleSet>( $"Packages/com.atteneder.gltf-graphics-tests/Runtime/SampleSets/{setName}.asset");
+        //     
+        // }
+        
         internal static void GenerateTests(bool createScenes = true) {
 
             var rp = RenderPipelineUtils.DetectRenderPipeline();
