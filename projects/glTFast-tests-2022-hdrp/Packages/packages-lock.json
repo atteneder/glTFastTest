@@ -143,7 +143,7 @@
       }
     },
     "com.unity.searcher": {
-      "version": "4.9.1",
+      "version": "4.9.2",
       "depth": 2,
       "source": "registry",
       "dependencies": {},
@@ -162,7 +162,7 @@
       "source": "builtin",
       "dependencies": {
         "com.unity.render-pipelines.core": "13.1.7",
-        "com.unity.searcher": "4.9.1"
+        "com.unity.searcher": "4.9.2"
       }
     },
     "com.unity.test-framework": {
