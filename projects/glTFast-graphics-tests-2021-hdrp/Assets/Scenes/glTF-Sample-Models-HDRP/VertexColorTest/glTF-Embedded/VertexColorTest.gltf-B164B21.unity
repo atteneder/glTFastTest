@@ -171,7 +171,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &105708639
+--- !u!1 &324100814
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -179,8 +179,8 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 105708641}
-  - component: {fileID: 105708640}
+  - component: {fileID: 324100816}
+  - component: {fileID: 324100815}
   m_Layer: 0
   m_Name: GraphicsTestSettings
   m_TagString: Untagged
@@ -188,13 +188,13 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &105708640
+--- !u!114 &324100815
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 105708639}
+  m_GameObject: {fileID: 324100814}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: efec7929b54a34ad89c6d3df158e53bb, type: 3}
@@ -213,15 +213,15 @@ MonoBehaviour:
     ImageResolution: 0
     ActiveImageTests: 1
     ActivePixelTests: 7
-  WaitFrames: 0
+  WaitFrames: 2
   XRCompatible: 1
---- !u!4 &105708641
+--- !u!4 &324100816
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 105708639}
+  m_GameObject: {fileID: 324100814}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -230,7 +230,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &255580210
+--- !u!1 &853268626
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -238,8 +238,8 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 255580212}
-  - component: {fileID: 255580211}
+  - component: {fileID: 853268628}
+  - component: {fileID: 853268627}
   m_Layer: 0
   m_Name: VertexColorTest.gltf-B164B21
   m_TagString: Untagged
@@ -247,30 +247,30 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &255580211
+--- !u!114 &853268627
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 255580210}
+  m_GameObject: {fileID: 853268626}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6c353ea9e5f7a496394d3f234f117021, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  url: gltf/glTF-Sample-Models/VertexColorTest/glTF-Embedded/VertexColorTest.gltf
+  url: gsm/VertexColorTest/glTF-Embedded/VertexColorTest.gltf
   loadOnStartup: 0
   sceneId: -1
   streamingAsset: 1
   createBoxCollider: 0
---- !u!4 &255580212
+--- !u!4 &853268628
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 255580210}
+  m_GameObject: {fileID: 853268626}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
