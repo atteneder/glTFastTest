@@ -10,7 +10,7 @@
     "url": "https://pixel.engineer"
   },
   "dependencies": {
-    "com.unity.testframework.graphics": "7.8.16-preview"
+    "com.unity.testframework.graphics": "7.8.19-exp.2"
   },
   "type": "library"
 }
