@@ -8,7 +8,6 @@ source unity.sh
 # Run Unit Tests
 #
 
-PLAYMODE_PLATFORM=StandaloneOSX
 export GLTF_TEST_ASSET_DIR=$(pwd)/assets
 
 # PROJECT="./projects/glTFast-tests-2019"
