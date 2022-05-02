@@ -13,12 +13,7 @@
       "version": "file:../../../packages/gltf-test-framework",
       "depth": 0,
       "source": "local",
-      "dependencies": {
-        "com.unity.test-framework": "1.1.31",
-        "com.unity.test-framework.performance": "2.8.0-preview",
-        "com.unity.testtools.codecoverage": "1.1.1",
-        "com.unity.modules.animation": "1.0.0"
-      }
+      "dependencies": {}
     },
     "com.atteneder.gltf-tests": {
       "version": "file:../../../packages/gltf-tests",
@@ -75,7 +70,7 @@
       }
     },
     "com.unity.ide.rider": {
-      "version": "3.0.13",
+      "version": "3.0.14",
       "depth": 0,
       "source": "registry",
       "dependencies": {
