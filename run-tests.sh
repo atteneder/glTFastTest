@@ -121,5 +121,11 @@ cp "test-results/CodeCoverage/Report/badge_linecoverage.svg" "packages/glTFast/D
 # Create builds
 #
 
-echo "glTFast-tests-min-feature macOS Build"
-$UNITY_2019_EXE -batchmode -quit -projectPath ./projects/glTFast-tests-min-feature -buildOSXUniversalPlayer "$PWD/builds/macOS.app"
+echo "glTFast-tests-min-feature Build"
+if [ "$(uname)" == "Darwin" ]; then
+    $UNITY_2019_EXE -batchmode -quit -projectPath ./projects/glTFast-tests-min-feature -buildOSXUniversalPlayer "$PWD/builds/macOS.app"
+elif [ "$(expr substr $(uname -s) 1 5)" == "Linux" ]; then
+    $UNITY_2019_EXE -batchmode -quit -projectPath ./projects/glTFast-tests-min-feature -buildLinux64Player "$PWD/builds/linux"
+else
+    $UNITY_2019_EXE -batchmode -quit -projectPath ./projects/glTFast-tests-min-feature -buildWindows64Player "$PWD/builds/windows"
+fi
