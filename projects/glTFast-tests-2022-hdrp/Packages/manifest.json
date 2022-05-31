@@ -6,13 +6,13 @@
     "com.atteneder.gltfast": "file:../../../packages/glTFast",
     "com.atteneder.ktx": "2.1.2",
     "com.unity.formats.gltf.validator": "file:../../../packages/unity-gltf-validator",
-    "com.unity.ide.rider": "3.0.13",
+    "com.unity.ide.rider": "3.0.14",
     "com.unity.meshopt.decompress": "0.1.0-preview.5",
     "com.unity.performance.profile-analyzer": "1.1.1",
-    "com.unity.render-pipelines.high-definition": "13.1.7",
-    "com.unity.modules.animation": "1.0.0",
+    "com.unity.render-pipelines.high-definition": "13.1.8",
     "com.unity.test-framework": "1.1.31",
-    "com.unity.test-framework.performance": "2.8.0-preview"
+    "com.unity.test-framework.performance": "2.8.0-preview",
+    "com.unity.modules.animation": "1.0.0"
   },
   "testables": [
     "com.atteneder.gltfast",
