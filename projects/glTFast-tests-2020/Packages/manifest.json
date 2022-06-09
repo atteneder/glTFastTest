@@ -5,7 +5,7 @@
     "com.atteneder.gltf-tests": "file:../../../packages/gltf-tests",
     "com.atteneder.gltfast": "file:../../../packages/glTFast",
     "com.atteneder.ktx": "1.2.3",
-    "com.unity.burst": "1.6.4",
+    "com.unity.burst": "1.6.5",
     "com.unity.ext.nunit": "1.0.6",
     "com.unity.formats.gltf.validator": "file:../../../packages/unity-gltf-validator",
     "com.unity.ide.rider": "3.0.14",
@@ -14,7 +14,7 @@
     "com.unity.performance.profile-analyzer": "1.1.1",
     "com.unity.settings-manager": "1.0.3",
     "com.unity.test-framework": "1.1.31",
-    "com.unity.test-framework.performance": "2.8.0-preview",
+    "com.unity.test-framework.performance": "2.8.1-preview",
     "com.unity.ui.builder": "1.0.0-preview.18",
     "com.unity.modules.animation": "1.0.0",
     "com.unity.modules.physics": "1.0.0"

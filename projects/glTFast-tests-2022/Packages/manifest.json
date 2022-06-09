@@ -11,7 +11,7 @@
     "com.unity.performance.profile-analyzer": "1.1.1",
     "com.unity.shadergraph": "13.1.8",
     "com.unity.test-framework": "1.1.31",
-    "com.unity.test-framework.performance": "2.8.0-preview",
+    "com.unity.test-framework.performance": "2.8.1-preview",
     "com.unity.testtools.codecoverage": "1.1.1",
     "com.unity.modules.animation": "1.0.0"
   },
