@@ -28,8 +28,8 @@ $UNITY_2019_EXE -runTests -batchmode -projectPath ./projects/glTFast-tests-2019-
 
 echo "2019 LTS HDRP EditMode"
 $UNITY_2019_EXE -runTests -batchmode -projectPath ./projects/glTFast-tests-2019-hdrp -testResults "$PWD/test-results/glTFast-tests-2019-hdrp-editor.xml" -testPlatform EditMode
-echo "2019 LTS HDRP PlayMode $PLAYMODE_PLATFORM"
-$UNITY_2019_EXE -runTests -batchmode -projectPath ./projects/glTFast-tests-2019-hdrp -testResults "$PWD/test-results/glTFast-tests-2019-hdrp-runtime.xml" -testPlatform "$PLAYMODE_PLATFORM" -testCategory "!Performance"
+# echo "2019 LTS HDRP PlayMode $PLAYMODE_PLATFORM"
+# $UNITY_2019_EXE -runTests -batchmode -projectPath ./projects/glTFast-tests-2019-hdrp -testResults "$PWD/test-results/glTFast-tests-2019-hdrp-runtime.xml" -testPlatform "$PLAYMODE_PLATFORM" -testCategory "!Performance"
 
 echo "2021 BiRP EditMode"
 $UNITY_2021_EXE -runTests -batchmode -projectPath ./projects/glTFast-tests-2021 -testResults "$PWD/test-results/glTFast-tests-2021-birp-editor.xml" -testPlatform EditMode
