@@ -187,9 +187,13 @@ public class TestLoader : MonoBehaviour {
         trackBallCtrl.SetTarget(new Bounds(asset.transform.position,Vector3.one));
 #else
         sceneInstance = (asset as GltfAsset).sceneInstance;
-        var bounds = CalculateLocalBounds(asset.transform);
 
         if (trackBallCtrl != null) {
+            var bounds = CalculateLocalBounds(asset.transform);
+            if (bounds.extents.sqrMagnitude < .0001f) {
+                // Set a minimum size, so the camera control won't panic
+                bounds.extents = new Vector3(.1f,.1f,.1f);
+            }
             trackBallCtrl.SetTarget(bounds);
         }
 #endif
