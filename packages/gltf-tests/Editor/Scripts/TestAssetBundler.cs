@@ -38,6 +38,7 @@ public class TestAssetBundler : IPreprocessBuildWithReport {
             "glTF-Sample-Models",
             "glTF-Sample-Models-glb",
             "glTF-Sample-Models-gltf",
+            "glTF-test-models",
         };
 
         var setPaths = new string[sampleSetNames.Length];
