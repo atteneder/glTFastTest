@@ -356,6 +356,14 @@ MonoBehaviour:
       path: Duck/glTF-Quantized/Duck.gltf
   - active: 1
     item:
+      name: EmissiveStrengthTest.gltf
+      path: EmissiveStrengthTest/glTF/EmissiveStrengthTest.gltf
+  - active: 1
+    item:
+      name: EmissiveStrengthTest.glb
+      path: EmissiveStrengthTest/glTF-Binary/EmissiveStrengthTest.glb
+  - active: 1
+    item:
       name: EnvironmentTest.gltf
       path: EnvironmentTest/glTF/EnvironmentTest.gltf
   - active: 1
@@ -374,10 +382,6 @@ MonoBehaviour:
     item:
       name: Fox.glb
       path: Fox/glTF-Binary/Fox.glb
-  - active: 1
-    item:
-      name: Fox.gltf
-      path: Fox/glTF-Embedded/Fox.gltf
   - active: 1
     item:
       name: GearboxAssy.gltf
@@ -412,6 +416,30 @@ MonoBehaviour:
       path: InterpolationTest/glTF-Binary/InterpolationTest.glb
   - active: 1
     item:
+      name: IridescenceDielectricSpheres.gltf
+      path: IridescenceDielectricSpheres/glTF/IridescenceDielectricSpheres.gltf
+  - active: 1
+    item:
+      name: IridescenceLamp.gltf
+      path: IridescenceLamp/glTF/IridescenceLamp.gltf
+  - active: 1
+    item:
+      name: IridescenceLamp.glb
+      path: IridescenceLamp/glTF-Binary/IridescenceLamp.glb
+  - active: 1
+    item:
+      name: IridescenceMetallicSpheres.gltf
+      path: IridescenceMetallicSpheres/glTF/IridescenceMetallicSpheres.gltf
+  - active: 1
+    item:
+      name: IridescenceSuzanne.gltf
+      path: IridescenceSuzanne/glTF/IridescenceSuzanne.gltf
+  - active: 0
+    item:
+      name: IridescenceSuzanne.glb
+      path: IridescenceSuzanne/glTF-Binary/IridescenceSuzanne.glb
+  - active: 1
+    item:
       name: IridescentDishWithOlives.gltf
       path: IridescentDishWithOlives/glTF/IridescentDishWithOlives.gltf
   - active: 1
@@ -434,6 +462,14 @@ MonoBehaviour:
     item:
       name: Lantern.gltf
       path: Lantern/glTF-Quantized/Lantern.gltf
+  - active: 1
+    item:
+      name: LightsPunctualLamp.gltf
+      path: LightsPunctualLamp/glTF/LightsPunctualLamp.gltf
+  - active: 1
+    item:
+      name: LightsPunctualLamp.glb
+      path: LightsPunctualLamp/glTF-Binary/LightsPunctualLamp.glb
   - active: 1
     item:
       name: MaterialsVariantsShoe.gltf
@@ -664,6 +700,18 @@ MonoBehaviour:
       path: Sponza/glTF/Sponza.gltf
   - active: 1
     item:
+      name: StainedGlassLamp.gltf
+      path: StainedGlassLamp/glTF/StainedGlassLamp.gltf
+  - active: 1
+    item:
+      name: StainedGlassLamp.gltf
+      path: StainedGlassLamp/glTF-JPG-PNG/StainedGlassLamp.gltf
+  - active: 1
+    item:
+      name: StainedGlassLamp.gltf
+      path: StainedGlassLamp/glTF-KTX-BasisU/StainedGlassLamp.gltf
+  - active: 1
+    item:
       name: Suzanne.gltf
       path: Suzanne/glTF/Suzanne.gltf
   - active: 1
@@ -762,6 +810,14 @@ MonoBehaviour:
     item:
       name: TwoSidedPlane.gltf
       path: TwoSidedPlane/glTF/TwoSidedPlane.gltf
+  - active: 1
+    item:
+      name: "Unicode\u2764\u267BTest.gltf"
+      path: "Unicode\u2764\u267BTest/glTF/Unicode\u2764\u267BTest.gltf"
+  - active: 1
+    item:
+      name: "Unicode\u2764\u267BTest.glb"
+      path: "Unicode\u2764\u267BTest/glTF-Binary/Unicode\u2764\u267BTest.glb"
   - active: 1
     item:
       name: UnlitTest.gltf

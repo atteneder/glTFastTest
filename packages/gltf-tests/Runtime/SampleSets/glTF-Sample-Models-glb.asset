@@ -116,6 +116,10 @@ MonoBehaviour:
       path: Duck/glTF-Binary/Duck.glb
   - active: 1
     item:
+      name: EmissiveStrengthTest.glb
+      path: EmissiveStrengthTest/glTF-Binary/EmissiveStrengthTest.glb
+  - active: 1
+    item:
       name: Fox.glb
       path: Fox/glTF-Binary/Fox.glb
   - active: 1
@@ -132,12 +136,24 @@ MonoBehaviour:
       path: InterpolationTest/glTF-Binary/InterpolationTest.glb
   - active: 1
     item:
+      name: IridescenceLamp.glb
+      path: IridescenceLamp/glTF-Binary/IridescenceLamp.glb
+  - active: 0
+    item:
+      name: IridescenceSuzanne.glb
+      path: IridescenceSuzanne/glTF-Binary/IridescenceSuzanne.glb
+  - active: 1
+    item:
       name: IridescentDishWithOlives.glb
       path: IridescentDishWithOlives/glTF-Binary/IridescentDishWithOlives.glb
   - active: 1
     item:
       name: Lantern.glb
       path: Lantern/glTF-Binary/Lantern.glb
+  - active: 1
+    item:
+      name: LightsPunctualLamp.glb
+      path: LightsPunctualLamp/glTF-Binary/LightsPunctualLamp.glb
   - active: 1
     item:
       name: MaterialsVariantsShoe.glb
@@ -238,6 +254,10 @@ MonoBehaviour:
     item:
       name: TransmissionTest.glb
       path: TransmissionTest/glTF-Binary/TransmissionTest.glb
+  - active: 1
+    item:
+      name: "Unicode\u2764\u267BTest.glb"
+      path: "Unicode\u2764\u267BTest/glTF-Binary/Unicode\u2764\u267BTest.glb"
   - active: 1
     item:
       name: UnlitTest.glb
