@@ -20,5 +20,29 @@ MonoBehaviour:
   items:
   - active: 1
     item:
+      name: ColorSpace.gltf
+      path: ColorSpace/ColorSpace.gltf
+  - active: 1
+    item:
       name: Empty.gltf
       path: Empty/Empty.gltf
+  - active: 0
+    item:
+      name: LightsDirectional.gltf
+      path: Lights/LightsDirectional.gltf
+  - active: 0
+    item:
+      name: LightsPoint.gltf
+      path: Lights/LightsPoint.gltf
+  - active: 0
+    item:
+      name: LightsSpot.gltf
+      path: Lights/LightsSpot.gltf
+  - active: 1
+    item:
+      name: OnlyTextures.gltf
+      path: OnlyTextures/OnlyTextures.gltf
+  - active: 1
+    item:
+      name: UnlitAlphaModes.gltf
+      path: UnlitAlphaModes/UnlitAlphaModes.gltf
