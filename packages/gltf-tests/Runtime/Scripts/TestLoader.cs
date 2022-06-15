@@ -120,6 +120,10 @@ public class TestLoader : MonoBehaviour {
         gltf1 = go1.AddComponent<GltfAsset>();
 #endif
         gltf1.loadOnStartup = false;
+        gltf1.instantiationSettings = new InstantiationSettings {
+            // mask = ComponentType.Mesh | ComponentType.Light,
+            // lightIntensityFactor = 1/20000f,
+        };
         var success = await gltf1.Load(url,null,deferAgent);
         loadingEnd();
         if(success) {
