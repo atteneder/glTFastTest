@@ -95,6 +95,7 @@ crashlytics-build.properties
 /projects/*/Assets/ActualImages*
 /projects/*/Assets/StreamingAssets/gsm*
 /projects/*/Assets/StreamingAssets/gltf*
+/projects/glTFast-pkg-dev
 /projects/glTFast-graphics-tests-*/Assets/StreamingAssets/referenceimages*
 /test-results/*.xml
 /test-results/CodeCoverage
