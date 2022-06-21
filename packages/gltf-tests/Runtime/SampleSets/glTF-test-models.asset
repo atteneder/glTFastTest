@@ -46,3 +46,11 @@ MonoBehaviour:
     item:
       name: UnlitAlphaModes.gltf
       path: UnlitAlphaModes/UnlitAlphaModes.gltf
+  - active: 1
+    item:
+      name: RelativeUri.glb
+      path: RelativeUri/SubFolder/RelativeUri.glb
+  - active: 1
+    item:
+      name: RelativeUri.gltf
+      path: RelativeUri/SubFolder/RelativeUri.gltf

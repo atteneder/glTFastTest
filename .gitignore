@@ -94,7 +94,12 @@ crashlytics-build.properties
 
 /projects/*/Assets/ActualImages*
 /projects/*/Assets/StreamingAssets/gsm*
+
+# Sample Set serialized as JSON (used by tests framework)
 /projects/*/Assets/StreamingAssets/gltf*
+/projects/*/Assets/StreamingAssets/*Test.json
+/projects/*/Assets/StreamingAssets/*Test.json.meta
+
 /projects/glTFast-pkg-dev
 /projects/glTFast-graphics-tests-*/Assets/StreamingAssets/referenceimages*
 /test-results/*.xml
