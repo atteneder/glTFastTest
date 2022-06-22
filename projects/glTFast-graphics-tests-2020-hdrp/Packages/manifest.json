@@ -4,7 +4,7 @@
     "com.atteneder.gltf-graphics-tests": "file:../../../packages/gltf-graphics-tests",
     "com.atteneder.gltf-test-framework": "file:../../../packages/gltf-test-framework",
     "com.atteneder.gltfast": "file:../../../packages/glTFast",
-    "com.unity.ide.rider": "3.0.14",
+    "com.unity.ide.rider": "3.0.15",
     "com.unity.render-pipelines.high-definition": "10.8.1",
     "com.unity.modules.animation": "1.0.0",
     "com.unity.modules.video": "1.0.0"
