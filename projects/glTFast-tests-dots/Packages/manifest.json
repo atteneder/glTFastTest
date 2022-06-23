@@ -13,7 +13,8 @@
     "com.unity.test-framework.performance": "2.8.1-preview",
     "com.unity.modules.animation": "1.0.0",
     "com.unity.modules.particlesystem": "1.0.0",
-    "com.unity.modules.physics": "1.0.0"
+    "com.unity.modules.physics": "1.0.0",
+    "com.unity.modules.unitywebrequesttexture": "1.0.0"
   },
   "testables": [
     "com.atteneder.gltfast",
