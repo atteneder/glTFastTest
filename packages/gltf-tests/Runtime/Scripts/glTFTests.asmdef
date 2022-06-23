@@ -22,6 +22,11 @@
             "define": "UNITY_DOTS_HYBRID"
         },
         {
+            "name": "com.unity.modules.unitywebrequesttexture",
+            "expression": "",
+            "define": "UNITY_WEBREQUEST_TEXTURE"
+        },
+        {
             "name": "com.atteneder.gltfast",
             "expression": "4.0",
             "define": "GLTFAST_4_OR_NEWER"

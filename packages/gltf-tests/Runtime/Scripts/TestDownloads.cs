@@ -35,9 +35,11 @@ public class TestDownloads : MonoBehaviour
         var downloadTasks = new Task<ITextureDownload>[urls.Length];
         results = new Texture2D[urls.Length];
 
+#if UNITY_WEBREQUEST_TEXTURE
         for (var i = 0; i < urls.Length; i++) {
             downloadTasks[i] = x.RequestTexture(new Uri(urls[i]),true);
         }
+#endif
 
         var downloads = await Task.WhenAll(downloadTasks);
 
