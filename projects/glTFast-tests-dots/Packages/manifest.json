@@ -8,7 +8,7 @@
     "com.unity.formats.gltf.validator": "file:../../../packages/unity-gltf-validator",
     "com.unity.ide.rider": "3.0.15",
     "com.unity.render-pipelines.universal": "10.9.0",
-    "com.unity.rendering.hybrid": "0.50.0-preview.24",
+    "com.unity.rendering.hybrid": "0.51.0-preview.32",
     "com.unity.test-framework": "1.1.31",
     "com.unity.test-framework.performance": "2.8.1-preview",
     "com.unity.modules.animation": "1.0.0",
