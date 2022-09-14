@@ -129,7 +129,7 @@ public class TestLoader : MonoBehaviour {
         if(success) {
             if (!gltf1.currentSceneId.HasValue && gltf1.sceneCount > 0) {
                 // Fallback to first scene
-                Debug.LogWarning("glTF has no main scene. Falling back to first scene.");
+                Debug.Log("Falling back to first scene (glTF has no main scene).");
                 gltf1.InstantiateScene(0);
             }
             GLTFast_onLoadComplete(gltf1);
