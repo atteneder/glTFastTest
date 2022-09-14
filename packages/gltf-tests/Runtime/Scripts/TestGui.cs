@@ -288,12 +288,12 @@ public class TestGui : MonoBehaviour {
         }
     }
 
-    void SetSceneIndex(int index) {
+    async void SetSceneIndex(int index) {
         var loader = GetComponent<TestLoader>();
         cameraDropDown = null;
         loader.ClearScene();
         stopWatch.StartTime();
-        loader.InstantiateScene(index);
+        await loader.InstantiateScene(index);
         stopWatch.StopTime();
         CreateCameraDropDown(loader);
     }

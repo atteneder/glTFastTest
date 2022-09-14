@@ -130,7 +130,7 @@ public class TestLoader : MonoBehaviour {
             if (!gltf1.currentSceneId.HasValue && gltf1.sceneCount > 0) {
                 // Fallback to first scene
                 Debug.Log("Falling back to first scene (glTF has no main scene).");
-                gltf1.InstantiateScene(0);
+                await gltf1.InstantiateScene(0);
             }
             GLTFast_onLoadComplete(gltf1);
         } else {
@@ -152,9 +152,9 @@ public class TestLoader : MonoBehaviour {
 #endif
     }
 
-    public void InstantiateScene(int sceneIndex) {
+    public async Task InstantiateScene(int sceneIndex) {
 #if GLTFAST_4_OR_NEWER
-        var success = gltf1.InstantiateScene(sceneIndex);
+        var success = await gltf1.InstantiateScene(sceneIndex);
 #if !UNITY_DOTS_HYBRID
         sceneInstance = gltf1.sceneInstance;
 #endif
