@@ -22,30 +22,42 @@ MonoBehaviour:
     item:
       name: ColorSpace.gltf
       path: ColorSpace/ColorSpace.gltf
+  - active: 0
+    item:
+      name: EmbedBufferInvalid.gltf
+      path: EmbedBufferInvalid/EmbedBufferInvalid.gltf
   - active: 1
     item:
       name: Empty.gltf
       path: Empty/Empty.gltf
-  - active: 0
+  - active: 1
+    item:
+      name: ExtrasData.gltf
+      path: ExtrasData/ExtrasData.gltf
+  - active: 1
     item:
       name: LightsDirectional.gltf
       path: Lights/LightsDirectional.gltf
-  - active: 0
+  - active: 1
     item:
       name: LightsPoint.gltf
       path: Lights/LightsPoint.gltf
-  - active: 0
+  - active: 1
     item:
       name: LightsSpot.gltf
       path: Lights/LightsSpot.gltf
   - active: 1
     item:
-      name: OnlyTextures.gltf
-      path: OnlyTextures/OnlyTextures.gltf
+      name: NoScene.gltf
+      path: NoScene/NoScene.gltf
   - active: 1
     item:
-      name: UnlitAlphaModes.gltf
-      path: UnlitAlphaModes/UnlitAlphaModes.gltf
+      name: OnlyAccessors.gltf
+      path: OnlyAccessors/OnlyAccessors.gltf
+  - active: 1
+    item:
+      name: OnlyTextures.gltf
+      path: OnlyTextures/OnlyTextures.gltf
   - active: 1
     item:
       name: RelativeUri.glb
@@ -54,3 +66,31 @@ MonoBehaviour:
     item:
       name: RelativeUri.gltf
       path: RelativeUri/SubFolder/RelativeUri.gltf
+  - active: 1
+    item:
+      name: AllScenes.gltf
+      path: RootNodeCount/AllScenes.gltf
+  - active: 1
+    item:
+      name: AllScenesAnimated.gltf
+      path: RootNodeCount/AllScenesAnimated.gltf
+  - active: 1
+    item:
+      name: SingleNode.gltf
+      path: RootNodeCount/SingleNode.gltf
+  - active: 1
+    item:
+      name: SingleNodeAnimated.gltf
+      path: RootNodeCount/SingleNodeAnimated.gltf
+  - active: 1
+    item:
+      name: TwoNodes.gltf
+      path: RootNodeCount/TwoNodes.gltf
+  - active: 1
+    item:
+      name: TwoNodesAnimated.gltf
+      path: RootNodeCount/TwoNodesAnimated.gltf
+  - active: 1
+    item:
+      name: UnlitAlphaModes.gltf
+      path: UnlitAlphaModes/UnlitAlphaModes.gltf
