@@ -43,5 +43,5 @@ $UNITY_2022_EXE -batchmode -projectPath ./projects/glTFast-tests-2022-urp -quit
 echo "DOTS"
 $UNITY_2020_EXE -batchmode -projectPath ./projects/glTFast-tests-dots -quit
 
-echo "glTFast-tests-min-feature macOS Build"
+echo "glTFast-tests-min-feature"
 $UNITY_2019_EXE -batchmode -quit -projectPath ./projects/glTFast-tests-min-feature

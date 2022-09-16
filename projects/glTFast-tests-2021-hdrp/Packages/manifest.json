@@ -10,7 +10,7 @@
     "com.unity.meshopt.decompress": "0.1.0-preview.5",
     "com.unity.performance.profile-analyzer": "1.1.1",
     "com.unity.render-pipelines.high-definition": "12.1.7",
-    "com.unity.test-framework": "1.1.31",
+    "com.unity.test-framework": "1.1.33",
     "com.unity.test-framework.performance": "2.8.1-preview",
     "com.unity.modules.animation": "1.0.0",
     "com.unity.modules.unitywebrequesttexture": "1.0.0"
