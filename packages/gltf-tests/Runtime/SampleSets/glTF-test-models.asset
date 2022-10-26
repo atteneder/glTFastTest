@@ -22,6 +22,10 @@ MonoBehaviour:
     item:
       name: ColorSpace.gltf
       path: ColorSpace/ColorSpace.gltf
+  - active: 1
+    item:
+      name: 8-texcoords.gltf
+      path: EightTexcoords/8-texcoords.gltf
   - active: 0
     item:
       name: EmbedBufferInvalid.gltf
@@ -58,6 +62,10 @@ MonoBehaviour:
     item:
       name: OnlyTextures.gltf
       path: OnlyTextures/OnlyTextures.gltf
+  - active: 1
+    item:
+      name: PrimitiveModes.gltf
+      path: PrimitiveModes/PrimitiveModes.gltf
   - active: 1
     item:
       name: RelativeUri.glb
