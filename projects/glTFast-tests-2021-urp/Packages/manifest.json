@@ -6,7 +6,7 @@
     "com.atteneder.gltfast": "file:../../../packages/glTFast",
     "com.atteneder.ktx": "2.2.2",
     "com.unity.formats.gltf.validator": "file:../../../packages/unity-gltf-validator",
-    "com.unity.ide.rider": "3.0.15",
+    "com.unity.ide.rider": "3.0.16",
     "com.unity.meshopt.decompress": "0.1.0-preview.5",
     "com.unity.render-pipelines.universal": "12.1.7",
     "com.unity.test-framework": "1.1.33",
