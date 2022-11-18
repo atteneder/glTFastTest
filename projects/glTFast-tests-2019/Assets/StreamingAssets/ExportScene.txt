@@ -41,3 +41,6 @@ LightsSpot
 LightDirectional
 LightAreaRectangle
 LightAreaDisc
+HierarchyObjectsInactive
+HierarchyComponentsDisabled
+HierarchyEditorOnlyTag

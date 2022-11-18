@@ -34,3 +34,13 @@ IdenticalTextureName
 WrapModeU
 WrapModeV
 BoxVertexColors
+PointCloud
+Cameras
+LightsPoint
+LightsSpot
+LightDirectional
+LightAreaRectangle
+LightAreaDisc
+HierarchyObjectsInactive
+HierarchyComponentsDisabled
+HierarchyEditorOnlyTag
