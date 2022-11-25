@@ -1,12 +1,10 @@
 {
-    "name": "glTFTests",
+    "name": "glTF-tests",
     "references": [
         "glTFast",
-        "glTFastSchema",
         "glTFast.dots",
-        "glTFastEditor",
-        "glTF-test-framework",
-        "glTF-test-framework.Sample"
+        "glTFast.Editor",
+        "glTF-test-framework"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],
