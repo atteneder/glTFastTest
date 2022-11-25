@@ -22,7 +22,7 @@ MonoBehaviour:
     item:
       name: ColorSpace.gltf
       path: ColorSpace/ColorSpace.gltf
-  - active: 1
+  - active: 0
     item:
       name: 8-texcoords.gltf
       path: EightTexcoords/8-texcoords.gltf
