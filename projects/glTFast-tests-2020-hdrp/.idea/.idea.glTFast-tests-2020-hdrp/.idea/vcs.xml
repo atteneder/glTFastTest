@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/../.." vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../packages/glTFast" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../packages/gltf-test-framework" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../packages/unity-gltf-validator" vcs="Git" />
+  </component>
+</project>

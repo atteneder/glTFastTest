@@ -4,8 +4,15 @@
     "com.atteneder.gltf-graphics-tests": "file:../../../packages/gltf-graphics-tests",
     "com.atteneder.gltf-test-framework": "file:../../../packages/gltf-test-framework",
     "com.atteneder.gltfast": "file:../../../packages/glTFast",
+    "com.unity.external.test-protocol": "1.0.1-preview",
     "com.unity.ide.rider": "3.0.16",
-    "com.unity.render-pipelines.universal": "12.1.6",
+    "com.unity.render-pipelines.universal": "12.1.8",
+    "com.unity.scriptablebuildpipeline": "1.20.2",
+    "com.unity.searcher": "4.9.2",
+    "com.unity.subsystemregistration": "1.1.2",
+    "com.unity.test-framework": "1.1.33",
+    "com.unity.testframework.graphics": "7.11.0-exp.1",
+    "com.unity.xr.management": "4.2.1",
     "com.unity.modules.animation": "1.0.0"
   },
   "testables": [
