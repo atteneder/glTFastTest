@@ -109,3 +109,6 @@ crashlytics-build.properties
 /.Editor
 /upm-ci~
 
+# Generated documentation
+/docs
+
