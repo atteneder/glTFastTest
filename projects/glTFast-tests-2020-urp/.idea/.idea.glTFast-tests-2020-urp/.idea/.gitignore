@@ -1,0 +1,10 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+# Rider ignored files
+/modules.xml
+/contentModel.xml
+/projectSettingsUpdater.xml
+/.idea.glTFast-tests-2020-urp.iml
+# Editor-based HTTP Client requests
+/httpRequests/
