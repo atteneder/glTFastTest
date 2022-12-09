@@ -4,7 +4,7 @@ set -e
 
 source unity.sh
 
-export "Resetting Materials"
+echo "Resetting Materials"
 # (potentially altered during previous tests)
 pushd packages/gltf-test-framework
 git restore Runtime/Export/Materials/BuiltIn/*.mat
