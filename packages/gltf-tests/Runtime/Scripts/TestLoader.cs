@@ -41,7 +41,7 @@ public class TestLoader : MonoBehaviour {
     
     public string[] GetSceneNames() {
 #if GLTFAST_4_OR_NEWER
-        return gltf1.sceneNames;
+        return gltf1.SceneNames;
 #else
         return null;
 #endif 
@@ -50,7 +50,7 @@ public class TestLoader : MonoBehaviour {
     public int? currentSceneIndex {
         get {
 #if GLTFAST_4_OR_NEWER
-            return gltf1.currentSceneId;
+            return gltf1.CurrentSceneId;
 #else
             return null;
 #endif
@@ -65,7 +65,7 @@ public class TestLoader : MonoBehaviour {
     GltfEntityAsset gltf1;
 #else
     GltfAsset gltf1;
-    public GameObjectInstantiator.SceneInstance sceneInstance { get; private set; }
+    public GameObjectSceneInstance gameObjectSceneInstance { get; private set; }
 #endif
 #endif
 #if UNITY_GLTF
@@ -119,15 +119,15 @@ public class TestLoader : MonoBehaviour {
 #else
         gltf1 = go1.AddComponent<GltfAsset>();
 #endif
-        gltf1.loadOnStartup = false;
-        gltf1.instantiationSettings = new InstantiationSettings {
+        gltf1.LoadOnStartup = false;
+        gltf1.InstantiationSettings = new InstantiationSettings {
             // mask = ComponentType.Mesh | ComponentType.Light,
             // lightIntensityFactor = 1/20000f,
         };
         var success = await gltf1.Load(url,null,deferAgent);
         loadingEnd();
         if(success) {
-            if (!gltf1.currentSceneId.HasValue && gltf1.sceneCount > 0) {
+            if (!gltf1.CurrentSceneId.HasValue && gltf1.SceneCount > 0) {
                 // Fallback to first scene
                 Debug.Log("Falling back to first scene (glTF has no main scene).");
                 await gltf1.InstantiateScene(0);
@@ -156,7 +156,7 @@ public class TestLoader : MonoBehaviour {
 #if GLTFAST_4_OR_NEWER
         var success = await gltf1.InstantiateScene(sceneIndex);
 #if !UNITY_DOTS_HYBRID
-        sceneInstance = gltf1.sceneInstance;
+        gameObjectSceneInstance = gltf1.SceneInstance;
 #endif
 #endif
     }
@@ -190,7 +190,7 @@ public class TestLoader : MonoBehaviour {
         // TODO: calculate the bounding box
         trackBallCtrl.SetTarget(new Bounds(asset.transform.position,Vector3.one));
 #else
-        sceneInstance = (asset as GltfAsset).sceneInstance;
+        gameObjectSceneInstance = (asset as GltfAsset).SceneInstance;
 
         if (trackBallCtrl != null) {
             var bounds = CalculateLocalBounds(asset.transform);

@@ -49,7 +49,7 @@ namespace GLTFTest.Graphics.Editor {
         
         internal static void GenerateTests(bool createScenes = true) {
 
-            var rp = RenderPipelineUtils.renderPipeline;
+            var rp = RenderPipelineUtils.RenderPipeline;
 
             var setName = "glTF-Sample-Models";
 
