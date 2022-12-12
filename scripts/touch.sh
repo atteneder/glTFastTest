@@ -2,7 +2,8 @@
 
 set -e
 
-source unity.sh
+pwd=$(cd -P -- "$(dirname -- "$0")" && printf '%s\n' "$(pwd -P)")
+source "$pwd/unity.sh"
 
 echo "2019 BiRP"
 $UNITY_2019_EXE -batchmode -projectPath ./projects/glTFast-tests-2019 -quit

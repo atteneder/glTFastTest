@@ -2,7 +2,8 @@
 
 # set -e
 
-source unity.sh
+pwd=$(cd -P -- "$(dirname -- "$0")" && printf '%s\n' "$(pwd -P)")
+source "$pwd/unity.sh"
 
 #
 # Run Graphics Tests

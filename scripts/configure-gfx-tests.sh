@@ -2,7 +2,8 @@
 
 set -e
 
-source unity.sh
+pwd=$(cd -P -- "$(dirname -- "$0")" && printf '%s\n' "$(pwd -P)")
+source "$pwd/unity.sh"
 
 echo "graphics-tests-2021-birp"
 $UNITY_2021_EXE -batchmode -projectPath ./projects/glTFast-graphics-tests-2021-birp -executeMethod "GLTFTest.Graphics.Editor.GenerateGraphicsTests.GenerateTests" -quit
