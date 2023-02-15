@@ -21,6 +21,9 @@ EditorBuildSettings:
     path: Packages/com.atteneder.gltf-tests/Runtime/Scenes/TestLoadScene.unity
     guid: 09fde5e67a60f4730a203df01316fa69
   - enabled: 1
+    path: Packages/com.atteneder.gltf-tests/Runtime/Scenes/ShaderPerformance.unity
+    guid: 16dff36c1963b42e6abdd1f447960d1e
+  - enabled: 1
     path: Packages/com.atteneder.gltf-test-framework/Runtime/Export/Scenes/ExportSceneBuiltIn.unity
     guid: 73f3aef2a2f804af18c408d874958bd1
   - enabled: 1
