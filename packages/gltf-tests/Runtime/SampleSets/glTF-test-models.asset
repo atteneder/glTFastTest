@@ -68,14 +68,6 @@ MonoBehaviour:
       path: PrimitiveModes/PrimitiveModes.gltf
   - active: 1
     item:
-      name: RelativeUri.glb
-      path: RelativeUri/SubFolder/RelativeUri.glb
-  - active: 1
-    item:
-      name: RelativeUri.gltf
-      path: RelativeUri/SubFolder/RelativeUri.gltf
-  - active: 1
-    item:
       name: AllScenes.gltf
       path: RootNodeCount/AllScenes.gltf
   - active: 1
@@ -100,5 +92,17 @@ MonoBehaviour:
       path: RootNodeCount/TwoNodesAnimated.gltf
   - active: 1
     item:
+      name: UnknownExtensions.gltf
+      path: UnknownExtensions/UnknownExtensions.gltf
+  - active: 1
+    item:
       name: UnlitAlphaModes.gltf
       path: UnlitAlphaModes/UnlitAlphaModes.gltf
+  - active: 1
+    item:
+      name: RelativeUri.glb
+      path: RelativeUri/SubFolder/RelativeUri.glb
+  - active: 1
+    item:
+      name: RelativeUri.gltf
+      path: RelativeUri/SubFolder/RelativeUri.gltf
