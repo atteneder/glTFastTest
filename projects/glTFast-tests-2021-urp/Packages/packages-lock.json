@@ -13,7 +13,9 @@
       "version": "file:../../../packages/gltf-test-framework",
       "depth": 0,
       "source": "local",
-      "dependencies": {}
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.1.0"
+      }
     },
     "com.atteneder.gltf-tests": {
       "version": "file:../../../packages/gltf-tests",
@@ -92,6 +94,13 @@
         "com.unity.mathematics": "1.2.1",
         "com.unity.burst": "1.4.11"
       },
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.nuget.newtonsoft-json": {
+      "version": "3.1.0",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {},
       "url": "https://packages.unity.com"
     },
     "com.unity.render-pipelines.core": {
