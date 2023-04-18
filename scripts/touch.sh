@@ -46,3 +46,27 @@ $UNITY_2020_EXE -batchmode -projectPath ./projects/glTFast-tests-dots -quit
 
 echo "glTFast-tests-min-feature"
 $UNITY_2019_EXE -batchmode -quit -projectPath ./projects/glTFast-tests-min-feature
+
+echo "pkg-dev"
+$UNITY_2021_EXE -batchmode -quit -projectPath ./projects/glTFast-pkg-dev
+
+echo "glTFast-graphics-tests-2020-birp"
+$UNITY_2020_EXE -batchmode -quit -projectPath ./projects/glTFast-graphics-tests-2020-birp
+
+echo "glTFast-graphics-tests-2020-hdrp"
+$UNITY_2020_EXE -batchmode -quit -projectPath ./projects/glTFast-graphics-tests-2020-hdrp
+
+echo "glTFast-graphics-tests-2020-urp"
+$UNITY_2020_EXE -batchmode -quit -projectPath ./projects/glTFast-graphics-tests-2020-urp
+
+echo "glTFast-graphics-tests-2021-birp"
+$UNITY_2021_EXE -batchmode -quit -projectPath ./projects/glTFast-graphics-tests-2021-birp
+
+echo "glTFast-graphics-tests-2021-birp-sg"
+$UNITY_2021_EXE -batchmode -quit -projectPath ./projects/glTFast-graphics-tests-2021-birp-sg
+
+echo "glTFast-graphics-tests-2021-hdrp"
+$UNITY_2021_EXE -batchmode -quit -projectPath ./projects/glTFast-graphics-tests-2021-hdrp
+
+echo "glTFast-graphics-tests-2021-urp"
+$UNITY_2021_EXE -batchmode -quit -projectPath ./projects/glTFast-graphics-tests-2021-urp
