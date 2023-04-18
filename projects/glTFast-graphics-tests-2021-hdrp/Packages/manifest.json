@@ -1,11 +1,11 @@
 {
   "dependencies": {
-    "com.atteneder.draco": "4.0.2",
+    "com.atteneder.draco": "4.1.0",
     "com.atteneder.gltf-graphics-tests": "file:../../../packages/gltf-graphics-tests",
     "com.atteneder.gltf-test-framework": "file:../../../packages/gltf-test-framework",
     "com.atteneder.gltfast": "file:../../../packages/glTFast",
-    "com.unity.ide.rider": "3.0.18",
-    "com.unity.render-pipelines.high-definition": "12.1.8",
+    "com.unity.ide.rider": "3.0.20",
+    "com.unity.render-pipelines.high-definition": "12.1.10",
     "com.unity.modules.animation": "1.0.0"
   },
   "testables": [
