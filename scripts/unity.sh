@@ -1,5 +1,16 @@
 #!/bin/sh
 
+reset_materials()
+{
+    echo "Resetting Materials"
+    # (potentially altered during previous tests)
+    pushd packages/gltf-test-framework
+    git restore Runtime/Export/Materials/BuiltIn/*.mat
+    git restore Runtime/Export/Materials/Universal/*.mat
+    git restore Runtime/Export/Materials/HighDefinition/*.mat
+    popd
+}
+
 PWD=$(pwd)
 
 if [ "$(uname)" == "Darwin" ]; then

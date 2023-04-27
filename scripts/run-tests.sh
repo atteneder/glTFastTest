@@ -5,13 +5,7 @@ set -e
 pwd=$(cd -P -- "$(dirname -- "$0")" && printf '%s\n' "$(pwd -P)")
 source "$pwd/unity.sh"
 
-echo "Resetting Materials"
-# (potentially altered during previous tests)
-pushd packages/gltf-test-framework
-git restore Runtime/Export/Materials/BuiltIn/*.mat
-git restore Runtime/Export/Materials/Universal/*.mat
-git restore Runtime/Export/Materials/HighDefinition/*.mat
-popd
+reset_materials
 
 #
 # Run Unit Tests
